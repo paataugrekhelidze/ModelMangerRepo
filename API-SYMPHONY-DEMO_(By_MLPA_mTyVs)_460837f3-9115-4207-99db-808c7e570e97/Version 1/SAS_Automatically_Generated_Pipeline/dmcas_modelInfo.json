@@ -1,0 +1,13 @@
+{
+  "scoreType" : "ds2MultiType",
+  "algorithm" : "Gradient Boosting",
+  "algorithmI18N" : "gradient.boosting.node.name.txt",
+  "enableRegistration" : "true",
+  "enableScoring" : "true",
+  "astores" : {
+    "scoreResources" : {
+      "resource1" : "_1J68GWITTUN3IYFNRA77PA4VW_AST",
+      "resource2" : "_3Z92HC9YI6ZHE5UN574K8Z7X8_AST"
+    }
+  }
+}

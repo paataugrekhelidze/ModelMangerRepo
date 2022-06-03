@@ -1,0 +1,472 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_misc",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "CorrectText" : {
+      "label" : "Status",
+      "length" : 12,
+      "order" : 8,
+      "parameter" : "CorrectText",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "CorrectText" ]
+    },
+    "Outcome" : {
+      "label" : "Predicted Outcome",
+      "length" : 256,
+      "order" : 6,
+      "parameter" : "Outcome",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Outcome" ]
+    },
+    "OutcomeText" : {
+      "label" : "Predicted Outcome (Event/NonEvent)",
+      "length" : 12,
+      "order" : 7,
+      "parameter" : "OutcomeText",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "OutcomeText" ]
+    },
+    "Target" : {
+      "label" : "Target",
+      "length" : 256,
+      "order" : 4,
+      "parameter" : "Target",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Target" ]
+    },
+    "TargetText" : {
+      "label" : "Target (Event/NonEvent)",
+      "length" : 12,
+      "order" : 5,
+      "parameter" : "TargetText",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "TargetText" ]
+    },
+    "_Count_" : {
+      "label" : "Count",
+      "length" : 8,
+      "order" : 10,
+      "parameter" : "_Count_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_Count_" ]
+    },
+    "_DataRole_" : {
+      "label" : "Data Role",
+      "length" : 10,
+      "order" : 11,
+      "parameter" : "_DataRole_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_DataRole_" ]
+    },
+    "_Percent_" : {
+      "label" : "Percent",
+      "length" : 8,
+      "order" : 9,
+      "parameter" : "_Percent_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_Percent_" ]
+    },
+    "_TargetName_" : {
+      "label" : "Target Name",
+      "length" : 11,
+      "order" : 1,
+      "parameter" : "_TargetName_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_TargetName_" ]
+    },
+    "_cutoffSource_" : {
+      "label" : "Cutoff Source",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "_cutoffSource_",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "_cutoffSource_" ]
+    },
+    "_cutoff_" : {
+      "label" : "Cutoff",
+      "length" : 8,
+      "order" : 2,
+      "parameter" : "_cutoff_",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "_cutoff_" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "2224",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "79.6561604585",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "568",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "20.3438395415",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "2254",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "80.7306590258",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "538",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "19.2693409742",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "255",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "9.13323782235",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "2537",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "90.8667621777",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "2771",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "99.2478510029",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "21",
+      "_DataRole_" : "TEST",
+      "_Percent_" : "0.752148997135",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "16437",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "98.137202221",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "312",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "1.86279777897",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "16580",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "98.9909845364",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "169",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "1.00901546361",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 12
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "2096",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "12.514179951",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 13
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "14653",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "87.485820049",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 14
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "16749",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "100",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 15
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "0",
+      "_DataRole_" : "TRAIN",
+      "_Percent_" : "0",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 16
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "6551",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "78.2208955224",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 17
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "1824",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "21.7791044776",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 18
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "6587",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "78.6507462687",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 19
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "1788",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "21.3492537313",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "KS",
+      "_cutoff_" : "0.02"
+    },
+    "rowNumber" : 20
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "761",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "9.08656716418",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 21
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           1",
+      "TargetText" : "Event",
+      "_Count_" : "7614",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "90.9134328358",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 22
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Correct",
+      "Outcome" : "           0",
+      "OutcomeText" : "NEvent",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "8311",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "99.2358208955",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 23
+  }, {
+    "dataMap" : {
+      "CorrectText" : "Incorrect",
+      "Outcome" : "           1",
+      "OutcomeText" : "Event",
+      "Target" : "           0",
+      "TargetText" : "NEvent",
+      "_Count_" : "64",
+      "_DataRole_" : "VALIDATE",
+      "_Percent_" : "0.764179104478",
+      "_TargetName_" : "SepsisLabel",
+      "_cutoffSource_" : "Default",
+      "_cutoff_" : "0.5"
+    },
+    "rowNumber" : 24
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

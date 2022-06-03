@@ -1,0 +1,57 @@
+{
+  "product" : "DMCAS",
+  "project" : "908833a3-7674-4070-8a3e-417a17ab994b",
+  "target" : {
+    "name" : "SepsisLabel",
+    "level" : "BINARY",
+    "format" : "",
+    "order" : "",
+    "label" : "",
+    "event" : "           1",
+    "SASJSONExport" : "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL" : [ {
+      "_TYPE_" : "",
+      "resourceId" : "77232c8e-e0c7-4ed8-b439-bd45b8763c92",
+      "id" : "908833a3-7674-4070-8a3e-417a17ab994b",
+      "_predictedvar_" : "I_SepsisLabel",
+      "_variable_" : "SepsisLabel",
+      "_rawchar_" : "",
+      "_cfmt_" : "",
+      "_label_" : "Into: SepsisLabel",
+      "_event_flag_" : "N",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "02cb86d7-c570-4a48-bf27-e2db8ee02ca9",
+      "id" : "908833a3-7674-4070-8a3e-417a17ab994b",
+      "_predictedvar_" : "P_SepsisLabel1",
+      "_variable_" : "SepsisLabel",
+      "_index_" : 1,
+      "_freq_" : 27916,
+      "freqPercent" : 50,
+      "nmissPercent" : 50,
+      "_rawnum_" : 1,
+      "_rawchar_" : "",
+      "_cfmt_" : "           1",
+      "_label_" : "Predicted: SepsisLabel=1",
+      "_event_flag_" : "Y",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "4955893e-ad6e-4b1e-8ce5-0bbe2f696979",
+      "id" : "908833a3-7674-4070-8a3e-417a17ab994b",
+      "_predictedvar_" : "P_SepsisLabel0",
+      "_variable_" : "SepsisLabel",
+      "_index_" : 2,
+      "_freq_" : 27916,
+      "freqPercent" : 50,
+      "nmissPercent" : 50,
+      "_rawnum_" : 0,
+      "_rawchar_" : "",
+      "_cfmt_" : "           0",
+      "_label_" : "Predicted: SepsisLabel=0",
+      "_event_flag_" : "N",
+      "revision" : 0
+    } ]
+  }
+}

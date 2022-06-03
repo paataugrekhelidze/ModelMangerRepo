@@ -1,0 +1,468 @@
+{
+  "SASJSONExport" : "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS" : [ {
+    "name" : "Age",
+    "order" : 1,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "Alkalinephos",
+    "order" : 2,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 6
+  }, {
+    "name" : "AST",
+    "order" : 3,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 6
+  }, {
+    "name" : "Bilirubin_direct",
+    "order" : 4,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 5
+  }, {
+    "name" : "Bilirubin_total",
+    "order" : 5,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 5
+  }, {
+    "name" : "DBP",
+    "order" : 6,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "Fibrinogen",
+    "order" : 7,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 6
+  }, {
+    "name" : "Gender",
+    "order" : 8,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "HospAdmTime",
+    "order" : 9,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "Hour",
+    "order" : 10,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "HR",
+    "order" : 11,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "ICULOS",
+    "order" : 12,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "MAP",
+    "order" : 13,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "O2Sat",
+    "order" : 14,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "Patient_ID",
+    "order" : 15,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "Resp",
+    "order" : 16,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "SaO2",
+    "order" : 17,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 5
+  }, {
+    "name" : "SBP",
+    "order" : 18,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "TroponinI",
+    "order" : 19,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 6
+  }, {
+    "name" : "Unit1",
+    "order" : 20,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 3
+  }, {
+    "name" : "Unit2",
+    "order" : 21,
+    "argtype" : "INPUT",
+    "type" : "C",
+    "vartype" : "varchar",
+    "format" : "",
+    "length" : 3
+  }, {
+    "name" : "Var1",
+    "order" : 22,
+    "argtype" : "INPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_CLASSIFICATION",
+    "order" : 23,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 12
+  }, {
+    "name" : "EM_EVENTPROBABILITY",
+    "order" : 24,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "EM_PROBABILITY",
+    "order" : 25,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "I_SepsisLabel",
+    "order" : 26,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 32
+  }, {
+    "name" : "P_SepsisLabel0",
+    "order" : 27,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "P_SepsisLabel1",
+    "order" : 28,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_P_",
+    "order" : 29,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "_WARN_",
+    "order" : 30,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "C",
+    "vartype" : "char",
+    "format" : "",
+    "length" : 4
+  }, {
+    "name" : "all_l_oks_dtree_5_Age",
+    "order" : 31,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_Age",
+    "order" : 32,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_HospAdmTime",
+    "order" : 33,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_Hour",
+    "order" : 34,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_ICULOS",
+    "order" : 35,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_O2Sat",
+    "order" : 36,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_int_med_imp_Var1",
+    "order" : 37,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_nom_miss_lev_lab_Unit1",
+    "order" : 38,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_nom_miss_lev_lab_Unit2",
+    "order" : 39,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "cpy_nom_mode_imp_lab_Gender",
+    "order" : 40,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_DBP",
+    "order" : 41,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_HR",
+    "order" : 42,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_MAP",
+    "order" : 43,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_O2Sat",
+    "order" : 44,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_Resp",
+    "order" : 45,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_SBP",
+    "order" : 46,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_Unit1",
+    "order" : 47,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "miss_ind_Unit2",
+    "order" : 48,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_dtree_5_HR",
+    "order" : 49,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_dtree_5_MAP",
+    "order" : 50,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_dtree_5_Resp",
+    "order" : 51,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_dtree_5_SBP",
+    "order" : 52,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_n1_DBP",
+    "order" : 53,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_n1_HR",
+    "order" : 54,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_n1_MAP",
+    "order" : 55,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_n1_Resp",
+    "order" : 56,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_n1_SBP",
+    "order" : 57,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  }, {
+    "name" : "nhoks_nloks_pow_p2_DBP",
+    "order" : 58,
+    "argtype" : "INPUT_OUTPUT",
+    "type" : "N",
+    "vartype" : "double",
+    "format" : "",
+    "length" : 8
+  } ]
+}

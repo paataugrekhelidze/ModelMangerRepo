@@ -1,0 +1,156 @@
+[
+  {
+    "level": "nominal",
+    "name": "AST",
+    "length": 6,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "Age",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "Alkalinephos",
+    "length": 6,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "nominal",
+    "name": "Bilirubin_direct",
+    "length": 5,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "nominal",
+    "name": "Bilirubin_total",
+    "length": 5,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "DBP",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "Fibrinogen",
+    "length": 6,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "binary",
+    "name": "Gender",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "HR",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "HospAdmTime",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "Hour",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "ICULOS",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "MAP",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "O2Sat",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "Patient_ID",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "Resp",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "SBP",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "SaO2",
+    "length": 5,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "nominal",
+    "name": "TroponinI",
+    "length": 6,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "binary",
+    "name": "Unit1",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "binary",
+    "name": "Unit2",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "Var1",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  }
+]

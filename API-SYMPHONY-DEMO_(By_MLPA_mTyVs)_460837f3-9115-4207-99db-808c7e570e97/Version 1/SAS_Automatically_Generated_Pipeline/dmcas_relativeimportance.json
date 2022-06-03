@@ -1,0 +1,310 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_relativeimportance",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "LABEL" : {
+      "label" : "Variable Label",
+      "length" : 256,
+      "order" : 1,
+      "parameter" : "LABEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LABEL" ]
+    },
+    "LEVEL" : {
+      "label" : "Variable Level",
+      "length" : 10,
+      "order" : 5,
+      "parameter" : "LEVEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LEVEL" ]
+    },
+    "ROLE" : {
+      "label" : "Role",
+      "length" : 32,
+      "order" : 4,
+      "parameter" : "ROLE",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "ROLE" ]
+    },
+    "RelativeImportance" : {
+      "label" : "Relative Importance",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "RelativeImportance",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "RelativeImportance" ]
+    },
+    "Variable" : {
+      "label" : "Variable Name",
+      "length" : 255,
+      "order" : 2,
+      "parameter" : "Variable",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Variable" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "LABEL" : "ICULOS: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "1",
+      "Variable" : "cpy_int_med_imp_ICULOS"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "LABEL" : "Hour: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.990903447611",
+      "Variable" : "cpy_int_med_imp_Hour"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "LABEL" : "Var1: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.990903447611",
+      "Variable" : "cpy_int_med_imp_Var1"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "LABEL" : "Resp: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.119083750254",
+      "Variable" : "nhoks_nloks_dtree_5_Resp"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "LABEL" : "Resp: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.117716073331",
+      "Variable" : "nhoks_nloks_pow_n1_Resp"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "LABEL" : "HR: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.102133415977",
+      "Variable" : "nhoks_nloks_dtree_5_HR"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "LABEL" : "HR: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0825627894847",
+      "Variable" : "nhoks_nloks_pow_n1_HR"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "LABEL" : "O2Sat: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0385706120651",
+      "Variable" : "cpy_int_med_imp_O2Sat"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "LABEL" : "Unit1: Low missing rate - missing level",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0218577924683",
+      "Variable" : "cpy_nom_miss_lev_lab_Unit1"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "LABEL" : "Unit2: Low missing rate - missing level",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0218577924683",
+      "Variable" : "cpy_nom_miss_lev_lab_Unit2"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "LABEL" : "Unit1: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0214949894914",
+      "Variable" : "miss_ind_Unit1"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "LABEL" : "Unit2: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0214949894914",
+      "Variable" : "miss_ind_Unit2"
+    },
+    "rowNumber" : 12
+  }, {
+    "dataMap" : {
+      "LABEL" : "Age: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0203684628023",
+      "Variable" : "cpy_int_med_imp_Age"
+    },
+    "rowNumber" : 13
+  }, {
+    "dataMap" : {
+      "LABEL" : "MAP: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.018708422312",
+      "Variable" : "nhoks_nloks_dtree_5_MAP"
+    },
+    "rowNumber" : 14
+  }, {
+    "dataMap" : {
+      "LABEL" : "DBP: Not high (outlier, kurtosis, skewness) - power(2) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0157055674931",
+      "Variable" : "nhoks_nloks_pow_p2_DBP"
+    },
+    "rowNumber" : 15
+  }, {
+    "dataMap" : {
+      "LABEL" : "HospAdmTime: Low missing rate - median imputation",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0128339291617",
+      "Variable" : "cpy_int_med_imp_HospAdmTime"
+    },
+    "rowNumber" : 16
+  }, {
+    "dataMap" : {
+      "LABEL" : "MAP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0126537588728",
+      "Variable" : "nhoks_nloks_pow_n1_MAP"
+    },
+    "rowNumber" : 17
+  }, {
+    "dataMap" : {
+      "LABEL" : "DBP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.011978816439",
+      "Variable" : "nhoks_nloks_pow_n1_DBP"
+    },
+    "rowNumber" : 18
+  }, {
+    "dataMap" : {
+      "LABEL" : "SBP: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0117359232096",
+      "Variable" : "nhoks_nloks_dtree_5_SBP"
+    },
+    "rowNumber" : 19
+  }, {
+    "dataMap" : {
+      "LABEL" : "Age: Low (outlier, kurtosis, skewness) - five bin decision tree binning",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0113762162417",
+      "Variable" : "all_l_oks_dtree_5_Age"
+    },
+    "rowNumber" : 20
+  }, {
+    "dataMap" : {
+      "LABEL" : "MAP: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00884307188984",
+      "Variable" : "miss_ind_MAP"
+    },
+    "rowNumber" : 21
+  }, {
+    "dataMap" : {
+      "LABEL" : "O2Sat: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00847262920332",
+      "Variable" : "miss_ind_O2Sat"
+    },
+    "rowNumber" : 22
+  }, {
+    "dataMap" : {
+      "LABEL" : "SBP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0078989216938",
+      "Variable" : "nhoks_nloks_pow_n1_SBP"
+    },
+    "rowNumber" : 23
+  }, {
+    "dataMap" : {
+      "LABEL" : "HR: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00722058212908",
+      "Variable" : "miss_ind_HR"
+    },
+    "rowNumber" : 24
+  }, {
+    "dataMap" : {
+      "LABEL" : "Resp: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00284597341085",
+      "Variable" : "miss_ind_Resp"
+    },
+    "rowNumber" : 25
+  }, {
+    "dataMap" : {
+      "LABEL" : "DBP: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00124487199116",
+      "Variable" : "miss_ind_DBP"
+    },
+    "rowNumber" : 26
+  }, {
+    "dataMap" : {
+      "LABEL" : "SBP: Significant missing - missing indicator",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.000717810381714",
+      "Variable" : "miss_ind_SBP"
+    },
+    "rowNumber" : 27
+  }, {
+    "dataMap" : {
+      "LABEL" : "Gender: Low missing rate - mode imputation + label transformation",
+      "LEVEL" : "NOMINAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.000462151238083",
+      "Variable" : "cpy_nom_mode_imp_lab_Gender"
+    },
+    "rowNumber" : 28
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

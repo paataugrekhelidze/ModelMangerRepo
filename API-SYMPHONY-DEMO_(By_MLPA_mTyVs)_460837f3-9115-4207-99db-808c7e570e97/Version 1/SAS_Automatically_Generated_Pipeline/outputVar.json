@@ -1,0 +1,254 @@
+[
+  {
+    "level": "",
+    "name": "EM_CLASSIFICATION",
+    "length": 12,
+    "description": "Into: SepsisLabel",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "EM_EVENTPROBABILITY",
+    "length": 8,
+    "description": "Predicted: SepsisLabel\u003d1",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "EM_PROBABILITY",
+    "length": 8,
+    "description": "Probability of Classification",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "I_SepsisLabel",
+    "length": 32,
+    "description": "Into: SepsisLabel",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "P_SepsisLabel0",
+    "length": 8,
+    "description": "Predicted: SepsisLabel\u003d0",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "P_SepsisLabel1",
+    "length": 8,
+    "description": "Predicted: SepsisLabel\u003d1",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "_P_",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "_WARN_",
+    "length": 4,
+    "description": "Warnings",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "all_l_oks_dtree_5_Age",
+    "length": 8,
+    "description": "Age: Low (outlier, kurtosis, skewness) - five bin decision tree binning",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_Age",
+    "length": 8,
+    "description": "Age: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_HospAdmTime",
+    "length": 8,
+    "description": "HospAdmTime: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_Hour",
+    "length": 8,
+    "description": "Hour: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_ICULOS",
+    "length": 8,
+    "description": "ICULOS: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_O2Sat",
+    "length": 8,
+    "description": "O2Sat: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_int_med_imp_Var1",
+    "length": 8,
+    "description": "Var1: Low missing rate - median imputation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_nom_miss_lev_lab_Unit1",
+    "length": 8,
+    "description": "Unit1: Low missing rate - missing level",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_nom_miss_lev_lab_Unit2",
+    "length": 8,
+    "description": "Unit2: Low missing rate - missing level",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "cpy_nom_mode_imp_lab_Gender",
+    "length": 8,
+    "description": "Gender: Low missing rate - mode imputation + label transformation",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_DBP",
+    "length": 8,
+    "description": "DBP: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_HR",
+    "length": 8,
+    "description": "HR: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_MAP",
+    "length": 8,
+    "description": "MAP: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_O2Sat",
+    "length": 8,
+    "description": "O2Sat: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_Resp",
+    "length": 8,
+    "description": "Resp: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_SBP",
+    "length": 8,
+    "description": "SBP: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_Unit1",
+    "length": 8,
+    "description": "Unit1: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "miss_ind_Unit2",
+    "length": 8,
+    "description": "Unit2: Significant missing - missing indicator",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_dtree_5_HR",
+    "length": 8,
+    "description": "HR: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_dtree_5_MAP",
+    "length": 8,
+    "description": "MAP: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_dtree_5_Resp",
+    "length": 8,
+    "description": "Resp: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_dtree_5_SBP",
+    "length": 8,
+    "description": "SBP: Not high (outlier, kurtosis, skewness) - five bin decision tree binning",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_n1_DBP",
+    "length": 8,
+    "description": "DBP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_n1_HR",
+    "length": 8,
+    "description": "HR: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_n1_MAP",
+    "length": 8,
+    "description": "MAP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_n1_Resp",
+    "length": 8,
+    "description": "Resp: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_n1_SBP",
+    "length": 8,
+    "description": "SBP: Not high (outlier, kurtosis, skewness) - power(-1) + impute(median)",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "nhoks_nloks_pow_p2_DBP",
+    "length": 8,
+    "description": "DBP: Not high (outlier, kurtosis, skewness) - power(2) + impute(median)",
+    "type": "decimal"
+  }
+]

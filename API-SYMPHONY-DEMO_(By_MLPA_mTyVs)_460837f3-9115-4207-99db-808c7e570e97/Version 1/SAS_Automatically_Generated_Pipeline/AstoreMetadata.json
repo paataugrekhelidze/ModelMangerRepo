@@ -1,0 +1,22 @@
+[
+  {
+    "name": "_11H6X6VV6OQX117G45GMLH6Y5A",
+    "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_11H6X6VV6OQX117G45GMLH6Y5A",
+    "key": "665A452B6B473B572B96EBB324165F9FE08E0EB6",
+    "caslib": "ModelStore",
+    "location": "file:///models/astores/viya/_11H6X6VV6OQX117G45GMLH6Y5A.astore",
+    "host": "sas-launcher-aa8b020e-ba04-4ed6-99d1-337078f75f62-1376",
+    "fullPath": "/opt/sas/viya/config/data/modelsvr/astore/_11H6X6VV6OQX117G45GMLH6Y5A.astore",
+    "state": "success"
+  },
+  {
+    "name": "_J1L5UBMAOWUY1KB5PC0HA67EC",
+    "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_J1L5UBMAOWUY1KB5PC0HA67EC",
+    "key": "264A00A4821C844CE5EBF46225C604C0199BE914",
+    "caslib": "ModelStore",
+    "location": "file:///models/astores/viya/_J1L5UBMAOWUY1KB5PC0HA67EC.astore",
+    "host": "sas-launcher-aa8b020e-ba04-4ed6-99d1-337078f75f62-1376",
+    "fullPath": "/opt/sas/viya/config/data/modelsvr/astore/_J1L5UBMAOWUY1KB5PC0HA67EC.astore",
+    "state": "success"
+  }
+]
