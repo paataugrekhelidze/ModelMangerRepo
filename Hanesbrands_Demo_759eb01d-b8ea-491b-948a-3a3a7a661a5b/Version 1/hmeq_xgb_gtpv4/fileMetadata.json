@@ -16,15 +16,15 @@
     "name": "hmeq__encoder.pickle"
   },
   {
+    "role": "scoreResource",
+    "name": "DS2EP_PythonWrapper.sas"
+  },
+  {
     "role": "score",
     "name": "hmeq_xgb.py"
   },
   {
     "role": "scoreResource",
     "name": "ContainerWrapper.py"
-  },
-  {
-    "role": "scoreResource",
-    "name": "DS2EP_PythonWrapper.sas"
   }
 ]

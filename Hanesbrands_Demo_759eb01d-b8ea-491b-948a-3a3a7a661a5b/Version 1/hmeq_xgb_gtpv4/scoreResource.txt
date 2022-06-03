@@ -39,7 +39,7 @@ data sasep.out;
       resultCode = revision = 0;
       if null(pm) then do;
          pm = _new_ pymas();
-         resultCode = pm.useModule('model_exec_437a392b-67b2-48c0-8206-f2f14fd62590', 1);
+         resultCode = pm.useModule('model_exec_2a21ba7d-be74-4685-bc32-69e4025ce97b', 1);
          if resultCode then do;
             resultCode = pm.appendSrcLine('import sys');
             resultCode = pm.appendSrcLine('sys.path.append("/models/resources/viya/306a7eb7-26d0-4e33-a539-5304dbd08d64/")');
@@ -50,7 +50,7 @@ data sasep.out;
             resultCode = pm.appendSrcLine('    "Output: P_Bad1, msg"');
             resultCode = pm.appendSrcLine('    return hmeq_xgb.score(LOAN, MORTDUE, VALUE, REASON, JOB, YOJ, DEROG, DELINQ, CLAGE, NINQ, CLNO, DEBTINC)');
 
-            revision = pm.publish(pm.getSource(), 'model_exec_437a392b-67b2-48c0-8206-f2f14fd62590');
+            revision = pm.publish(pm.getSource(), 'model_exec_2a21ba7d-be74-4685-bc32-69e4025ce97b');
             if ( revision < 1 ) then do;
                logr.log( 'e', 'py.publish() failed.');
                resultCode = -1;
