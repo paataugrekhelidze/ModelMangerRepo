@@ -1,0 +1,30 @@
+[
+  {
+    "role": "python pickle",
+    "name": "hmeq_xgb.pickle"
+  },
+  {
+    "role": "scoreResource",
+    "name": "example_test.py"
+  },
+  {
+    "role": "scoreResource",
+    "name": "settings.py"
+  },
+  {
+    "role": "python pickle",
+    "name": "hmeq__encoder.pickle"
+  },
+  {
+    "role": "score",
+    "name": "hmeq_xgb.py"
+  },
+  {
+    "role": "scoreResource",
+    "name": "ContainerWrapper.py"
+  },
+  {
+    "role": "scoreResource",
+    "name": "DS2EP_PythonWrapper.sas"
+  }
+]
