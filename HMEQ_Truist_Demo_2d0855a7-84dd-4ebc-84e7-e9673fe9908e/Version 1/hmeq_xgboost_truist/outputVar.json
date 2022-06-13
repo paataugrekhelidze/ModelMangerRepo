@@ -1,0 +1,20 @@
+[
+  {
+    "level": "interval",
+    "name": "EM_EVENTPROBABILITY",
+    "length": 8,
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "msg",
+    "length": 270,
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "P_Bad1",
+    "length": 8,
+    "type": "decimal"
+  }
+]

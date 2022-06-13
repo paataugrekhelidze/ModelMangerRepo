@@ -1,0 +1,30 @@
+[
+  {
+    "role": "score",
+    "name": "hmeq_xgboost_truist.py"
+  },
+  {
+    "role": "python pickle",
+    "name": "hmeq_xgboost_truist.pickle"
+  },
+  {
+    "role": "python pickle",
+    "name": "hmeq__encoder.pickle"
+  },
+  {
+    "role": "scoreResource",
+    "name": "DS2Pkg_PythonWrapper.sas"
+  },
+  {
+    "role": "scoreResource",
+    "name": "DS2EP_PythonWrapper.sas"
+  },
+  {
+    "role": "scoreResource",
+    "name": "settings.py"
+  },
+  {
+    "role": "scoreResource",
+    "name": "example_test.py"
+  }
+]
