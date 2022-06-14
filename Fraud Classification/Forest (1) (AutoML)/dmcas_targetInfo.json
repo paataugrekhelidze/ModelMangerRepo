@@ -1,0 +1,57 @@
+{
+  "product" : "DMCAS",
+  "project" : "550ada56-1aa1-4b06-8a93-1aa27760e01e",
+  "target" : {
+    "name" : "FRAUD_LABEL",
+    "level" : "BINARY",
+    "format" : "",
+    "order" : "",
+    "label" : "",
+    "event" : "           1",
+    "SASJSONExport" : "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL" : [ {
+      "_TYPE_" : "",
+      "resourceId" : "a09959ed-09b6-4e9a-8ce0-5f730e349615",
+      "id" : "550ada56-1aa1-4b06-8a93-1aa27760e01e",
+      "_predictedvar_" : "I_FRAUD_LABEL",
+      "_variable_" : "FRAUD_LABEL",
+      "_rawchar_" : "",
+      "_cfmt_" : "",
+      "_label_" : "Into: FRAUD_LABEL",
+      "_event_flag_" : "N",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "e9fc1387-b678-4162-8f6f-a5c692f28ed0",
+      "id" : "550ada56-1aa1-4b06-8a93-1aa27760e01e",
+      "_predictedvar_" : "P_FRAUD_LABEL1",
+      "_variable_" : "FRAUD_LABEL",
+      "_index_" : 1,
+      "_freq_" : 20795,
+      "freqPercent" : 10.3124225143,
+      "nmissPercent" : 10.3124225143,
+      "_rawnum_" : 1,
+      "_rawchar_" : "",
+      "_cfmt_" : "           1",
+      "_label_" : "Predicted: FRAUD_LABEL=1",
+      "_event_flag_" : "Y",
+      "revision" : 0
+    }, {
+      "_TYPE_" : "",
+      "resourceId" : "4dd4560f-34c8-4b82-8db7-838c468605cd",
+      "id" : "550ada56-1aa1-4b06-8a93-1aa27760e01e",
+      "_predictedvar_" : "P_FRAUD_LABEL_1",
+      "_variable_" : "FRAUD_LABEL",
+      "_index_" : 2,
+      "_freq_" : 180855,
+      "freqPercent" : 89.6875774857,
+      "nmissPercent" : 89.6875774857,
+      "_rawnum_" : -1,
+      "_rawchar_" : "",
+      "_cfmt_" : "          -1",
+      "_label_" : "Predicted: FRAUD_LABEL=-1",
+      "_event_flag_" : "N",
+      "revision" : 0
+    } ]
+  }
+}
