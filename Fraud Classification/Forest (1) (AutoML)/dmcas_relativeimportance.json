@@ -1,0 +1,326 @@
+{
+  "creationTimeStamp" : "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp" : "0001-01-01T00:00:00Z",
+  "revision" : 0,
+  "name" : "dmcas_relativeimportance",
+  "version" : 0,
+  "order" : 0,
+  "parameterMap" : {
+    "LABEL" : {
+      "label" : "Variable Label",
+      "length" : 256,
+      "order" : 1,
+      "parameter" : "LABEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LABEL" ]
+    },
+    "LEVEL" : {
+      "label" : "Variable Level",
+      "length" : 10,
+      "order" : 5,
+      "parameter" : "LEVEL",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "LEVEL" ]
+    },
+    "ROLE" : {
+      "label" : "Role",
+      "length" : 32,
+      "order" : 4,
+      "parameter" : "ROLE",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "ROLE" ]
+    },
+    "RelativeImportance" : {
+      "label" : "Relative Importance",
+      "length" : 8,
+      "order" : 3,
+      "parameter" : "RelativeImportance",
+      "preformatted" : false,
+      "type" : "num",
+      "values" : [ "RelativeImportance" ]
+    },
+    "Variable" : {
+      "label" : "Variable Name",
+      "length" : 255,
+      "order" : 2,
+      "parameter" : "Variable",
+      "preformatted" : false,
+      "type" : "char",
+      "values" : [ "Variable" ]
+    }
+  },
+  "data" : [ {
+    "dataMap" : {
+      "LABEL" : "Transformed weekly_count",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "1",
+      "Variable" : "INVSQR_weekly_count"
+    },
+    "rowNumber" : 1
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_AVAIL_CREDIT",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.931311402891",
+      "Variable" : "LOG_AUTH_AVAIL_CREDIT"
+    },
+    "rowNumber" : 2
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed daily_count",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.77909580026",
+      "Variable" : "INVSQR_daily_count"
+    },
+    "rowNumber" : 3
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed weekly_sum",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.717220354045",
+      "Variable" : "LOG_weekly_sum"
+    },
+    "rowNumber" : 4
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed daily_sum",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.554123426319",
+      "Variable" : "LOG_daily_sum"
+    },
+    "rowNumber" : 5
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for INV_AUTH_CARD_ZIP3_DIFF",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.493139489511",
+      "Variable" : "M_INV_AUTH_CARD_ZIP3_DIFF"
+    },
+    "rowNumber" : 6
+  }, {
+    "dataMap" : {
+      "LABEL" : "Imputed Transformed MCC_RISK",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.472385438699",
+      "Variable" : "IMP_INV_MCC_RISK"
+    },
+    "rowNumber" : 7
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_AMOUNT",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.421570189856",
+      "Variable" : "LOG_AUTH_AMOUNT"
+    },
+    "rowNumber" : 8
+  }, {
+    "dataMap" : {
+      "LABEL" : "Imputed Transformed AUTH_CARD_ZIP3_DIFF",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.375900533282",
+      "Variable" : "IMP_INV_AUTH_CARD_ZIP3_DIFF"
+    },
+    "rowNumber" : 9
+  }, {
+    "dataMap" : {
+      "LABEL" : "Imputed Transformed AMOUNT_MCC_DEV",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.181468272165",
+      "Variable" : "IMP_INVSQRT_AMOUNT_MCC_DEV"
+    },
+    "rowNumber" : 10
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed Transformed AUTH_TRAN_TYPE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.125219062329",
+      "Variable" : "TARGENC_BIN_AUTH_TRAN_TYPE"
+    },
+    "rowNumber" : 11
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_KEY_SWIPE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.07534611015",
+      "Variable" : "TARGENC_AUTH_KEY_SWIPE"
+    },
+    "rowNumber" : 12
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0709346319657",
+      "Variable" : "AUTH_HOUR"
+    },
+    "rowNumber" : 13
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_CVV",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0444372317176",
+      "Variable" : "TARGENC_AUTH_CVV"
+    },
+    "rowNumber" : 14
+  }, {
+    "dataMap" : {
+      "LABEL" : "Imputed Transformed CARD_CRED_LINE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0358987145592",
+      "Variable" : "IMP_SQRT_CARD_CRED_LINE"
+    },
+    "rowNumber" : 15
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed Transformed CARD_NUM_CARDS",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0341191234728",
+      "Variable" : "TARGENC_BIN_CARD_NUM_CARDS"
+    },
+    "rowNumber" : 16
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for CARD_USE",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0287702009358",
+      "Variable" : "M_CARD_USE"
+    },
+    "rowNumber" : 17
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for SQRT_CARD_CRED_LINE",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0287702009358",
+      "Variable" : "M_SQRT_CARD_CRED_LINE"
+    },
+    "rowNumber" : 18
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0234645859537",
+      "Variable" : "week_number"
+    },
+    "rowNumber" : 19
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed CARD_TYPE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0223155233888",
+      "Variable" : "TARGENC_CARD_TYPE"
+    },
+    "rowNumber" : 20
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_CRED_LINE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0187703702987",
+      "Variable" : "SQRT_AUTH_CRED_LINE"
+    },
+    "rowNumber" : 21
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed AUTH_PIN_VER",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.0147853424103",
+      "Variable" : "TARGENC_AUTH_PIN_VER"
+    },
+    "rowNumber" : 22
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed Transformed AUTH_ADVICE",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00964075957234",
+      "Variable" : "TARGENC_BIN_AUTH_ADVICE"
+    },
+    "rowNumber" : 23
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for AUTH_CURR_RATE",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0.00922486974893",
+      "Variable" : "M_AUTH_CURR_RATE"
+    },
+    "rowNumber" : 24
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for INVSQRT_AMOUNT_MCC_DEV",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0",
+      "Variable" : "M_INVSQRT_AMOUNT_MCC_DEV"
+    },
+    "rowNumber" : 25
+  }, {
+    "dataMap" : {
+      "LABEL" : "Missing Indicator for INV_MCC_RISK",
+      "LEVEL" : "BINARY",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0",
+      "Variable" : "M_INV_MCC_RISK"
+    },
+    "rowNumber" : 26
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed sev_2500_to_5000",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0",
+      "Variable" : "TARGENC_sev_2500_to_5000"
+    },
+    "rowNumber" : 27
+  }, {
+    "dataMap" : {
+      "LABEL" : "Transformed sev_ge_5000",
+      "LEVEL" : "INTERVAL",
+      "ROLE" : "INPUT",
+      "RelativeImportance" : "0",
+      "Variable" : "TARGENC_sev_ge_5000"
+    },
+    "rowNumber" : 28
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "UNARY",
+      "ROLE" : "INPUT",
+      "Variable" : "AUTH_CURR_RATE"
+    },
+    "rowNumber" : 29
+  }, {
+    "dataMap" : {
+      "LABEL" : "",
+      "LEVEL" : "UNARY",
+      "ROLE" : "INPUT",
+      "Variable" : "CARD_USE"
+    },
+    "rowNumber" : 30
+  } ],
+  "xInteger" : false,
+  "yInteger" : false
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "level": "interval",
+    "name": "AMOUNT_MCC_DEV",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "AUTH_ADVICE",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "AUTH_AMOUNT",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "AUTH_AVAIL_CREDIT",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "AUTH_CARD_ZIP3_DIFF",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "AUTH_CRED_LINE",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "unary",
+    "name": "AUTH_CURR_RATE",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "binary",
+    "name": "AUTH_CVV",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "AUTH_HOUR",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "AUTH_KEY_SWIPE",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "binary",
+    "name": "AUTH_PIN_VER",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "nominal",
+    "name": "AUTH_TRAN_TYPE",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "CARD_CRED_LINE",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "nominal",
+    "name": "CARD_NUM_CARDS",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "binary",
+    "name": "CARD_TYPE",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "unary",
+    "name": "CARD_USE",
+    "length": 3,
+    "description": "",
+    "type": "string"
+  },
+  {
+    "level": "interval",
+    "name": "daily_count",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "daily_sum",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "MCC_RISK",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "binary",
+    "name": "sev_2500_to_5000",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "binary",
+    "name": "sev_ge_5000",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "week_number",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "weekly_count",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "interval",
+    "name": "weekly_sum",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  }
+]
