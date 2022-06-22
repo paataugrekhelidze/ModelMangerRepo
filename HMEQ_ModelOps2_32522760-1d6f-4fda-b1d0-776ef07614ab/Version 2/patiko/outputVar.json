@@ -1,0 +1,107 @@
+[
+  {
+    "level": "",
+    "name": "_leaf_id_",
+    "length": 8,
+    "description": "",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "EM_CLASSIFICATION",
+    "length": 12,
+    "description": "Into: BAD",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "EM_EVENTPROBABILITY",
+    "length": 8,
+    "description": "Predicted: BAD\u003d1",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "EM_PROBABILITY",
+    "length": 8,
+    "description": "Probability of Classification",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "I_BAD",
+    "length": 12,
+    "description": "Into: BAD",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "IMP_CLAGE",
+    "length": 8,
+    "description": "Imputed CLAGE",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "IMP_DEBTINC",
+    "length": 8,
+    "description": "Imputed DEBTINC",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "IMP_DELINQ",
+    "length": 8,
+    "description": "Imputed DELINQ",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "IMP_DEROG",
+    "length": 8,
+    "description": "Imputed DEROG",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "IMP_JOB",
+    "length": 7,
+    "description": "Imputed JOB",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "IMP_NINQ",
+    "length": 8,
+    "description": "Imputed NINQ",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "IMP_REASON",
+    "length": 7,
+    "description": "Imputed REASON",
+    "type": "string"
+  },
+  {
+    "level": "",
+    "name": "IMP_YOJ",
+    "length": 8,
+    "description": "Imputed YOJ",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "P_BAD0",
+    "length": 8,
+    "description": "Predicted: BAD\u003d0",
+    "type": "decimal"
+  },
+  {
+    "level": "",
+    "name": "P_BAD1",
+    "length": 8,
+    "description": "Predicted: BAD\u003d1",
+    "type": "decimal"
+  }
+]

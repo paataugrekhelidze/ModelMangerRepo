@@ -1,0 +1,5 @@
+{
+  "scoreType" : "DS1",
+  "algorithm" : "Decision Tree",
+  "algorithmI18N" : "decision.tree.node.name.txt"
+}
