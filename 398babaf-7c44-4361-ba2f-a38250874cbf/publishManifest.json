@@ -1,0 +1,116 @@
+{
+  "creationTimeStamp": "2022-07-26T19:29:44.491959524Z",
+  "createdBy": "Paata.Ugrekhelidze@sas.com",
+  "modifiedTimeStamp": "2022-07-26T19:29:44.491959524Z",
+  "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+  "id": "398babaf-7c44-4361-ba2f-a38250874cbf",
+  "destinationName": "git_scr_paugre",
+  "destination": {
+    "creationTimeStamp": "2022-07-26T19:28:19.444911Z",
+    "createdBy": "sasboot",
+    "modifiedTimeStamp": "2022-07-26T19:28:19.444911Z",
+    "modifiedBy": "sasboot",
+    "version": 2,
+    "id": "1cc89cf9-7afd-438b-ad8a-20495db1af04",
+    "name": "git_scr_paugre",
+    "description": "git destination for containers (paugre)",
+    "destinationType": "azure",
+    "properties": [
+      {
+        "name": "LocalRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "resourceGroupName",
+        "value": "gtp-viya4-rg"
+      },
+      {
+        "name": "baseRepoUrl",
+        "value": "scrregistrygtpv4.azurecr.io"
+      },
+      {
+        "name": "region",
+        "value": "eastus2"
+      },
+      {
+        "name": "credDomainId",
+        "value": "git_scr_paugre"
+      },
+      {
+        "name": "kubernetesCluster",
+        "value": "gtp-viya4-aks"
+      },
+      {
+        "name": "subscriptionId",
+        "value": "7c9431b4-e713-4355-996a-3d6c37b24e7b"
+      },
+      {
+        "name": "tenantId",
+        "value": "b1c14d5c-3625-45b3-a430-9552373a0c2f"
+      },
+      {
+        "name": "RemoteRepositoryURL",
+        "value": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "rapid_Efnetb2_food_tst",
+    "principalID": "cc189cc2-a883-46ec-8a2b-52c91f96d000",
+    "codeType": "python",
+    "code": "import argparse\nimport os\nimport os.path\nimport sys\nimport pandas as pd\nimport rapid_Efnetb2_food_tst\nimport settings\nsettings.pickle_path = ''\nparser = argparse.ArgumentParser(description='Score')\nparser.add_argument('-m', dest='modelFile', help='model filename, default will be the model file hardcoded in the script')\nparser.add_argument('-i', dest='scoreInputCSV', required=True, help='input filename')\nparser.add_argument('-o', dest='scoreOutputCSV', required=True, help='output csv filename')\nargs = parser.parse_args()\nmodel_file = args.modelFile\nscore_input_csv = args.scoreInputCSV\nscore_output_csv = args.scoreOutputCSV\nif not os.path.isfile(score_input_csv):\n    print('Not found input file',score_input_csv)\n    sys.exit()\ninput_df = pd.read_csv(os.path.join(os.getcwd(), score_input_csv))\nrowResult = []\nfor i, row in input_df.iterrows():\n    rowResult.append(rapid_Efnetb2_food_tst.scoreModel(row['image']))\noutput_df = pd.DataFrame(rowResult, columns=['food_label','msg'])\noutput_df = pd.merge(input_df, output_df, how='inner', left_index=True, right_index=True)\noutput_df.to_csv(score_output_csv, sep=',', index=False)\n",
+    "sourceURI": "/modelRepository/models/cc189cc2-a883-46ec-8a2b-52c91f96d000",
+    "projectID": "b48631a1-1b5f-4d2d-a4fb-370dee71062a",
+    "projectVersionID": "524dbe87-e841-4709-b1e9-31d0f43fc318",
+    "modelID": "cc189cc2-a883-46ec-8a2b-52c91f96d000",
+    "modelVersionID": "4.0",
+    "publishLevel": "model",
+    "variableXML": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cScore\u003e\n  \u003cTargetList\u003e\u003c/TargetList\u003e\n  \u003cProducer\u003e\n    \u003cName\u003eSAS Model Manager\u003c/Name\u003e\n    \u003cVersion\u003e15.1\u003c/Version\u003e\n  \u003c/Producer\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"image\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"food_label\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"msg\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n\u003c/Score\u003e"
+  },
+  "properties": {
+    "containerKey": "sha256:8655a4b8428bce66cc22aecc69d50cccbbaf947876bff1b68a51a258b4351d4c",
+    "dockerFileUri": "/files/files/6fa06d07-5528-46c5-b36b-cd8b392c7b22",
+    "imageUrl": "scrregistrygtpv4.azurecr.io/rapid_efnetb2_food_tst:1"
+  },
+  "sourceURI": "/modelRepository/models/cc189cc2-a883-46ec-8a2b-52c91f96d000",
+  "inputVariables": null,
+  "outputVariables": null,
+  "component": {},
+  "product": {},
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {},
+  "tags": ",1"
+}
