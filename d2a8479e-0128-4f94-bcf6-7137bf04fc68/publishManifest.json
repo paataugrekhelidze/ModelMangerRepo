@@ -1,0 +1,221 @@
+{
+  "creationTimeStamp": "2022-08-01T02:41:48.669924126Z",
+  "createdBy": "Paata.Ugrekhelidze@sas.com",
+  "modifiedTimeStamp": "2022-08-01T02:41:48.669924126Z",
+  "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+  "version": 1,
+  "id": "d2a8479e-0128-4f94-bcf6-7137bf04fc68",
+  "destinationName": "git_scr_paugre",
+  "destination": {
+    "creationTimeStamp": "2022-07-26T19:28:19.444911Z",
+    "createdBy": "sasboot",
+    "modifiedTimeStamp": "2022-07-26T19:28:19.444911Z",
+    "modifiedBy": "sasboot",
+    "version": 2,
+    "id": "1cc89cf9-7afd-438b-ad8a-20495db1af04",
+    "name": "git_scr_paugre",
+    "description": "git destination for containers (paugre)",
+    "destinationType": "azure",
+    "properties": [
+      {
+        "name": "LocalRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "resourceGroupName",
+        "value": "gtp-viya4-rg"
+      },
+      {
+        "name": "baseRepoUrl",
+        "value": "scrregistrygtpv4.azurecr.io"
+      },
+      {
+        "name": "region",
+        "value": "eastus2"
+      },
+      {
+        "name": "credDomainId",
+        "value": "git_scr_paugre"
+      },
+      {
+        "name": "kubernetesCluster",
+        "value": "gtp-viya4-aks"
+      },
+      {
+        "name": "subscriptionId",
+        "value": "7c9431b4-e713-4355-996a-3d6c37b24e7b"
+      },
+      {
+        "name": "tenantId",
+        "value": "b1c14d5c-3625-45b3-a430-9552373a0c2f"
+      },
+      {
+        "name": "RemoteRepositoryURL",
+        "value": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/git_scr_paugre",
+        "uri": "/modelPublish/destinations/git_scr_paugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "rapidApp_Copy1_0",
+    "principalID": "930e07df-b4e3-4ca9-98d4-d35d6b0b2253",
+    "codeType": "ds2",
+    "codeURI": "/decisions/flows/930e07df-b4e3-4ca9-98d4-d35d6b0b2253/revisions/eeb777f6-a5fd-44aa-be12-18ac75b3f161/code?rootPackageName=rapidApp_Copy1_0\u0026traversedPathFlag=false\u0026isGeneratingRuleFiredColumn=false\u0026codeTarget=docker",
+    "codeMediaType": "text/vnd.sas.source.ds2.async",
+    "sourceURI": "/decisions/flows/930e07df-b4e3-4ca9-98d4-d35d6b0b2253/revisions/eeb777f6-a5fd-44aa-be12-18ac75b3f161",
+    "publishLevel": "decision"
+  },
+  "properties": {
+    "containerKey": "sha256:8432e7aa701d27ae2777f25db2cbf3c9ee255a3ed732399a22c3e050d117d6f1",
+    "dockerFileUri": "/files/files/7c337cf2-2852-43cb-b617-b8ea90e8634a",
+    "imageUrl": "scrregistrygtpv4.azurecr.io/rapidapp_copy1_0:1"
+  },
+  "sourceURI": "/decisions/flows/930e07df-b4e3-4ca9-98d4-d35d6b0b2253/revisions/eeb777f6-a5fd-44aa-be12-18ac75b3f161",
+  "resources": [
+    {
+      "uri": "/modelRepository/models/cc189cc2-a883-46ec-8a2b-52c91f96d000",
+      "mediaType": "application/vnd.sas.models.model"
+    },
+    {
+      "uri": "/businessRules/ruleSets/e19a8160-1136-4281-bae6-2c2d9f3da7f0/revisions/9fa025a5-56fb-430e-bb41-04e979f57167",
+      "mediaType": "application/vnd.sas.business.rule"
+    },
+    {
+      "uri": "/businessRules/ruleSets/6cbef083-86fa-4dab-aaf1-37f1167635f7/revisions/20777e58-ba7e-4d46-9c71-8eea37c65db4",
+      "mediaType": "application/vnd.sas.business.rule"
+    },
+    {
+      "uri": "/decisions/codeFiles/a0e2afff-9848-4ad8-b805-aa0f5e66c1c0/revisions/f646025d-7128-424c-ac69-c353bb174552",
+      "mediaType": "application/vnd.sas.decision.code.file"
+    }
+  ],
+  "inputVariables": [
+    {
+      "name": "allergies",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "image",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "outputVariables": [
+    {
+      "name": "alergic",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "final_output",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "food_label",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "ingredients",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "isAlergic",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "msg",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "component": {
+    "majorVersion": 1,
+    "name": "rapidApp_Copy"
+  },
+  "product": {
+    "majorVersion": 3,
+    "minorVersion": 21,
+    "versionName": "3.21.51",
+    "name": "Decisions Service"
+  },
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {},
+  "tags": ",1"
+}
