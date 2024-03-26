@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2023-10-24T13:40:45.856Z",
    "createdBy": "sasboot",
-   "modifiedTimeStamp": "2024-03-26T15:21:37.209Z",
+   "modifiedTimeStamp": "2024-03-26T18:51:05.940Z",
    "modifiedBy": "Paata.Ugrekhelidze@sas.com",
    "id": "e9d6db04-c548-460d-8739-d78c17c42cc7",
    "name": "hmeq_xgboost",
@@ -17,7 +17,7 @@
    "targetLevel": "binary",
    "tool": "Python 3",
    "toolVersion": "3.8.12",
-   "publishTimeStamp": 1711465488729,
-   "modelVersionName": "6.0",
+   "publishTimeStamp": 1711466562313,
+   "modelVersionName": "7.0",
    "custom properties": []
 }
