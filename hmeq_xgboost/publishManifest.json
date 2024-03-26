@@ -1,0 +1,112 @@
+{
+  "creationTimeStamp": "2024-03-26T19:28:31.902457Z",
+  "createdBy": "Paata.Ugrekhelidze@sas.com",
+  "modifiedTimeStamp": "2024-03-26T19:28:31.902457Z",
+  "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+  "id": "b0beb19f-4f47-4a39-8839-1ba6603fab46",
+  "destinationName": "Gitpaugre",
+  "destination": {
+    "creationTimeStamp": "2024-03-26T14:59:05.96947Z",
+    "createdBy": "Paata.Ugrekhelidze@sas.com",
+    "modifiedTimeStamp": "2024-03-26T14:59:05.96947Z",
+    "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+    "version": 2,
+    "id": "d89a07aa-00d4-44a4-b672-db15489a46c0",
+    "name": "Gitpaugre",
+    "destinationType": "git",
+    "properties": [
+      {
+        "name": "credDomainId",
+        "value": "git_paugre"
+      },
+      {
+        "name": "remoteRepositoryURL",
+        "value": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+      },
+      {
+        "name": "localRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "userEmail",
+        "value": "paataugrekhelidze@gmail.com"
+      },
+      {
+        "name": "userName",
+        "value": "paataugrekhelidze"
+      },
+      {
+        "name": "gitBranch",
+        "value": "main"
+      },
+      {
+        "name": "deploymentGitFolder",
+        "value": "/deploymentTest"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/Gitpaugre",
+        "uri": "/modelPublish/destinations/Gitpaugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/Gitpaugre",
+        "uri": "/modelPublish/destinations/Gitpaugre"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/Gitpaugre",
+        "uri": "/modelPublish/destinations/Gitpaugre",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "GET",
+        "rel": "getGitFolders",
+        "href": "/modelPublish/destinations/Gitpaugre/gitFolders",
+        "uri": "/modelPublish/destinations/Gitpaugre/gitFolders",
+        "type": "application/vnd.sas.collection"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "hmeq_xgboost",
+    "principalID": "e9d6db04-c548-460d-8739-d78c17c42cc7",
+    "codeType": "python",
+    "code": "package hmeq_xgboost / overwrite=yes;\ndcl package pymas pm;\ndcl package logger logr('App.MM.Python.DS2');\ndcl varchar(32767) character set utf8 pypgm;\ndcl int resultCode revision;\n\nmethod score(double \"LOAN\",\ndouble \"MORTDUE\",\ndouble \"VALUE\",\nvarchar(100) \"REASON\",\nvarchar(100) \"JOB\",\ndouble \"YOJ\",\ndouble \"DEROG\",\ndouble \"DELINQ\",\ndouble \"CLAGE\",\ndouble \"NINQ\",\ndouble \"CLNO\",\ndouble \"DEBTINC\",\nin_out double resultCode,\nin_out double \"P_Bad1\",\nin_out double \"EM_EVENTPROBABILITY\",\nin_out varchar(270) \"msg\");\n\n   resultCode = revision = 0;\n   if null(pm) then do;\n      pm = _new_ pymas();\n      resultCode = pm.useModule('model_exec_93f6c6d5-4231-4244-9f4a-c5576ff386da', 1);\n      if resultCode then do;\n         resultCode = pm.appendSrcLine('import sys');\n         resultCode = pm.appendSrcLine('sys.path.append(\"/models/resources/viya/e9d6db04-c548-460d-8739-d78c17c42cc7/\")');\n         resultCode = pm.appendSrcLine('import settings_e9d6db04_c548_460d_8739_d78c17c42cc7');\n         resultCode = pm.appendSrcLine('settings_e9d6db04_c548_460d_8739_d78c17c42cc7.pickle_path = \"/models/resources/viya/e9d6db04-c548-460d-8739-d78c17c42cc7/\"');\n         resultCode = pm.appendSrcLine('import hmeq_xgboost_d631db0e_8a10_4701_9a46_b0542f7f3e37');\n         resultCode = pm.appendSrcLine('def scoreModel(LOAN, MORTDUE, VALUE, REASON, JOB, YOJ, DEROG, DELINQ, CLAGE, NINQ, CLNO, DEBTINC):');\n         resultCode = pm.appendSrcLine('    \"Output: P_Bad1, msg\"');\n         resultCode = pm.appendSrcLine('    return hmeq_xgboost_d631db0e_8a10_4701_9a46_b0542f7f3e37.scoreModel(LOAN, MORTDUE, VALUE, REASON, JOB, YOJ, DEROG, DELINQ, CLAGE, NINQ, CLNO, DEBTINC)');\n\n         revision = pm.publish(pm.getSource(), 'model_exec_93f6c6d5-4231-4244-9f4a-c5576ff386da');\n         if ( revision \u003c 1 ) then do;\n            logr.log( 'e', 'py.publish() failed.');\n            resultCode = -1;\n            return;\n         end;\n      end;\n   end;\n\n   resultCode = pm.useMethod('scoreModel');\n   if resultCode then do;\n      logr.log('E', 'useMethod() failed. resultCode=$s', resultCode);\n      return;\n   end;\n   resultCode = pm.setDouble('LOAN', LOAN);\n   if resultCode then\n      logr.log('E', 'setDouble for LOAN failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('MORTDUE', MORTDUE);\n   if resultCode then\n      logr.log('E', 'setDouble for MORTDUE failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('VALUE', VALUE);\n   if resultCode then\n      logr.log('E', 'setDouble for VALUE failed.  resultCode=$s', resultCode);\n   resultCode = pm.setString('REASON', REASON);\n   if resultCode then\n      logr.log('E', 'setString for REASON failed.  resultCode=$s', resultCode);\n   resultCode = pm.setString('JOB', JOB);\n   if resultCode then\n      logr.log('E', 'setString for JOB failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('YOJ', YOJ);\n   if resultCode then\n      logr.log('E', 'setDouble for YOJ failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('DEROG', DEROG);\n   if resultCode then\n      logr.log('E', 'setDouble for DEROG failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('DELINQ', DELINQ);\n   if resultCode then\n      logr.log('E', 'setDouble for DELINQ failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('CLAGE', CLAGE);\n   if resultCode then\n      logr.log('E', 'setDouble for CLAGE failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('NINQ', NINQ);\n   if resultCode then\n      logr.log('E', 'setDouble for NINQ failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('CLNO', CLNO);\n   if resultCode then\n      logr.log('E', 'setDouble for CLNO failed.  resultCode=$s', resultCode);\n   resultCode = pm.setDouble('DEBTINC', DEBTINC);\n   if resultCode then\n      logr.log('E', 'setDouble for DEBTINC failed.  resultCode=$s', resultCode);\n   resultCode = pm.execute();\n   if (resultCode) then\n      logr.log('E', 'Error: pm.execute failed.  resultCode=$s', resultCode);\n   else do;\n      \"P_Bad1\" = pm.getDouble('P_Bad1');\n      \"EM_EVENTPROBABILITY\" = pm.getDouble('EM_EVENTPROBABILITY');\n      \"msg\" = pm.getString('msg');\n   end;\nend;\n\nendpackage;\n",
+    "sourceURI": "/modelRepository/models/e9d6db04-c548-460d-8739-d78c17c42cc7",
+    "projectID": "40aa1f93-60d8-433d-b1ad-ed859a3f216b",
+    "projectVersionID": "e516ed1d-ab99-4815-a148-0c102717abc1",
+    "modelID": "e9d6db04-c548-460d-8739-d78c17c42cc7",
+    "modelVersionID": "7.0",
+    "publishLevel": "model",
+    "variableXML": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cScore\u003e\n  \u003cTargetList\u003e\u003c/TargetList\u003e\n  \u003cProducer\u003e\n    \u003cName\u003eSAS Model Manager\u003c/Name\u003e\n    \u003cVersion\u003e15.1\u003c/Version\u003e\n  \u003c/Producer\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"LOAN\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"MORTDUE\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"VALUE\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"REASON\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"JOB\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"YOJ\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"DEROG\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"DELINQ\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"CLAGE\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"NINQ\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"CLNO\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"DEBTINC\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"P_Bad1\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"EM_EVENTPROBABILITY\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"msg\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n\u003c/Score\u003e"
+  },
+  "properties": {
+    "gitFolderPath": "hmeq_xgboost",
+    "gitRepositoryURL": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+  },
+  "sourceURI": "/modelRepository/models/e9d6db04-c548-460d-8739-d78c17c42cc7",
+  "inputVariables": null,
+  "outputVariables": null,
+  "component": {},
+  "product": {},
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {}
+}
