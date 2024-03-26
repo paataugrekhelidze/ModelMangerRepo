@@ -28,7 +28,7 @@ def preprocessing(df, ohe_loc = None):
 def scoreModel(LOAN, MORTDUE, VALUE, REASON, JOB, YOJ, DEROG, DELINQ, CLAGE, NINQ, CLNO, DEBTINC):
     "Output: P_Bad1, msg"
 
-    
+    print("testing")
     _pFile = open(settings.pickle_path + "hmeq_xgboost.pickle", "rb")
     _thisModelFit = pickle.load(_pFile)
     _pFile.close()
