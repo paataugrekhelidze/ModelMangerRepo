@@ -1,0 +1,46 @@
+[
+   {
+      "name": "ContainerWrapper.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "DS2Pkg_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "example_test.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "hmeq_xgboost.pickle",
+      "role": "python pickle"
+   },
+   {
+      "name": "hmeq__encoder.pickle",
+      "role": "python pickle"
+   },
+   {
+      "name": "inputVar.json",
+      "role": "inputVariables"
+   },
+   {
+      "name": "outputVar.json",
+      "role": "outputVariables"
+   },
+   {
+      "name": "requirements.json",
+      "role": "scoreResource"
+   },
+   {
+      "name": "hmeq_xgboost.py",
+      "role": "score"
+   },
+   {
+      "name": "DS2EP_PythonWrapper.sas",
+      "role": "scoreResource"
+   }
+]

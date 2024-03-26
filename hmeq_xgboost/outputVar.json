@@ -1,0 +1,32 @@
+[
+   {
+      "name": "P_Bad1",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "EM_EVENTPROBABILITY",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "msg",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 270
+   }
+]

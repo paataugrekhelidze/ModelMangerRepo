@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2023-10-24T13:40:45.856Z",
+   "createdBy": "sasboot",
+   "modifiedTimeStamp": "2024-03-20T15:48:49.569Z",
+   "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+   "id": "e9d6db04-c548-460d-8739-d78c17c42cc7",
+   "name": "hmeq_xgboost",
+   "scoreCodeType": "python",
+   "algorithm": "gradboost",
+   "function": "classification",
+   "modeler": "Paata",
+   "modelType": "python",
+   "trainCodeType": "python",
+   "eventProbVar": "P_Bad1",
+   "targetVariable": "P_Bad1",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Python 3",
+   "toolVersion": "3.8.12",
+   "publishTimeStamp": 1710949727644,
+   "modelVersionName": "5.0",
+   "custom properties": []
+}
