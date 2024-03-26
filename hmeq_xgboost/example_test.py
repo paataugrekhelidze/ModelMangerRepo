@@ -14,4 +14,4 @@ def score_record(LOAN,MORTDUE,VALUE,REASON,JOB,YOJ,DEROG,DELINQ,CLAGE,NINQ,CLNO,
     "Output: P_Bad1,msg"
     return hmeq_xgboost.scoreModel(LOAN,MORTDUE,VALUE,REASON,JOB,YOJ,DEROG,DELINQ,CLAGE,NINQ,CLNO,DEBTINC)
 
-print(score_record(82.68,119.01,198.99,"","",44.47,99.74,176.73,21.56,14.62,48.50,167.92))
+print(score_record(78.91,144.77,58.01,"","",21.20,4.35,141.11,39.51,100.76,45.90,135.32))
