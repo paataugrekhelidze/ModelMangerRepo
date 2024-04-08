@@ -1,0 +1,106 @@
+[
+	 {
+        "step":"install unzip",
+        "command": "microdnf install unzip"
+     },
+	{
+        "step":"untar model assets",
+        "command":"for file in /pybox/model/*.zip; do unzip -o "$file" -d /tmp && break; done"
+     },
+	{
+        "step":"list directory ",
+        "command":"ls /pybox/model"
+     },
+     {
+        "step":"rewrite scoring api and scoring function ",
+        "command":"cp -f /tmp/app_scoring.py /pybox/app/app_scoring.py && cp -f /tmp/server.py /pybox/app/server.py"
+     },
+     {
+        "step":"install sqlitedevel ",
+        "command":"microdnf install sqlite-devel"
+     },
+     {
+        "step":"install compiler ",
+        "command":"microdnf install gcc-c++"
+     },
+     {
+        "step":" clean ",
+        "command":"microdnf clean all"
+     },
+     {
+        "step":"install gzip",
+        "command": "microdnf install gzip"
+     },
+     {
+        "step":"recompile python",
+        "command": "wget https://www.python.org/ftp/python/3.9.0/Python-3.9.0.tgz && tar -xvf Python-3.9.0.tgz && cd Python-3.9.0 && microdnf install gcc openssl-devel bzip2-devel libffi-devel -y && ./configure --prefix=/usr/local && make && make install && echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bashrc && source ~/.bashrc"
+     },
+     {
+        "step":"install prereqs ",
+        "command":"pip3 install gunicorn Flask Jinja2 markupsafe flasgger scikit-learn pylzma"
+     },
+     {
+        "step":"install pandas ",
+        "command":"pip3 install pandas"
+     },
+     {
+        "step":"install pytorch1 ",
+        "command":"pip3 install torch --extra-index-url https://download.pytorch.org/whl/cpu"
+     },
+     {
+        "step":"install pytorch2 ",
+        "command":"pip3 install torchvision --extra-index-url https://download.pytorch.org/whl/cpu"
+     },
+     {
+        "step":"install pytorch3 ",
+        "command":"pip3 install torchaudio --extra-index-url https://download.pytorch.org/whl/cpu"
+     },
+     {
+        "step":"install pypdf ",
+        "command":"pip3 install -q pypdf"
+     },
+     {
+        "step":"install python-dotenv ",
+        "command":"pip3 install -q python-dotenv"
+     },
+     {
+        "step":"install transformers ",
+        "command":"pip3 install -q transformers"
+     },
+     {
+        "step":" upgrade pip ",
+        "command":"pip install --upgrade pip"
+     },
+     {
+        "step":"install langchain_community ",
+        "command":"pip3 install langchain_community"
+     },
+     {
+        "step":"install langchain ",
+        "command":"pip3 install --upgrade --quiet langchain"
+     },
+     {
+        "step":"install langchain-core ",
+        "command":"pip3 install --upgrade --quiet langchain-core"
+     },
+     {
+        "step":"install nemoguardrails ",
+        "command":"pip3 install --upgrade --quiet nemoguardrails"
+     },
+     {
+        "step":"install pysqlite3-binary ",
+        "command":"pip3 install --upgrade --quiet pysqlite3-binary"
+     },
+     {
+        "step":"install chromadb ",
+        "command":"pip3 install --upgrade --quiet chromadb"
+     },
+     {
+        "step":"install sentence-transformers ",
+        "command":"pip3 install --upgrade --quiet sentence-transformers"
+     },
+     {
+        "step":"open permission ",
+        "command":"chmod 777 -R /home"
+     }
+]

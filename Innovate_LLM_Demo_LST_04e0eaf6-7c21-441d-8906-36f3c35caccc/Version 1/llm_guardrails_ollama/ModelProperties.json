@@ -1,0 +1,22 @@
+{
+   "creationTimeStamp": "2024-04-08T14:05:11.868Z",
+   "createdBy": "sasboot",
+   "modifiedTimeStamp": "2024-04-08T14:23:18.300Z",
+   "modifiedBy": "Paata.Ugrekhelidze@sas.com",
+   "id": "d67f78ca-d36c-4ded-80c2-f8187d8c2b38",
+   "name": "llm_guardrails_ollama",
+   "scoreCodeType": "python",
+   "algorithm": "Large Language Model",
+   "function": "classification",
+   "modeler": "Paata U.",
+   "modelType": "python",
+   "trainCodeType": "Python",
+   "eventProbVar": "response",
+   "targetVariable": "response",
+   "targetLevel": "nominal",
+   "tool": "Python 3",
+   "toolVersion": "3.9",
+   "publishTimeStamp": 1712586197277,
+   "modelVersionName": "3.0",
+   "custom properties": []
+}

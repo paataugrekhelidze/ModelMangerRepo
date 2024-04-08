@@ -1,0 +1,42 @@
+[
+   {
+      "name": "llm_guardrails_ollama.py",
+      "role": "score"
+   },
+   {
+      "name": "server.py",
+      "role": "python pickle"
+   },
+   {
+      "name": "app_scoring.py",
+      "role": "python pickle"
+   },
+   {
+      "name": "outputVar.json",
+      "role": "outputVariables"
+   },
+   {
+      "name": "inputVar.json",
+      "role": "inputVariables"
+   },
+   {
+      "name": "requirements.json",
+      "role": "scoreResource"
+   },
+   {
+      "name": "ContainerWrapper.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "DS2Pkg_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "example_test.py",
+      "role": "scoreResource"
+   }
+]

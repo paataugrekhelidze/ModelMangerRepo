@@ -1,0 +1,12 @@
+[
+   {
+      "name": "response",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 4000
+   }
+]
