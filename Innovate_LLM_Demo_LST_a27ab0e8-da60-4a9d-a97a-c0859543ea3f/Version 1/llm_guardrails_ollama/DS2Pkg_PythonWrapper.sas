@@ -1,4 +1,4 @@
-package llm_guardrails_ollama / overwrite=yes;
+package pythonScore / overwrite=yes;
 dcl package pymas pm;
 dcl package logger logr('App.MM.Python.DS2');
 dcl varchar(32767) character set utf8 pypgm;
