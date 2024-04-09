@@ -3,7 +3,6 @@ LABEL model container image
 
 COPY *.* /pybox/model/
 
-
 USER root
 RUN chown sas:sas /pybox/model/
 USER sas
