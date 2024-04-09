@@ -1,0 +1,38 @@
+[
+   {
+      "name": "requirements.json",
+      "role": "scoreResource"
+   },
+   {
+      "name": "server.py",
+      "role": "python pickle"
+   },
+   {
+      "name": "app_scoring.py",
+      "role": "python pickle"
+   },
+   {
+      "name": "outputVar.json",
+      "role": "outputVariables"
+   },
+   {
+      "name": "inputVar.json",
+      "role": "inputVariables"
+   },
+   {
+      "name": "topics.co",
+      "role": "python pickle"
+   },
+   {
+      "name": "llm_guardrails_ollama.py",
+      "role": "score"
+   },
+   {
+      "name": "ContainerWrapper.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   }
+]

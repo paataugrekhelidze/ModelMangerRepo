@@ -1,0 +1,53 @@
+# define flow for political questions
+define user ask politics
+    "what are your political beliefs?"
+    "thoughts on the president?"
+    "left wing"
+    "right wing"
+
+define bot answer politics
+    "I'm a documentation assistant, I don't like to talk of politics."
+    "Sorry I can't talk about politics!"
+
+define flow politics
+    user ask politics
+    bot answer politics
+
+# define flows for competitor questions
+define user ask competition
+    "Is Google Model Manager better than SAS Model Manager"
+    "who is better Google GCP vs SAS?"
+    "who is better Amazon AWS vs SAS?"
+    "who is better Microsoft Azure vs SAS?"
+    "How does SAS Model Manager compare to Amazon AWS Sagemaker?"
+
+define bot answer competition
+    "I'm a documentation assistant for SAS Model Manager, I can't talk about other company products."
+    "Sorry I can't talk about competitor products!"
+
+define flow competition
+    user ask competition
+    bot answer competition
+
+# define RAG intents and flow
+define user ask MM
+    "tell me about Model Manager?"
+    "How does SAS Model Manager provide MLOps"
+    "Does Model Manager support open source models?"
+    "To what destinations can Model Manager deploy models?"
+    "can Model Manager validate and monitor models?"
+
+define flow MM
+    user ask MM
+    $contexts = execute retrieve(query=$last_user_message, collection=$collection, vector_host=$vector_host, vector_port=$vector_port, model_url=$model_url, model=$embedder)
+    $answer = execute rag(model=$model, history=$history, query=$last_user_message, model_url=$model_url, contexts=$contexts)
+    bot $answer
+
+# define flow for everything else
+define bot answer irrelevant
+    "I'm a documentation assistant, the question is irrelevant!"
+    "Sorry this question is irrelevant for the Model Manager Documentation!"
+
+define flow
+    user ...
+    bot answer irrelevant
