@@ -4,6 +4,18 @@
         "command": "microdnf install unzip"
      },
      {
+        "step":"untar model assets",
+        "command":"for file in /pybox/model/*.zip; do unzip -o \\"$file\\" -d /tmp && break; done"
+     },
+	{
+        "step":"list directory ",
+        "command":"ls /pybox/model"
+     },
+     {
+        "step":"rewrite scoring api and scoring function ",
+        "command":"cp -f /tmp/app_scoring.py /pybox/app/app_scoring.py && cp -f /tmp/server.py /pybox/app/server.py"
+     },
+     {
         "step":"install sqlitedevel ",
         "command":"microdnf install sqlite-devel"
      },
