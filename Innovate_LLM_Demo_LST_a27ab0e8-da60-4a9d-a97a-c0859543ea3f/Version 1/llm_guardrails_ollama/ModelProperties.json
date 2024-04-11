@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2024-04-08T14:52:49.816Z",
    "createdBy": "sasboot",
-   "modifiedTimeStamp": "2024-04-11T13:29:15.531Z",
+   "modifiedTimeStamp": "2024-04-11T13:30:28.408Z",
    "modifiedBy": "Paata.Ugrekhelidze@sas.com",
    "id": "020a3df1-d44b-4782-80e7-945fdd37cd78",
    "name": "llm_guardrails_ollama",
@@ -16,7 +16,7 @@
    "targetLevel": "nominal",
    "tool": "Python 3",
    "toolVersion": "3.9",
-   "publishTimeStamp": 1712702957778,
-   "modelVersionName": "10.0",
+   "publishTimeStamp": 1712842226503,
+   "modelVersionName": "11.0",
    "custom properties": []
 }

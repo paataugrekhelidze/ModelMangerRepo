@@ -14,4 +14,4 @@ def score_record(prompt,system,history,model,embedder,collection,host,model_port
     "Output: response"
     return llm_guardrails_ollama.scoreModel(prompt,system,history,model,embedder,collection,host,model_port,vector_port)
 
-print(score_record("","","","","","","",1.90,90.89))
+print(score_record("","","","","","","",96.80,57.46))
