@@ -4,3 +4,4 @@ llm_guardrails_ollama published from /modelRepository/models/020a3df1-d44b-4782-
 llm_guardrails_ollama published from /modelRepository/models/020a3df1-d44b-4782-80e7-945fdd37cd78 at 2024-04-09 19:45:22.227907625 +0000 UTC m=+109147.085512174 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0409.4
 llm_guardrails_ollama published from /modelRepository/models/020a3df1-d44b-4782-80e7-945fdd37cd78 at 2024-04-09 21:10:34.701172621 +0000 UTC m=+114259.558777171 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0409.5
 llm_guardrails_ollama published from /modelRepository/models/020a3df1-d44b-4782-80e7-945fdd37cd78 at 2024-04-09 21:22:11.403099919 +0000 UTC m=+114956.260704488 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0409.6
+llm_guardrails_ollama published from /modelRepository/models/020a3df1-d44b-4782-80e7-945fdd37cd78 at 2024-04-11 13:30:07.906200251 +0000 UTC m=+259432.763804808 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0411.1

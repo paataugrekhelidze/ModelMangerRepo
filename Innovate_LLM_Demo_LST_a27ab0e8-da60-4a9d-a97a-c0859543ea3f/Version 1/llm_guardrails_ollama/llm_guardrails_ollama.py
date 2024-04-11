@@ -138,6 +138,10 @@ config = RailsConfig.from_path("./")
 async def async_scoreModel(prompt, system, history, model, embedder, collection, host, model_port, vector_port):
     llm = ChatOllama(model=model, base_url=f'http://{host}:{model_port}')
     rag_rails = LLMRails(config, llm=llm, verbose=False)
+    
+    rag_rails.register_action(action=retrieve, name="retrieve")
+    rag_rails.register_action(action=rag, name="rag")
+    
     messages = [
         {"role": "system", "content": system},
         {"role": "context", "content": {"collection": collection, "vector_host": host, "vector_port": vector_port, "model_url": f'http://{host}:{model_port}', "embedder": embedder, "model": model, "history": history}},
