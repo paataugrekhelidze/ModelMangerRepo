@@ -37,7 +37,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: "Innovate_LLM_Demo_LST_a27ab0e8-da60-4a9d-a97a-c0859543ea3f/Version 1/llm_guardrails_ollama/"
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
