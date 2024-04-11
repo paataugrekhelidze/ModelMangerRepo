@@ -5,7 +5,7 @@
      },
      {
         "step":"untar model assets",
-        "command":"for file in /pybox/model/*.zip; do unzip -o \\"$file\\" -d /tmp && break; done"
+        "command":"for file in /pybox/model/*.zip; do unzip -o \"$file\" -d /tmp && break; done"
      },
 	{
         "step":"list directory ",
