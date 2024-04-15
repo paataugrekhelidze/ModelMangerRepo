@@ -32,6 +32,10 @@
       "role": "scoreResource"
    },
    {
+      "name": "requirements.json",
+      "role": "python pickle"
+   },
+   {
       "name": "DS2Pkg_PythonWrapper.sas",
       "role": "scoreResource"
    },

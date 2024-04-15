@@ -1,0 +1,14 @@
+[
+     {
+        "step":"install pandas 1.5.3",
+        "command":"pip3 install pandas==1.5.3"
+     },
+     {
+        "step":"install scikit-learn 1.4.0",
+        "command":"pip3 install scikit-learn==1.4.0"
+     },
+     {
+        "step":"open permission ",
+        "command":"chmod 777 -R /pybox"
+     }
+]
