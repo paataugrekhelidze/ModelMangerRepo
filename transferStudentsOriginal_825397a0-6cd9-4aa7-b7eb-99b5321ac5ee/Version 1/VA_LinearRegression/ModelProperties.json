@@ -1,0 +1,22 @@
+{
+   "creationTimeStamp": "2024-04-15T15:26:17.202Z",
+   "createdBy": "sasboot",
+   "modifiedTimeStamp": "2024-04-15T15:33:19.189Z",
+   "modifiedBy": "sasboot",
+   "id": "be2af62c-66cc-4e23-8825-c4d514108530",
+   "name": "VA_LinearRegression",
+   "scoreCodeType": "python",
+   "algorithm": "Linear Regression",
+   "function": "Prediction",
+   "modeler": "Paata",
+   "modelType": "python",
+   "trainCodeType": "Python",
+   "eventProbVar": "P_EOT_SGPA",
+   "targetVariable": "P_EOT_SGPA",
+   "targetLevel": "interval",
+   "tool": "Python 3",
+   "toolVersion": "3.9",
+   "publishTimeStamp": 1713195197736,
+   "modelVersionName": "2.0",
+   "custom properties": []
+}

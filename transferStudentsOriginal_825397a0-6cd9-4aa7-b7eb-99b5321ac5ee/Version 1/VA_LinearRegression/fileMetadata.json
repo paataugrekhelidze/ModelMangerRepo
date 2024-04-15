@@ -1,0 +1,46 @@
+[
+   {
+      "name": "VA_LinearRegression.py",
+      "role": "score"
+   },
+   {
+      "name": "VA_LinearRegression.pickle",
+      "role": "python pickle"
+   },
+   {
+      "name": "VA__encoder.pickle",
+      "role": "python pickle"
+   },
+   {
+      "name": "VA_num_imputer.pkl",
+      "role": "python pickle"
+   },
+   {
+      "name": "VA_cat_imputer.pkl",
+      "role": "python pickle"
+   },
+   {
+      "name": "inputVar.json",
+      "role": "inputVariables"
+   },
+   {
+      "name": "outputVar.json",
+      "role": "outputVariables"
+   },
+   {
+      "name": "DS2EP_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "DS2Pkg_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "example_test.py",
+      "role": "scoreResource"
+   }
+]

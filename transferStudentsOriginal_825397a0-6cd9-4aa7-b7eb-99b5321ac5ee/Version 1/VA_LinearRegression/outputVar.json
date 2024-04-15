@@ -1,0 +1,12 @@
+[
+   {
+      "name": "P_EOT_SGPA",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   }
+]

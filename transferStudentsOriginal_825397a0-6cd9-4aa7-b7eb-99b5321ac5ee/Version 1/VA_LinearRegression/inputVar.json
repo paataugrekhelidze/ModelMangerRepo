@@ -1,0 +1,312 @@
+[
+   {
+      "name": "ACT_COMP",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "ACT_ENGL",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "ACT_MATH",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "ACT_READ",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "ACT_SCIENCE",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "ACT_WRITING",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "AGE",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "CNSS_TGPA",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "College",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "HS_GPA",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_B_to_A",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_C_to_A",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_C_to_B",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_D_to_A",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_D_to_B",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_D_to_C",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_F_to_A",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_F_to_B",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_F_to_C",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Ratio_F_to_D",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "SAT_ES_SUB",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "SAT_MATH",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "SAT_MUL_CHCE",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "SAT_VERBAL",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "SAT_WRITING",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "TOTAL_SAT",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "AFFIL_ALUM_R1",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 5
+   },
+   {
+      "name": "AFFIL_ALUM_R2",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 5
+   },
+   {
+      "name": "AFFIL_RELATION1",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 14
+   },
+   {
+      "name": "AFFIL_RELATION2",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 13
+   },
+   {
+      "name": "CNSS_LOAD",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 19
+   }
+]
