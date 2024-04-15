@@ -37,7 +37,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/VA_LinearRegression/"
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
