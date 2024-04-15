@@ -1,0 +1,44 @@
+name: Publish Docker image
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/**/VA_LinearRegression/Dockerfile"
+
+jobs:
+  push_to_registry:
+    name: Push Docker image to Docker Hub
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Log in to Base Image Registry
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.SAS_BASE_IMAGE_REGISTRY_USERNAME }}
+          password: ${{ secrets.SAS_BASE_IMAGE_REGISTRY_PASSWORD }}
+          registry: crcache-az-us-east.unx.sas.com
+
+      - name: Log in to Docker Hub (Destination Registry)
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: paataugre/VA_LinearRegression
+          tags: latest
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          file: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/VA_LinearRegression/Dockerfile"
