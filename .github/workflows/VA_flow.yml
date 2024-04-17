@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/**/VA_LinearRegression/Dockerfile"
+      - "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/**/Dockerfile"
 
 jobs:
   push_to_registry:
@@ -31,14 +31,14 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: paataugre/VA_LinearRegression
+          images: paataugre/VA_model
           tags: latest
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/VA_LinearRegression/"
+          context: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/Gradient Boosting (Pipeline 1)/"
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          file: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/VA_LinearRegression/Dockerfile"
+          file: "transferStudentsOriginal_825397a0-6cd9-4aa7-b7eb-99b5321ac5ee/Version 1/Gradient Boosting (Pipeline 1)/Dockerfile"
