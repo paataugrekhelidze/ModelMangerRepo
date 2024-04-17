@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2024-04-12T17:37:36.360Z",
+   "createdBy": "Robert.Blanchard@sas.com",
+   "modifiedTimeStamp": "2024-04-12T17:37:59.690Z",
+   "modifiedBy": "Robert.Blanchard@sas.com",
+   "id": "2f96866e-4750-4842-bb21-72ba3fe7fc10",
+   "name": "Gradient Boosting (Pipeline 1)",
+   "scoreCodeType": "ds2MultiType",
+   "algorithm": "gradboost",
+   "function": "prediction",
+   "modeler": "Robert.Blanchard@sas.com",
+   "modelType": "astore",
+   "trainTable": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/TRANSFERSTUDENTS",
+   "predictionVariable": "P_EOT_SGPA",
+   "eventProbVar": "P_EOT_SGPA",
+   "targetVariable": "EOT_SGPA",
+   "targetLevel": "interval",
+   "tool": "Model Studio",
+   "toolVersion": "V2024.03",
+   "externalModelId": "89b730a3-317a-4c8d-8d4d-c127353c779e",
+   "modelVersionName": "1.1",
+   "custom properties": []
+}

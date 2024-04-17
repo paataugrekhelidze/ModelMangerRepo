@@ -1,0 +1,310 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "maxDifferences",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "BASE": {
+      "label": "Base Level",
+      "length": 100,
+      "order": 4,
+      "parameter": "BASE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "BASE"
+      ]
+    },
+    "COMPARE": {
+      "label": "Comparison Level",
+      "length": 100,
+      "order": 5,
+      "parameter": "COMPARE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "COMPARE"
+      ]
+    },
+    "Metric": {
+      "label": "Metric",
+      "length": 10,
+      "order": 6,
+      "parameter": "Metric",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "Metric"
+      ]
+    },
+    "MetricLabel": {
+      "label": "Metric Label",
+      "length": 34,
+      "order": 7,
+      "parameter": "MetricLabel",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "MetricLabel"
+      ]
+    },
+    "VLABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 2,
+      "parameter": "VLABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "VLABEL"
+      ]
+    },
+    "_DATAROLE_": {
+      "label": "Data Role",
+      "length": 8,
+      "order": 3,
+      "parameter": "_DATAROLE_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_DATAROLE_"
+      ]
+    },
+    "_VARIABLE_": {
+      "label": "Variable",
+      "length": 255,
+      "order": 1,
+      "parameter": "_VARIABLE_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_VARIABLE_"
+      ]
+    },
+    "maxdiff": {
+      "label": "Maximum Metric Difference",
+      "length": 8,
+      "order": 8,
+      "parameter": "maxdiff",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "maxdiff"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "BASE": "F",
+        "COMPARE": "M",
+        "Metric": "P_EOT_SGPA",
+        "MetricLabel": "Average Predicted: EOT_SGPA",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.22271320526"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "ASE",
+        "MetricLabel": "Average Square Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.0175153523646"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "RASE",
+        "MetricLabel": "Root Average Square Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.030665088162"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "MAE",
+        "MetricLabel": "Mean Absolute Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.0204091886431"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "RMAE",
+        "MetricLabel": "Root Mean Absolute Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.0233064410474"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "MSLE",
+        "MetricLabel": "Mean Square Logarithmic Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.00433803052584"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "BASE": "M",
+        "COMPARE": "F",
+        "Metric": "RMSLE",
+        "MetricLabel": "Root Mean Square Logarithmic Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.0201752355181"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "BASE": "F",
+        "COMPARE": "M",
+        "Metric": "PREDICTED",
+        "MetricLabel": "Average Prediction",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "maxdiff": "0.22271320526"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "BASE": "Asian",
+        "COMPARE": "Underrepresented Minority",
+        "Metric": "P_EOT_SGPA",
+        "MetricLabel": "Average Predicted: EOT_SGPA",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.27265297052"
+      },
+      "rowNumber": 9
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "Other Minority",
+        "Metric": "ASE",
+        "MetricLabel": "Average Square Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.26260999119"
+      },
+      "rowNumber": 10
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "Other Minority",
+        "Metric": "RASE",
+        "MetricLabel": "Root Average Square Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.318916074398"
+      },
+      "rowNumber": 11
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "White",
+        "Metric": "MAE",
+        "MetricLabel": "Mean Absolute Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.145983571463"
+      },
+      "rowNumber": 12
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "White",
+        "Metric": "RMAE",
+        "MetricLabel": "Root Mean Absolute Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.145307331485"
+      },
+      "rowNumber": 13
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "Other Minority",
+        "Metric": "MSLE",
+        "MetricLabel": "Mean Square Logarithmic Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.0553375949575"
+      },
+      "rowNumber": 14
+    },
+    {
+      "dataMap": {
+        "BASE": "Nonresident Alien",
+        "COMPARE": "Other Minority",
+        "Metric": "RMSLE",
+        "MetricLabel": "Root Mean Square Logarithmic Error",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.164264654935"
+      },
+      "rowNumber": 15
+    },
+    {
+      "dataMap": {
+        "BASE": "Asian",
+        "COMPARE": "Underrepresented Minority",
+        "Metric": "PREDICTED",
+        "MetricLabel": "Average Prediction",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "maxdiff": "0.27265297052"
+      },
+      "rowNumber": 16
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

@@ -1,0 +1,421 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "varimportance",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "Importance": {
+      "label": "Training Importance",
+      "length": 8,
+      "order": 4,
+      "parameter": "Importance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "Importance"
+      ]
+    },
+    "LABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 1,
+      "parameter": "LABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LABEL"
+      ]
+    },
+    "ROLE": {
+      "label": "Role",
+      "length": 32,
+      "order": 2,
+      "parameter": "ROLE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "ROLE"
+      ]
+    },
+    "RelativeImportance": {
+      "label": "Relative Importance",
+      "length": 8,
+      "order": 6,
+      "parameter": "RelativeImportance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "RelativeImportance"
+      ]
+    },
+    "Std": {
+      "label": "Importance Standard Deviation",
+      "length": 8,
+      "order": 5,
+      "parameter": "Std",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "Std"
+      ]
+    },
+    "Variable": {
+      "label": "Variable Name",
+      "length": 15,
+      "order": 3,
+      "parameter": "Variable",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "Variable"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "Importance": "35.266191643",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "1",
+        "Std": "149.330140031",
+        "Variable": "Ratio_F_to_A"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "Importance": "26.2757564591",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.745069292571",
+        "Std": "96.9916910114",
+        "Variable": "Ratio_C_to_A"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "Importance": "10.3206856868",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.292650984014",
+        "Std": "36.7489302899",
+        "Variable": "Ratio_F_to_B"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "Importance": "5.24252785363",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.148655911211",
+        "Std": "16.6149879104",
+        "Variable": "Ratio_D_to_A"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "Importance": "4.34288256465",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.1231457768",
+        "Std": "12.087709112",
+        "Variable": "Ratio_B_to_A"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "Importance": "4.18365682381",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.1186308084",
+        "Std": "5.31441025296",
+        "Variable": "CNSS_TGPA"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "Importance": "2.8086220125",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.07964063829",
+        "Std": "7.15361948843",
+        "Variable": "Ratio_D_to_B"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "Importance": "2.19984504511",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0623782989494",
+        "Std": "5.85816289072",
+        "Variable": "Ratio_F_to_C"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "Importance": "1.50168029087",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0425813001323",
+        "Std": "2.4811043325",
+        "Variable": "Ratio_C_to_B"
+      },
+      "rowNumber": 9
+    },
+    {
+      "dataMap": {
+        "Importance": "0.790925779794",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0224273090727",
+        "Std": "2.12681140187",
+        "Variable": "Ratio_D_to_C"
+      },
+      "rowNumber": 10
+    },
+    {
+      "dataMap": {
+        "Importance": "0.545331611449",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0154632974541",
+        "Std": "0.968764939782",
+        "Variable": "College"
+      },
+      "rowNumber": 11
+    },
+    {
+      "dataMap": {
+        "Importance": "0.540482875392",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0153258078123",
+        "Std": "0.822875762769",
+        "Variable": "HS_GPA"
+      },
+      "rowNumber": 12
+    },
+    {
+      "dataMap": {
+        "Importance": "0.458452802927",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0129997819886",
+        "Std": "0.902459951857",
+        "Variable": "SAT_WRITING"
+      },
+      "rowNumber": 13
+    },
+    {
+      "dataMap": {
+        "Importance": "0.400705474226",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.011362312049",
+        "Std": "0.648475137048",
+        "Variable": "SAT_VERBAL"
+      },
+      "rowNumber": 14
+    },
+    {
+      "dataMap": {
+        "Importance": "0.368416149367",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0104467233972",
+        "Std": "0.627912142976",
+        "Variable": "SAT_MATH"
+      },
+      "rowNumber": 15
+    },
+    {
+      "dataMap": {
+        "Importance": "0.361635151178",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0102544429758",
+        "Std": "0.967368698146",
+        "Variable": "Ratio_F_to_D"
+      },
+      "rowNumber": 16
+    },
+    {
+      "dataMap": {
+        "Importance": "0.311893948445",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00884399289843",
+        "Std": "0.546242688773",
+        "Variable": "TOTAL_SAT"
+      },
+      "rowNumber": 17
+    },
+    {
+      "dataMap": {
+        "Importance": "0.183280081846",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00519704774765",
+        "Std": "0.399049778183",
+        "Variable": "SAT_MUL_CHCE"
+      },
+      "rowNumber": 18
+    },
+    {
+      "dataMap": {
+        "Importance": "0.137900030959",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00391026148656",
+        "Std": "0.395956654348",
+        "Variable": "SAT_ES_SUB"
+      },
+      "rowNumber": 19
+    },
+    {
+      "dataMap": {
+        "Importance": "0.123713608581",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00350799456411",
+        "Std": "0.324549932206",
+        "Variable": "AFFIL_RELATION2"
+      },
+      "rowNumber": 20
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0991322999049",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00281097264225",
+        "Std": "0.291436342174",
+        "Variable": "CNSS_LOAD"
+      },
+      "rowNumber": 21
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0902609257158",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00255941800094",
+        "Std": "0.2949550155",
+        "Variable": "AFFIL_RELATION1"
+      },
+      "rowNumber": 22
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0693916307431",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00196765308388",
+        "Std": "0.23327958931",
+        "Variable": "ACT_COMP"
+      },
+      "rowNumber": 23
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0685156198891",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00194281312206",
+        "Std": "0.255357838599",
+        "Variable": "AFFIL_ALUM_R1"
+      },
+      "rowNumber": 24
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0599770173445",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00170069447679",
+        "Std": "0.356468083059",
+        "Variable": "ACT_SCIENCE"
+      },
+      "rowNumber": 25
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0383434991015",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00108725942085",
+        "Std": "0.173281687106",
+        "Variable": "ACT_MATH"
+      },
+      "rowNumber": 26
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0359816138454",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00102028634704",
+        "Std": "0.162230620366",
+        "Variable": "ACT_READ"
+      },
+      "rowNumber": 27
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0339845970709",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.000963659399772",
+        "Std": "0.187463965956",
+        "Variable": "AFFIL_ALUM_R2"
+      },
+      "rowNumber": 28
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0324388524421",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.000919828621431",
+        "Std": "0.183538875141",
+        "Variable": "ACT_WRITING"
+      },
+      "rowNumber": 29
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0142590221382",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.000404325544492",
+        "Std": "0.0917552169597",
+        "Variable": "ACT_ENGL"
+      },
+      "rowNumber": 30
+    },
+    {
+      "dataMap": {
+        "Importance": "0.0129210229309",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.000366385547431",
+        "Std": "0.101714819434",
+        "Variable": "AGE"
+      },
+      "rowNumber": 31
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

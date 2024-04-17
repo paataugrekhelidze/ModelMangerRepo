@@ -1,2 +1,3 @@
 VA_LinearRegression published from /modelRepository/models/be2af62c-66cc-4e23-8825-c4d514108530 at 2024-04-15 18:32:25.09453178 +0000 UTC m=+623164.155461096 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0415.1
 VA_LinearRegression published from /modelRepository/models/be2af62c-66cc-4e23-8825-c4d514108530 at 2024-04-15 19:59:23.762620929 +0000 UTC m=+628382.823550244 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0415.2
+Gradient Boosting (Pipeline 1) published from /modelRepository/models/2f96866e-4750-4842-bb21-72ba3fe7fc10 at 2024-04-17 11:35:39.108282109 +0000 UTC m=+770958.169211425 by Paata.Ugrekhelidze@sas.com. Branch: main Tag: v2024.0417.1

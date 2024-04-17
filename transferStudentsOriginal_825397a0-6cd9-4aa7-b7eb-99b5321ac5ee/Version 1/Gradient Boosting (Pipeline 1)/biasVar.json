@@ -1,0 +1,24 @@
+[
+   {
+      "name": "GENDER",
+      "description": "",
+      "role": "assessbias",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 0,
+      "biasFlag": true
+   },
+   {
+      "name": "RACE_NEW",
+      "description": "",
+      "role": "assessbias",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 0,
+      "biasFlag": true
+   }
+]

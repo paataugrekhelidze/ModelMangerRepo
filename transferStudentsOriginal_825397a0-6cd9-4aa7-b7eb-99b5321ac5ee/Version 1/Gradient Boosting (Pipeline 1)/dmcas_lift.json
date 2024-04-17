@@ -1,0 +1,966 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "dmcas_lift",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "_Column_": {
+      "label": "Analysis Variable",
+      "length": 10,
+      "order": 5,
+      "parameter": "_Column_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_Column_"
+      ]
+    },
+    "_DataRole_": {
+      "label": "Data Role",
+      "length": 10,
+      "order": 2,
+      "parameter": "_DataRole_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_DataRole_"
+      ]
+    },
+    "_Depth_": {
+      "label": "Depth",
+      "length": 8,
+      "order": 6,
+      "parameter": "_Depth_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_Depth_"
+      ]
+    },
+    "_MaxP_": {
+      "label": "Predicted Maximum",
+      "length": 8,
+      "order": 11,
+      "parameter": "_MaxP_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MaxP_"
+      ]
+    },
+    "_MaxT_": {
+      "label": "Target Maximum",
+      "length": 8,
+      "order": 14,
+      "parameter": "_MaxT_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MaxT_"
+      ]
+    },
+    "_MeanP_": {
+      "label": "Predicted Mean",
+      "length": 8,
+      "order": 9,
+      "parameter": "_MeanP_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MeanP_"
+      ]
+    },
+    "_MeanT_": {
+      "label": "Target Mean",
+      "length": 8,
+      "order": 12,
+      "parameter": "_MeanT_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MeanT_"
+      ]
+    },
+    "_MinP_": {
+      "label": "Predicted Minimum",
+      "length": 8,
+      "order": 10,
+      "parameter": "_MinP_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MinP_"
+      ]
+    },
+    "_MinT_": {
+      "label": "Target Minimum",
+      "length": 8,
+      "order": 13,
+      "parameter": "_MinT_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_MinT_"
+      ]
+    },
+    "_NObs_": {
+      "label": "Number of Observations",
+      "length": 8,
+      "order": 8,
+      "parameter": "_NObs_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_NObs_"
+      ]
+    },
+    "_PartInd_": {
+      "label": "Partition Indicator",
+      "length": 8,
+      "order": 3,
+      "parameter": "_PartInd_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_PartInd_"
+      ]
+    },
+    "_TargetName_": {
+      "label": "Target Name",
+      "length": 8,
+      "order": 1,
+      "parameter": "_TargetName_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_TargetName_"
+      ]
+    },
+    "_Value_": {
+      "label": "Value",
+      "length": 8,
+      "order": 7,
+      "parameter": "_Value_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_Value_"
+      ]
+    },
+    "_formattedPartition_": {
+      "label": "Formatted Partition",
+      "length": 12,
+      "order": 4,
+      "parameter": "_formattedPartition_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_formattedPartition_"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "0",
+        "_MaxP_": null,
+        "_MaxT_": null,
+        "_MeanP_": null,
+        "_MeanT_": null,
+        "_MinP_": null,
+        "_MinT_": null,
+        "_NObs_": "0",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "0",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "5",
+        "_MaxP_": "4.02248464485",
+        "_MaxT_": "4",
+        "_MeanP_": "3.97126913086",
+        "_MeanT_": "3.97716564417",
+        "_MinP_": "3.94536425294",
+        "_MinT_": "3.762",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.94524484208",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "10",
+        "_MaxP_": "3.94524484208",
+        "_MaxT_": "4",
+        "_MeanP_": "3.89571909158",
+        "_MeanT_": "3.91795705521",
+        "_MinP_": "3.85403433076",
+        "_MinT_": "3.456",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.85313620106",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "15",
+        "_MaxP_": "3.85313620106",
+        "_MaxT_": "4",
+        "_MeanP_": "3.80184834379",
+        "_MeanT_": "3.8282392638",
+        "_MinP_": "3.74033125916",
+        "_MinT_": "3.389",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.73954495505",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "20",
+        "_MaxP_": "3.73954495505",
+        "_MaxT_": "4",
+        "_MeanP_": "3.68552352248",
+        "_MeanT_": "3.70926380368",
+        "_MinP_": "3.63434694464",
+        "_MinT_": "3.167",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.63432815144",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "25",
+        "_MaxP_": "3.63432815144",
+        "_MaxT_": "4",
+        "_MeanP_": "3.58326618579",
+        "_MeanT_": "3.59188343558",
+        "_MinP_": "3.53712195226",
+        "_MinT_": "2.898",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.53690210867",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "30",
+        "_MaxP_": "3.53690210867",
+        "_MaxT_": "4",
+        "_MeanP_": "3.50132471078",
+        "_MeanT_": "3.50314723926",
+        "_MinP_": "3.46283473766",
+        "_MinT_": "2.843",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.46175172501",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "35",
+        "_MaxP_": "3.46175172501",
+        "_MaxT_": "3.911",
+        "_MeanP_": "3.42643854439",
+        "_MeanT_": "3.39924539877",
+        "_MinP_": "3.38877805021",
+        "_MinT_": "2.209",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.38809772034",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "40",
+        "_MaxP_": "3.38809772034",
+        "_MaxT_": "4",
+        "_MeanP_": "3.34677171203",
+        "_MeanT_": "3.34185889571",
+        "_MinP_": "3.30542303582",
+        "_MinT_": "0",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.30487700791",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 9
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "45",
+        "_MaxP_": "3.30487700791",
+        "_MaxT_": "3.795",
+        "_MeanP_": "3.26663088174",
+        "_MeanT_": "3.22548466258",
+        "_MinP_": "3.22987294359",
+        "_MinT_": "2.18",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.22955508773",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 10
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "50",
+        "_MaxP_": "3.22955508773",
+        "_MaxT_": "3.733",
+        "_MeanP_": "3.18752544767",
+        "_MeanT_": "3.20301840491",
+        "_MinP_": "3.14697165555",
+        "_MinT_": "2.744",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.14554151518",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 11
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "55",
+        "_MaxP_": "3.14554151518",
+        "_MaxT_": "3.818",
+        "_MeanP_": "3.10054789781",
+        "_MeanT_": "3.09104907975",
+        "_MinP_": "3.05046904391",
+        "_MinT_": "2.286",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.04803765865",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 12
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "60",
+        "_MaxP_": "3.04803765865",
+        "_MaxT_": "3.875",
+        "_MeanP_": "2.99537925466",
+        "_MeanT_": "2.98839263804",
+        "_MinP_": "2.94553708555",
+        "_MinT_": "2.364",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.94431943919",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 13
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "65",
+        "_MaxP_": "2.94431943919",
+        "_MaxT_": "3.804",
+        "_MeanP_": "2.89608376134",
+        "_MeanT_": "2.91061349693",
+        "_MinP_": "2.84121552094",
+        "_MinT_": "2.133",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.84078837848",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 14
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "70",
+        "_MaxP_": "2.84078837848",
+        "_MaxT_": "3.524",
+        "_MeanP_": "2.78707613746",
+        "_MeanT_": "2.78411656442",
+        "_MinP_": "2.73311960157",
+        "_MinT_": "1.083",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.73190740721",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 15
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "75",
+        "_MaxP_": "2.73190740721",
+        "_MaxT_": "3.436",
+        "_MeanP_": "2.66733385901",
+        "_MeanT_": "2.68627607362",
+        "_MinP_": "2.60159224734",
+        "_MinT_": "0.727",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.59985534504",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 16
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "80",
+        "_MaxP_": "2.59985534504",
+        "_MaxT_": "3.179",
+        "_MeanP_": "2.51887813641",
+        "_MeanT_": "2.50752760736",
+        "_MinP_": "2.4503777348",
+        "_MinT_": "1.154",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.44957751646",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 17
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "85",
+        "_MaxP_": "2.44957751646",
+        "_MaxT_": "3.489",
+        "_MeanP_": "2.34955236541",
+        "_MeanT_": "2.31371165644",
+        "_MinP_": "2.23227337283",
+        "_MinT_": "0",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.23154790427",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 18
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "90",
+        "_MaxP_": "2.23154790427",
+        "_MaxT_": "3.667",
+        "_MeanP_": "2.08807915262",
+        "_MeanT_": "2.11143558282",
+        "_MinP_": "1.94927418709",
+        "_MinT_": "0",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "1.94766202928",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 19
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "95",
+        "_MaxP_": "1.94766202928",
+        "_MaxT_": "2.958",
+        "_MeanP_": "1.71824222335",
+        "_MeanT_": "1.6503803681",
+        "_MinP_": "1.47328911443",
+        "_MinT_": "0",
+        "_NObs_": "163",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "1.467003481",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 20
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "VALIDATE",
+        "_Depth_": "100",
+        "_MaxP_": "1.467003481",
+        "_MaxT_": "2.308",
+        "_MeanP_": "0.884112661086",
+        "_MeanT_": "0.866740740741",
+        "_MinP_": "0.0449075869519",
+        "_MinT_": "0",
+        "_NObs_": "162",
+        "_PartInd_": "0",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "0.0449075869519",
+        "_formattedPartition_": "           0"
+      },
+      "rowNumber": 21
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "0",
+        "_MaxP_": null,
+        "_MaxT_": null,
+        "_MeanP_": null,
+        "_MeanT_": null,
+        "_MinP_": null,
+        "_MinT_": null,
+        "_NObs_": "0",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "0",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 22
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "5",
+        "_MaxP_": "4.04054545366",
+        "_MaxT_": "4",
+        "_MeanP_": "3.96918605868",
+        "_MeanT_": "3.97470866142",
+        "_MinP_": "3.93840150868",
+        "_MinT_": "3.688",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.9383256264",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 23
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "10",
+        "_MaxP_": "3.9383256264",
+        "_MaxT_": "4",
+        "_MeanP_": "3.88823142432",
+        "_MeanT_": "3.90069553806",
+        "_MinP_": "3.838317381",
+        "_MinT_": "3.359",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.838317381",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 24
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "15",
+        "_MaxP_": "3.83819396039",
+        "_MaxT_": "4",
+        "_MeanP_": "3.78257678739",
+        "_MeanT_": "3.80612368421",
+        "_MinP_": "3.72227131845",
+        "_MinT_": "3.356",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.72227131845",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 25
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "20",
+        "_MaxP_": "3.72182195872",
+        "_MaxT_": "4",
+        "_MeanP_": "3.66665375769",
+        "_MeanT_": "3.65607874016",
+        "_MinP_": "3.60956457801",
+        "_MinT_": "0",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.60956457801",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 26
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "25",
+        "_MaxP_": "3.60886569576",
+        "_MaxT_": "4",
+        "_MeanP_": "3.55926085513",
+        "_MeanT_": "3.60625789474",
+        "_MinP_": "3.51524682259",
+        "_MinT_": "3.02",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.51524682259",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 27
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "30",
+        "_MaxP_": "3.51483404531",
+        "_MaxT_": "4",
+        "_MeanP_": "3.47480078682",
+        "_MeanT_": "3.48562894737",
+        "_MinP_": "3.43633339567",
+        "_MinT_": "2.976",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.43633339567",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 28
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "35",
+        "_MaxP_": "3.43624254565",
+        "_MaxT_": "3.933",
+        "_MeanP_": "3.39182027161",
+        "_MeanT_": "3.40354855643",
+        "_MinP_": "3.34880112345",
+        "_MinT_": "2.133",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.34880112345",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 29
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "40",
+        "_MaxP_": "3.34860392991",
+        "_MaxT_": "4",
+        "_MeanP_": "3.3134097001",
+        "_MeanT_": "3.30948421053",
+        "_MinP_": "3.27994729886",
+        "_MinT_": "1.3",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.27994729886",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 30
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "45",
+        "_MaxP_": "3.27985234263",
+        "_MaxT_": "3.867",
+        "_MeanP_": "3.23813350577",
+        "_MeanT_": "3.23799210526",
+        "_MinP_": "3.19624636172",
+        "_MinT_": "2.778",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.19624636172",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 31
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "50",
+        "_MaxP_": "3.19596320751",
+        "_MaxT_": "3.917",
+        "_MeanP_": "3.14992589264",
+        "_MeanT_": "3.14964473684",
+        "_MinP_": "3.09942006508",
+        "_MinT_": "1.938",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "3.09942006508",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 32
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "55",
+        "_MaxP_": "3.09884486426",
+        "_MaxT_": "3.821",
+        "_MeanP_": "3.04924525421",
+        "_MeanT_": "3.06629133858",
+        "_MinP_": "2.99625759875",
+        "_MinT_": "2.444",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.99625759875",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 33
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "60",
+        "_MaxP_": "2.99580344611",
+        "_MaxT_": "4",
+        "_MeanP_": "2.94268846697",
+        "_MeanT_": "2.94613421053",
+        "_MinP_": "2.89138823772",
+        "_MinT_": "0",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.89138823772",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 34
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "65",
+        "_MaxP_": "2.89111039367",
+        "_MaxT_": "3.542",
+        "_MeanP_": "2.84081595612",
+        "_MeanT_": "2.84162631579",
+        "_MinP_": "2.78602756957",
+        "_MinT_": "0.125",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.78602756957",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 35
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "70",
+        "_MaxP_": "2.78579049314",
+        "_MaxT_": "3.923",
+        "_MeanP_": "2.72959697215",
+        "_MeanT_": "2.74998425197",
+        "_MinP_": "2.67591975929",
+        "_MinT_": "0",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.67591975929",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 36
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "75",
+        "_MaxP_": "2.67589049599",
+        "_MaxT_": "3.7",
+        "_MeanP_": "2.61183330641",
+        "_MeanT_": "2.61522894737",
+        "_MinP_": "2.54652917505",
+        "_MinT_": "1",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.54652917505",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 37
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "80",
+        "_MaxP_": "2.54626718673",
+        "_MaxT_": "3.271",
+        "_MeanP_": "2.47606752246",
+        "_MeanT_": "2.43883684211",
+        "_MinP_": "2.40139764271",
+        "_MinT_": "0",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.40139764271",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 38
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "85",
+        "_MaxP_": "2.40121060035",
+        "_MaxT_": "3.533",
+        "_MeanP_": "2.29761477392",
+        "_MeanT_": "2.29357480315",
+        "_MinP_": "2.19325229606",
+        "_MinT_": "0",
+        "_NObs_": "381",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "2.19325229606",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 39
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "90",
+        "_MaxP_": "2.19280361321",
+        "_MaxT_": "3.25",
+        "_MeanP_": "2.03567907034",
+        "_MeanT_": "2.00242894737",
+        "_MinP_": "1.86980687002",
+        "_MinT_": "0.308",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "1.86980687002",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 40
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "95",
+        "_MaxP_": "1.86979306314",
+        "_MaxT_": "3.022",
+        "_MeanP_": "1.63678933036",
+        "_MeanT_": "1.62622894737",
+        "_MinP_": "1.34998445288",
+        "_MinT_": "0.182",
+        "_NObs_": "380",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "1.34998445288",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 41
+    },
+    {
+      "dataMap": {
+        "_Column_": "P_EOT_SGPA",
+        "_DataRole_": "TRAIN",
+        "_Depth_": "100",
+        "_MaxP_": "1.34778936696",
+        "_MaxT_": "2.152",
+        "_MeanP_": "0.789168365854",
+        "_MeanT_": "0.738881266491",
+        "_MinP_": "0.0218533085088",
+        "_MinT_": "0",
+        "_NObs_": "379",
+        "_PartInd_": "1",
+        "_TargetName_": "EOT_SGPA",
+        "_Value_": "0.0218533085088",
+        "_formattedPartition_": "           1"
+      },
+      "rowNumber": 42
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

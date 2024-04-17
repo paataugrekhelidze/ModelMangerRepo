@@ -1,0 +1,587 @@
+{
+    "version": 0,
+    "Id": "",
+    "Name": "Gradient Boosting (Pipeline 1)",
+    "Description": "",
+    "type": "",
+    "scoreCodeType": "",
+    "scoreCodeUri": {},
+    "trainCodeUri": {},
+    "datasourceUri": {
+        "name": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/TRANSFERSTUDENTS",
+        "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/TRANSFERSTUDENTS",
+        "uriType": "reference"
+    },
+    "externalModelId": "89b730a3-317a-4c8d-8d4d-c127353c779e",
+    "function": "prediction",
+    "algorithm": "gradboost",
+    "modeler": "Robert.Blanchard@sas.com",
+    "tool": "Model Studio",
+    "toolVersion": "V2024.03",
+    "targetEvent": "",
+    "candidateChampion": true,
+    "selectionStatistic": "_ASE_",
+    "selectionStatisticValue": "0.0822730012276",
+    "textLanguage": "",
+    "nondeterministic": false,
+    "datasourceNotes": "",
+    "sasOptions": "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+    "modelTransformation": {
+        "inputVariables": [
+            {
+                "name": "ACT_COMP",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "ACT_ENGL",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "ACT_MATH",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "ACT_READ",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "ACT_SCIENCE",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "ACT_WRITING",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "AFFIL_ALUM_R1",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 5
+            },
+            {
+                "name": "AFFIL_ALUM_R2",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 5
+            },
+            {
+                "name": "AFFIL_RELATION1",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 14
+            },
+            {
+                "name": "AFFIL_RELATION2",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 13
+            },
+            {
+                "name": "AGE",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "CNSS_LOAD",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 19
+            },
+            {
+                "name": "CNSS_TGPA",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "College",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "HS_GPA",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_B_to_A",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_C_to_A",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_C_to_B",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_D_to_A",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_D_to_B",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_D_to_C",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_F_to_A",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_F_to_B",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_F_to_C",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Ratio_F_to_D",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "SAT_ES_SUB",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "SAT_MATH",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "SAT_MUL_CHCE",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "SAT_VERBAL",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "SAT_WRITING",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "TOTAL_SAT",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            }
+        ],
+        "outputVariables": [
+            {
+                "name": "EM_PREDICTION",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Predicted: EOT_SGPA",
+                "length": 8
+            },
+            {
+                "name": "P_EOT_SGPA",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Predicted: EOT_SGPA",
+                "length": 8
+            },
+            {
+                "name": "_WARN_",
+                "role": "input",
+                "type": "string",
+                "label": "Warnings",
+                "length": 4
+            }
+        ],
+        "steps": [
+            {
+                "sequence": 1,
+                "type": "astore",
+                "stepUri": {
+                    "name": "_85IEUGY549H5E7NCD0WE775PA_ast",
+                    "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Analytics_Project_9642ef8e-fa53-45db-8038-e75a349a5db3/tables/_85IEUGY549H5E7NCD0WE775PA_AST?state=loaded",
+                    "uriType": "copy",
+                    "contentType": "astore",
+                    "key": "27060123B8E010DFF8C9F6993A510620A13F53CE"
+                },
+                "inputVariables": null,
+                "outputVariables": null
+            }
+        ]
+    },
+    "dataPlanSnapShot": {
+        "creationTimeStamp": "0001-01-01T00:00:00Z",
+        "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+        "id": "",
+        "name": "",
+        "description": "",
+        "content": null,
+        "links": null
+    },
+    "transformations": [],
+    "trainInputs": [
+        {
+            "name": "ACT_COMP",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "ACT_ENGL",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "ACT_MATH",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "ACT_READ",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "ACT_SCIENCE",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "ACT_WRITING",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "AGE",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "CNSS_TGPA",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "College",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "HS_GPA",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_B_to_A",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_C_to_A",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_C_to_B",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_D_to_A",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_D_to_B",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_D_to_C",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_F_to_A",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_F_to_B",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_F_to_C",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Ratio_F_to_D",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "SAT_ES_SUB",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "SAT_MATH",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "SAT_MUL_CHCE",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "SAT_VERBAL",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "SAT_WRITING",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "TOTAL_SAT",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "AFFIL_ALUM_R1",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 5
+        },
+        {
+            "name": "AFFIL_ALUM_R2",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 5
+        },
+        {
+            "name": "AFFIL_RELATION1",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 14
+        },
+        {
+            "name": "AFFIL_RELATION2",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 13
+        },
+        {
+            "name": "CNSS_LOAD",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 19
+        },
+        {
+            "name": "_PartInd_",
+            "role": "partition",
+            "type": "numeric",
+            "level": "nominal",
+            "label": "_PartInd_",
+            "length": 8
+        },
+        {
+            "name": "EOT_SGPA",
+            "role": "target",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "_dmIndex_",
+            "role": "key",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8,
+            "transformationVariable": true
+        }
+    ],
+    "modelNodeProperties": [
+        {
+            "sequence": 1,
+            "actionName": "decisionTree.gbtreeTrain",
+            "content": "{\"binOrder\":true,\"casOut\":{\"caslib\":\"CASUSER(Robert.Blanchard@sas.com)\",\"name\":\"_model_a857fee7-8178-ae4e-8938-16af5239e19\",\"replace\":true},\"earlyStop\":{\"stagnation\":5},\"encodeName\":true,\"inputs\":[{\"name\":\"ACT_COMP\"},{\"name\":\"ACT_ENGL\"},{\"name\":\"ACT_MATH\"},{\"name\":\"ACT_READ\"},{\"name\":\"ACT_SCIENCE\"},{\"name\":\"ACT_WRITING\"},{\"name\":\"AGE\"},{\"name\":\"CNSS_TGPA\"},{\"name\":\"College\"},{\"name\":\"HS_GPA\"},{\"name\":\"Ratio_B_to_A\"},{\"name\":\"Ratio_C_to_A\"},{\"name\":\"Ratio_C_to_B\"},{\"name\":\"Ratio_D_to_A\"},{\"name\":\"Ratio_D_to_B\"},{\"name\":\"Ratio_D_to_C\"},{\"name\":\"Ratio_F_to_A\"},{\"name\":\"Ratio_F_to_B\"},{\"name\":\"Ratio_F_to_C\"},{\"name\":\"Ratio_F_to_D\"},{\"name\":\"SAT_ES_SUB\"},{\"name\":\"SAT_MATH\"},{\"name\":\"SAT_MUL_CHCE\"},{\"name\":\"SAT_VERBAL\"},{\"name\":\"SAT_WRITING\"},{\"name\":\"TOTAL_SAT\"},{\"name\":\"AFFIL_ALUM_R1\"},{\"name\":\"AFFIL_ALUM_R2\"},{\"name\":\"AFFIL_RELATION1\"},{\"name\":\"AFFIL_RELATION2\"},{\"name\":\"CNSS_LOAD\"}],\"lasso\":0,\"leafSize\":5,\"learningRate\":0.1,\"m\":31,\"maxBranch\":2,\"maxLevel\":5,\"mergeBin\":true,\"minUseInSearch\":1,\"missing\":\"USEINSEARCH\",\"nBins\":50,\"nTree\":150,\"nominalSearch\":{\"maxCategories\":128},\"nominals\":[{\"name\":\"AFFIL_ALUM_R1\"},{\"name\":\"AFFIL_ALUM_R2\"},{\"name\":\"AFFIL_RELATION1\"},{\"name\":\"AFFIL_RELATION2\"},{\"name\":\"CNSS_LOAD\"}],\"quantileBin\":true,\"ridge\":6,\"saveState\":{\"caslib\":\"CASUSER(Robert.Blanchard@sas.com)\",\"name\":\"_85IEUGY549H5E7NCD0WE775PA_AST\",\"replace\":true},\"seed\":12345,\"subSampleRate\":0.5,\"table\":{\"caslib\":\"Analytics_Project_9642ef8e-fa53-45db-8038-e75a349a5db3\",\"name\":\"DM_8W90FI6FHWE9K4GHVXYNE7NOZ\",\"where\":\"STRIP(PUT(_PartInd_, BEST.) ) =\\\"1\\\"\"},\"target\":\"EOT_SGPA\",\"validTable\":{\"caslib\":\"Analytics_Project_9642ef8e-fa53-45db-8038-e75a349a5db3\",\"name\":\"DM_8W90FI6FHWE9K4GHVXYNE7NOZ\",\"where\":\"STRIP(PUT(_PartInd_, BEST.) ) =\\\"0\\\"\"},\"varImp\":true}",
+            "contentUri": {},
+            "modelTableUri": {}
+        }
+    ],
+    "sourceUri": {
+        "name": "Gradient Boosting",
+        "uri": "/analyticsComponents/components/89b730a3-317a-4c8d-8d4d-c127353c779e",
+        "uriType": "reference",
+        "mediaType": "application/vnd.sas.analytics.component"
+    },
+    "rocDataUri": {},
+    "liftDataUri": {
+        "name": "dmcas_lift",
+        "uri": "/files/files/b51d8da0-1da0-4ca9-b640-cc15e7298de7",
+        "uriType": "child",
+        "mediaType": "application/vnd.sas.analytics.report+json"
+    },
+    "dataUris": null,
+    "trainTableSummaryUri": {},
+    "fitStatUri": {
+        "name": "dmcas_fitstat",
+        "uri": "/files/files/e1e4682c-0a62-48c2-9f19-fb71c1936f87",
+        "uriType": "child",
+        "mediaType": "application/vnd.sas.analytics.report+json"
+    },
+    "dataPlanUri": {},
+    "partitionLevels": [
+        {
+            "variableName": "_PartInd_",
+            "dataRole": "train",
+            "type": "partition",
+            "value": "           1"
+        },
+        {
+            "variableName": "_PartInd_",
+            "dataRole": "validate",
+            "type": "partition",
+            "value": "           0"
+        }
+    ],
+    "eventLevels": null,
+    "interactions": null
+}

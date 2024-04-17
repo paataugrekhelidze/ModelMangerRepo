@@ -1,0 +1,283 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "groupMetrics",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "LEVEL": {
+      "label": "Variable Level",
+      "length": 100,
+      "order": 4,
+      "parameter": "LEVEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LEVEL"
+      ]
+    },
+    "P_EOT_SGPA": {
+      "label": "P_EOT_SGPA",
+      "length": 8,
+      "order": 13,
+      "parameter": "P_EOT_SGPA",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "P_EOT_SGPA"
+      ]
+    },
+    "VLABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 2,
+      "parameter": "VLABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "VLABEL"
+      ]
+    },
+    "_DATAROLE_": {
+      "label": "Data Role",
+      "length": 8,
+      "order": 3,
+      "parameter": "_DATAROLE_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_DATAROLE_"
+      ]
+    },
+    "_VARIABLE_": {
+      "label": "Variable",
+      "length": 255,
+      "order": 1,
+      "parameter": "_VARIABLE_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_VARIABLE_"
+      ]
+    },
+    "_ase_": {
+      "label": "Average Squared Error",
+      "length": 8,
+      "order": 6,
+      "parameter": "_ase_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_ase_"
+      ]
+    },
+    "_avgyhat_": {
+      "label": "Average Prediction for Target Variable",
+      "length": 8,
+      "order": 12,
+      "parameter": "_avgyhat_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_avgyhat_"
+      ]
+    },
+    "_mae_": {
+      "label": "Mean Absolute Error",
+      "length": 8,
+      "order": 8,
+      "parameter": "_mae_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_mae_"
+      ]
+    },
+    "_msle_": {
+      "label": "Mean Squared Logarithmic Error",
+      "length": 8,
+      "order": 10,
+      "parameter": "_msle_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_msle_"
+      ]
+    },
+    "_nobs_": {
+      "label": "Number of Observations",
+      "length": 8,
+      "order": 5,
+      "parameter": "_nobs_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_nobs_"
+      ]
+    },
+    "_rase_": {
+      "label": "Root Average Squared Error",
+      "length": 8,
+      "order": 7,
+      "parameter": "_rase_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_rase_"
+      ]
+    },
+    "_rmae_": {
+      "label": "Root Mean Absolute Error",
+      "length": 8,
+      "order": 9,
+      "parameter": "_rmae_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_rmae_"
+      ]
+    },
+    "_rmsle_": {
+      "label": "Root Mean Squared Logarithmic Error",
+      "length": 8,
+      "order": 11,
+      "parameter": "_rmsle_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_rmsle_"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "LEVEL": "F",
+        "P_EOT_SGPA": "3.10162886354",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "_ase_": "0.0730396856822",
+        "_avgyhat_": "3.10162886354",
+        "_mae_": "0.181638907749",
+        "_msle_": "0.00949088580907",
+        "_nobs_": "1541",
+        "_rase_": "0.270258553393",
+        "_rmae_": "0.426191163387",
+        "_rmsle_": "0.0974211774157"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "LEVEL": "M",
+        "P_EOT_SGPA": "2.87891565828",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "GENDER",
+        "_ase_": "0.0905550380469",
+        "_avgyhat_": "2.87891565828",
+        "_mae_": "0.202048096393",
+        "_msle_": "0.0138289163349",
+        "_nobs_": "1718",
+        "_rase_": "0.300923641555",
+        "_rmae_": "0.449497604435",
+        "_rmsle_": "0.117596412934"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "LEVEL": "Asian",
+        "P_EOT_SGPA": "3.05190700995",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "_ase_": "0.0818543465924",
+        "_avgyhat_": "3.05190700995",
+        "_mae_": "0.196647278094",
+        "_msle_": "0.0133181271352",
+        "_nobs_": "170",
+        "_rase_": "0.286101986348",
+        "_rmae_": "0.443449295968",
+        "_rmsle_": "0.115404190284"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "LEVEL": "Nonresident Alien",
+        "P_EOT_SGPA": "2.92533017106",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "_ase_": "0.326247464531",
+        "_avgyhat_": "2.92533017106",
+        "_mae_": "0.330602685484",
+        "_msle_": "0.0627866712964",
+        "_nobs_": "37",
+        "_rase_": "0.571180763446",
+        "_rmae_": "0.574980595746",
+        "_rmsle_": "0.250572686653"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "LEVEL": "Other Minority",
+        "P_EOT_SGPA": "2.91107287733",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "_ase_": "0.0636374733404",
+        "_avgyhat_": "2.91107287733",
+        "_mae_": "0.190741505001",
+        "_msle_": "0.00744907633894",
+        "_nobs_": "181",
+        "_rase_": "0.252264689048",
+        "_rmae_": "0.436739630673",
+        "_rmsle_": "0.0863080317174"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "LEVEL": "Underrepresented Minority",
+        "P_EOT_SGPA": "2.77925403943",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "_ase_": "0.115983129478",
+        "_avgyhat_": "2.77925403943",
+        "_mae_": "0.234311898182",
+        "_msle_": "0.0196786302015",
+        "_nobs_": "338",
+        "_rase_": "0.340562959639",
+        "_rmae_": "0.484057742611",
+        "_rmsle_": "0.140280541065"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "LEVEL": "White",
+        "P_EOT_SGPA": "3.01312029826",
+        "VLABEL": "",
+        "_DATAROLE_": "VALIDATE",
+        "_VARIABLE_": "RACE_NEW",
+        "_ase_": "0.0755707206689",
+        "_avgyhat_": "3.01312029826",
+        "_mae_": "0.184619114021",
+        "_msle_": "0.0101842420129",
+        "_nobs_": "2533",
+        "_rase_": "0.274901292592",
+        "_rmae_": "0.429673264261",
+        "_rmsle_": "0.100917005569"
+      },
+      "rowNumber": 7
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

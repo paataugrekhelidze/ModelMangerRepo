@@ -1,0 +1,11 @@
+[
+	{
+		"name": "_62D0D652A3F24364B63F2D7004004",
+		"uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_62D0D652A3F24364B63F2D7004004",
+		"key": "27060123B8E010DFF8C9F6993A510620A13F53CE",
+		"caslib": "ModelStore",
+		"location": "The analytic store file could not be written to the specified location because an error was received while executing PROC ASTORE. Please contact your system administrator for assistance.",
+		"host": "sas-compute-server-6d11a931-dd2c-46df-94cd-ca96522e4cc5-25856",
+		"state": "failed"
+	}
+]

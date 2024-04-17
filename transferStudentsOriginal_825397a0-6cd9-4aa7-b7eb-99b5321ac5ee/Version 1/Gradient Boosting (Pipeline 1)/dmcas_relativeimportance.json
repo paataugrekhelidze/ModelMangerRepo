@@ -1,0 +1,399 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "dmcas_relativeimportance",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "LABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 1,
+      "parameter": "LABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LABEL"
+      ]
+    },
+    "LEVEL": {
+      "label": "Variable Level",
+      "length": 10,
+      "order": 5,
+      "parameter": "LEVEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LEVEL"
+      ]
+    },
+    "ROLE": {
+      "label": "Role",
+      "length": 32,
+      "order": 4,
+      "parameter": "ROLE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "ROLE"
+      ]
+    },
+    "RelativeImportance": {
+      "label": "Relative Importance",
+      "length": 8,
+      "order": 3,
+      "parameter": "RelativeImportance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "RelativeImportance"
+      ]
+    },
+    "Variable": {
+      "label": "Variable Name",
+      "length": 255,
+      "order": 2,
+      "parameter": "Variable",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "Variable"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "1",
+        "Variable": "Ratio_C_to_A"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.853692142928",
+        "Variable": "Ratio_F_to_A"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.833059641706",
+        "Variable": "CNSS_TGPA"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.807335624561",
+        "Variable": "Ratio_D_to_A"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.796466357059",
+        "Variable": "Ratio_F_to_C"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.662603647696",
+        "Variable": "Ratio_B_to_A"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.639741384424",
+        "Variable": "Ratio_D_to_C"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.638502999693",
+        "Variable": "Ratio_F_to_D"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.564718921213",
+        "Variable": "Ratio_F_to_B"
+      },
+      "rowNumber": 9
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.488740972547",
+        "Variable": "Ratio_C_to_B"
+      },
+      "rowNumber": 10
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.467311025827",
+        "Variable": "Ratio_D_to_B"
+      },
+      "rowNumber": 11
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.251372167917",
+        "Variable": "HS_GPA"
+      },
+      "rowNumber": 12
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.12244808225",
+        "Variable": "SAT_WRITING"
+      },
+      "rowNumber": 13
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0864664155754",
+        "Variable": "SAT_MUL_CHCE"
+      },
+      "rowNumber": 14
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0846291637336",
+        "Variable": "AFFIL_RELATION2"
+      },
+      "rowNumber": 15
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0810668207295",
+        "Variable": "SAT_ES_SUB"
+      },
+      "rowNumber": 16
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0650765612138",
+        "Variable": "AFFIL_RELATION1"
+      },
+      "rowNumber": 17
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0642885297704",
+        "Variable": "TOTAL_SAT"
+      },
+      "rowNumber": 18
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0495970326563",
+        "Variable": "SAT_MATH"
+      },
+      "rowNumber": 19
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0434491218405",
+        "Variable": "SAT_VERBAL"
+      },
+      "rowNumber": 20
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0350755315743",
+        "Variable": "ACT_WRITING"
+      },
+      "rowNumber": 21
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0294063002736",
+        "Variable": "ACT_ENGL"
+      },
+      "rowNumber": 22
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.028099182603",
+        "Variable": "ACT_COMP"
+      },
+      "rowNumber": 23
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.027157707734",
+        "Variable": "College"
+      },
+      "rowNumber": 24
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.022401938449",
+        "Variable": "ACT_MATH"
+      },
+      "rowNumber": 25
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0190198717524",
+        "Variable": "CNSS_LOAD"
+      },
+      "rowNumber": 26
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0154946645698",
+        "Variable": "ACT_READ"
+      },
+      "rowNumber": 27
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0148711165427",
+        "Variable": "ACT_SCIENCE"
+      },
+      "rowNumber": 28
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.011923615758",
+        "Variable": "AFFIL_ALUM_R1"
+      },
+      "rowNumber": 29
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.00598804957073",
+        "Variable": "AFFIL_ALUM_R2"
+      },
+      "rowNumber": 30
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0023179072494",
+        "Variable": "AGE"
+      },
+      "rowNumber": 31
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "BINARY",
+        "ROLE": "REJECTED",
+        "RelativeImportance": "0",
+        "Variable": "GENDER"
+      },
+      "rowNumber": 32
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "REJECTED",
+        "RelativeImportance": "0",
+        "Variable": "RACE_NEW"
+      },
+      "rowNumber": 33
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

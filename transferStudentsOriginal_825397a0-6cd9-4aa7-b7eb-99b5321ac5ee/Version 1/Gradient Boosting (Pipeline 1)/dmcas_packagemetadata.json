@@ -1,0 +1,311 @@
+{
+  "SASJSONExport": "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS": [
+    {
+      "name": "ACT_COMP",
+      "order": 1,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "ACT_ENGL",
+      "order": 2,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "ACT_MATH",
+      "order": 3,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "ACT_READ",
+      "order": 4,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "ACT_SCIENCE",
+      "order": 5,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "ACT_WRITING",
+      "order": 6,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "AFFIL_ALUM_R1",
+      "order": 7,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 5
+    },
+    {
+      "name": "AFFIL_ALUM_R2",
+      "order": 8,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 5
+    },
+    {
+      "name": "AFFIL_RELATION1",
+      "order": 9,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 14
+    },
+    {
+      "name": "AFFIL_RELATION2",
+      "order": 10,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 13
+    },
+    {
+      "name": "AGE",
+      "order": 11,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "CNSS_LOAD",
+      "order": 12,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 19
+    },
+    {
+      "name": "CNSS_TGPA",
+      "order": 13,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "College",
+      "order": 14,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "HS_GPA",
+      "order": 15,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_B_to_A",
+      "order": 16,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_C_to_A",
+      "order": 17,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_C_to_B",
+      "order": 18,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_D_to_A",
+      "order": 19,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_D_to_B",
+      "order": 20,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_D_to_C",
+      "order": 21,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_F_to_A",
+      "order": 22,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_F_to_B",
+      "order": 23,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_F_to_C",
+      "order": 24,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Ratio_F_to_D",
+      "order": 25,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "SAT_ES_SUB",
+      "order": 26,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "SAT_MATH",
+      "order": 27,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "SAT_MUL_CHCE",
+      "order": 28,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "SAT_VERBAL",
+      "order": 29,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "SAT_WRITING",
+      "order": 30,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "TOTAL_SAT",
+      "order": 31,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "EM_PREDICTION",
+      "order": 32,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "P_EOT_SGPA",
+      "order": 33,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "_WARN_",
+      "order": 34,
+      "argtype": "INPUT_OUTPUT",
+      "type": "C",
+      "vartype": "char",
+      "format": "",
+      "length": 4
+    }
+  ]
+}

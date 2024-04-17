@@ -1,0 +1,32 @@
+[
+   {
+      "name": "_WARN_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 4
+   },
+   {
+      "name": "EM_PREDICTION",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "P_EOT_SGPA",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   }
+]

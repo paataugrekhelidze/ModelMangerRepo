@@ -1,0 +1,32 @@
+{
+  "product": "DMCAS",
+  "project": "9642ef8e-fa53-45db-8038-e75a349a5db3",
+  "target": {
+    "name": "EOT_SGPA",
+    "level": "INTERVAL",
+    "format": "",
+    "order": "",
+    "label": "",
+    "event": "",
+    "SASJSONExport": "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL": [
+      {
+        "_TYPE_": "PREDICTED",
+        "resourceId": "380423f2-68c4-4712-9481-bd25240e34ea",
+        "id": "9642ef8e-fa53-45db-8038-e75a349a5db3",
+        "_predictedvar_": "P_EOT_SGPA",
+        "_variable_": "EOT_SGPA",
+        "_index_": null,
+        "_freq_": null,
+        "freqPercent": null,
+        "nmissPercent": null,
+        "_rawnum_": null,
+        "_rawchar_": "",
+        "_cfmt_": "",
+        "_label_": "Predicted: EOT_SGPA",
+        "_event_flag_": "N",
+        "revision": 0
+      }
+    ]
+  }
+}
