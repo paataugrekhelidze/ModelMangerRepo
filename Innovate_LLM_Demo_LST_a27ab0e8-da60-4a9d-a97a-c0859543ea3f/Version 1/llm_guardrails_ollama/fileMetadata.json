@@ -1,5 +1,17 @@
 [
    {
+      "name": "DS2Pkg_PythonWrapper.sas",
+      "role": "scoreResource"
+   },
+   {
+      "name": "settings.py",
+      "role": "scoreResource"
+   },
+   {
+      "name": "example_test.py",
+      "role": "scoreResource"
+   },
+   {
       "name": "requirements.json",
       "role": "scoreResource"
    },
@@ -29,18 +41,6 @@
    },
    {
       "name": "ContainerWrapper.py",
-      "role": "scoreResource"
-   },
-   {
-      "name": "DS2Pkg_PythonWrapper.sas",
-      "role": "scoreResource"
-   },
-   {
-      "name": "settings.py",
-      "role": "scoreResource"
-   },
-   {
-      "name": "example_test.py",
       "role": "scoreResource"
    }
 ]
