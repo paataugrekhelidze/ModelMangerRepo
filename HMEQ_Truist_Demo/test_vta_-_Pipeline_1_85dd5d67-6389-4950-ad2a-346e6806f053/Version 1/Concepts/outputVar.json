@@ -1,0 +1,22 @@
+[
+   {
+      "name": "_facts_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 200
+   },
+   {
+      "name": "_concepts_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 200
+   }
+]
