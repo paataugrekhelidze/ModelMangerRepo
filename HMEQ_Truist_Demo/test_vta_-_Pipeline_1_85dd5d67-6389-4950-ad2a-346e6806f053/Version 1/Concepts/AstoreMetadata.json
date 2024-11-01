@@ -5,7 +5,7 @@
 		"key": "572502A5DAF0E5EBA20DA2A5D209AEE7D923FF6D",
 		"caslib": "ModelStore",
 		"location": "file:///models/astores/viya/_AB42E07F5BB64B61A60861455B89B.astore",
-		"host": "sas-compute-server-330e0c32-88f9-4731-b75f-97dda79375f0-zvc8f",
+		"host": "sas-compute-server-fe931768-357c-4865-a6cf-07f0767a74f7-cz6jk",
 		"fullPath": "/opt/sas/viya/config/data/modelsvr/astore/_AB42E07F5BB64B61A60861455B89B.astore",
 		"state": "success"
 	}
