@@ -1,0 +1,20 @@
+{
+   "creationTimeStamp": "2024-10-31T19:33:10.031Z",
+   "createdBy": "geladm",
+   "modifiedTimeStamp": "2024-11-01T19:26:53.865Z",
+   "modifiedBy": "geladm",
+   "id": "6fef5279-eb14-4709-acc3-f50379386618",
+   "name": "Concepts",
+   "scoreCodeType": "ds2MultiType",
+   "algorithm": "Rule-based",
+   "function": "Text concepts",
+   "modelType": "astore",
+   "trainTable": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+   "tool": "Visual Text Analytics",
+   "toolVersion": "2024.10",
+   "publishTimeStamp": 1730489213110,
+   "externalModelId": "1828b710-c856-4a6c-9a30-4c4f7c92a432",
+   "costPerCall": "0",
+   "modelVersionName": "3.0",
+   "custom properties": []
+}
