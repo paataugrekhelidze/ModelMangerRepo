@@ -1,0 +1,22 @@
+[
+   {
+      "name": "_match_text_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 1024
+   },
+   {
+      "name": "_category_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 1024
+   }
+]
