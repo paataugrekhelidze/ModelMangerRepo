@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2024-10-31T19:36:14.608Z",
    "createdBy": "geladm",
-   "modifiedTimeStamp": "2024-11-02T00:03:03.727Z",
+   "modifiedTimeStamp": "2024-11-04T18:39:31.659Z",
    "modifiedBy": "geladm",
    "id": "3ca5077e-8c78-495c-a170-1d6ad6c0abd8",
    "name": "Categories",
@@ -12,9 +12,9 @@
    "trainTable": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
    "tool": "Visual Text Analytics",
    "toolVersion": "2024.10",
-   "publishTimeStamp": 1730505783036,
+   "publishTimeStamp": 1730745571011,
    "externalModelId": "23439a9b-5186-4650-8858-aafcf1c1dfa0",
    "costPerCall": "0",
-   "modelVersionName": "2.0",
+   "modelVersionName": "3.0",
    "custom properties": []
 }
