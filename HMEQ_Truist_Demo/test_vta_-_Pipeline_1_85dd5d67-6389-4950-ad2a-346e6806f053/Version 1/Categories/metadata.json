@@ -1,0 +1,12 @@
+[
+	{
+		"name": "_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+		"uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+		"key": "4412A153579FFF947E88A514E4567FF412DE88C2",
+		"caslib": "ModelStore",
+		"location": "file:///models/astores/viya/_11D7AA23B2FA4CAFA1E16B6AF1DFF.astore",
+		"host": "sas-compute-server-c234474e-18b5-4048-bbc3-9339c1e34117-6lsjm",
+		"fullPath": "/opt/sas/viya/config/data/modelsvr/astore/_11D7AA23B2FA4CAFA1E16B6AF1DFF.astore",
+		"state": "success"
+	}
+]
