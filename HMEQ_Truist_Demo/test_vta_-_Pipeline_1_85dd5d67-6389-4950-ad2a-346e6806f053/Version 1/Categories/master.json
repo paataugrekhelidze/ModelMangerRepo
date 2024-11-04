@@ -1,0 +1,153 @@
+{
+	"version": 0,
+	"Id": "",
+	"Name": "Categories",
+	"Description": "",
+	"type": "",
+	"scoreCodeType": "",
+	"scoreCodeUri": {},
+	"trainCodeUri": {},
+	"datasourceUri": {
+		"name": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.cas.caslib"
+	},
+	"externalModelId": "23439a9b-5186-4650-8858-aafcf1c1dfa0",
+	"function": "Text categorization",
+	"algorithm": "Rule-based",
+	"modeler": "",
+	"tool": "Visual Text Analytics",
+	"toolVersion": "2024.10",
+	"targetEvent": "",
+	"candidateChampion": false,
+	"textLanguage": "EN",
+	"nondeterministic": false,
+	"datasourceNotes": "",
+	"sasOptions": "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+	"modelTransformation": {
+		"inputVariables": [
+			{
+				"name": "__uniqueid__",
+				"role": "id",
+				"type": "numeric",
+				"level": "internal",
+				"length": 8
+			},
+			{
+				"name": "Review_Text",
+				"role": "input",
+				"type": "string",
+				"level": "nominal",
+				"length": 32767
+			}
+		],
+		"outputVariables": [
+			{
+				"name": "_match_text_",
+				"role": "predict",
+				"type": "string",
+				"length": 1024
+			},
+			{
+				"name": "_category_",
+				"role": "predict",
+				"type": "string",
+				"length": 1024
+			}
+		],
+		"steps": [
+			{
+				"sequence": 1,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_epScoreCode.sas",
+					"uri": "/files/files/7d6a3bd8-f961-4a55-88e4-b790159a2525",
+					"uriType": "copy",
+					"contentType": "TA-category-ep"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 2,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_packageScoreCode.sas",
+					"uri": "/files/files/27fbc504-78cd-4c3d-9535-e7fe3d400cc2",
+					"contentType": "TA-category-package"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 3,
+				"type": "sas program",
+				"stepUri": {
+					"name": "23439a9b-5186-4650-8858-aafcf1c1dfa0.astoreScoreCode.sas",
+					"uri": "/files/files/33944316-ee3c-4df7-a235-3eabdaba2be8",
+					"uriType": "copy",
+					"contentType": "TA-category-astore"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 4,
+				"type": "astore",
+				"stepUri": {
+					"name": "23439A9B-5186-4650-8858-AAFCF1C1DFA0_CATEGORIES_ASTORE",
+					"uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Analytics_Project_203091a7-7940-4d4f-9827-6bf2d0f991ea/tables/23439A9B-5186-4650-8858-AAFCF1C1DFA0_CATEGORIES_ASTORE?state=loaded",
+					"uriType": "copy",
+					"contentType": "astore"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			}
+		]
+	},
+	"dataPlanSnapShot": {
+		"creationTimeStamp": "0001-01-01T00:00:00Z",
+		"modifiedTimeStamp": "0001-01-01T00:00:00Z",
+		"id": "",
+		"name": "",
+		"description": "",
+		"content": null,
+		"links": null
+	},
+	"transformations": null,
+	"trainInputs": [
+		{
+			"name": "__uniqueid__",
+			"role": "id",
+			"type": "numeric",
+			"level": "nominal",
+			"length": 8
+		},
+		{
+			"name": "Review_Text",
+			"role": "input",
+			"type": "string",
+			"level": "nominal",
+			"length": 32767
+		}
+	],
+	"modelNodeProperties": null,
+	"sourceUri": {
+		"name": "Categories",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/pipelines/fdd43d14-5c7f-47f2-b6e0-0463a6fb5647/components/23439a9b-5186-4650-8858-aafcf1c1dfa0",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.analytics.component"
+	},
+	"rocDataUri": {},
+	"liftDataUri": {},
+	"dataUris": null,
+	"trainTableSummaryUri": {},
+	"fitStatUri": {},
+	"dataPlanUri": {},
+	"partitionLevels": null,
+	"eventLevels": null,
+	"interactions": null
+}
