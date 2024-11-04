@@ -1,0 +1,42 @@
+[
+   {
+      "name": "_sentiment_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 20
+   },
+   {
+      "name": "_score_",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "_feature_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 32767
+   },
+   {
+      "name": "_match_text_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 32767
+   }
+]

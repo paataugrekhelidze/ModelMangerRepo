@@ -1,0 +1,22 @@
+[
+   {
+      "name": "__uniqueid__",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "internal",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Review_Text",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 32767
+   }
+]

@@ -1,0 +1,165 @@
+{
+	"version": 0,
+	"Id": "",
+	"Name": "Sentiment",
+	"Description": "",
+	"type": "",
+	"scoreCodeType": "",
+	"scoreCodeUri": {},
+	"trainCodeUri": {},
+	"datasourceUri": {
+		"name": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.cas.caslib"
+	},
+	"externalModelId": "0f53e547-f37f-431d-849a-f75a549ad5da",
+	"function": "Text sentiment",
+	"algorithm": "Rule-based",
+	"modeler": "",
+	"tool": "Visual Text Analytics",
+	"toolVersion": "2024.10",
+	"targetEvent": "",
+	"candidateChampion": false,
+	"textLanguage": "EN",
+	"nondeterministic": false,
+	"datasourceNotes": "",
+	"sasOptions": "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+	"modelTransformation": {
+		"inputVariables": [
+			{
+				"name": "__uniqueid__",
+				"role": "id",
+				"type": "numeric",
+				"level": "internal",
+				"length": 8
+			},
+			{
+				"name": "Review_Text",
+				"role": "input",
+				"type": "string",
+				"level": "nominal",
+				"length": 32767
+			}
+		],
+		"outputVariables": [
+			{
+				"name": "_sentiment_",
+				"role": "predict",
+				"type": "string",
+				"length": 20
+			},
+			{
+				"name": "_score_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_feature_",
+				"role": "predict",
+				"type": "string",
+				"length": 32767
+			},
+			{
+				"name": "_match_text_",
+				"role": "predict",
+				"type": "string",
+				"length": 32767
+			}
+		],
+		"steps": [
+			{
+				"sequence": 1,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_epScoreCode.sas",
+					"uri": "/files/files/0b8aa4b9-55ff-4510-bab3-a7f6bad0a41d",
+					"uriType": "copy",
+					"contentType": "TA-sentiment-ep"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 2,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_packageScoreCode.sas",
+					"uri": "/files/files/022c9588-c1ca-413b-9812-ecabd7890fe3",
+					"contentType": "TA-sentiment-package"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 3,
+				"type": "sas program",
+				"stepUri": {
+					"name": "0f53e547-f37f-431d-849a-f75a549ad5da.astoreScoreCode.sas",
+					"uri": "/files/files/ef028810-f173-4bf6-8493-c928ca268f4b",
+					"uriType": "copy",
+					"contentType": "TA-sentiment-astore"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 4,
+				"type": "astore",
+				"stepUri": {
+					"name": "0F53E547-F37F-431D-849A-F75A549AD5DA_SENTIMENT_ASTORE",
+					"uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Analytics_Project_203091a7-7940-4d4f-9827-6bf2d0f991ea/tables/0F53E547-F37F-431D-849A-F75A549AD5DA_SENTIMENT_ASTORE?state=loaded",
+					"uriType": "copy",
+					"contentType": "astore"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			}
+		]
+	},
+	"dataPlanSnapShot": {
+		"creationTimeStamp": "0001-01-01T00:00:00Z",
+		"modifiedTimeStamp": "0001-01-01T00:00:00Z",
+		"id": "",
+		"name": "",
+		"description": "",
+		"content": null,
+		"links": null
+	},
+	"transformations": null,
+	"trainInputs": [
+		{
+			"name": "__uniqueid__",
+			"role": "id",
+			"type": "numeric",
+			"level": "nominal",
+			"length": 8
+		},
+		{
+			"name": "Review_Text",
+			"role": "input",
+			"type": "string",
+			"level": "nominal",
+			"length": 32767
+		}
+	],
+	"modelNodeProperties": null,
+	"sourceUri": {
+		"name": "Sentiment",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/pipelines/fdd43d14-5c7f-47f2-b6e0-0463a6fb5647/components/0f53e547-f37f-431d-849a-f75a549ad5da",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.analytics.component"
+	},
+	"rocDataUri": {},
+	"liftDataUri": {},
+	"dataUris": null,
+	"trainTableSummaryUri": {},
+	"fitStatUri": {},
+	"dataPlanUri": {},
+	"partitionLevels": null,
+	"eventLevels": null,
+	"interactions": null
+}

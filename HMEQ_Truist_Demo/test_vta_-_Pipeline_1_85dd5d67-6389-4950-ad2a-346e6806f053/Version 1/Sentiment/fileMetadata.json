@@ -1,0 +1,14 @@
+[
+   {
+      "name": "vta_epScoreCode.sas",
+      "role": "score"
+   },
+   {
+      "name": "vta_packageScoreCode.sas",
+      "role": "TextScoreExample"
+   },
+   {
+      "name": "0f53e547-f37f-431d-849a-f75a549ad5da.astoreScoreCode.sas",
+      "role": "TextScoreExample"
+   }
+]

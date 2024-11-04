@@ -1,0 +1,19 @@
+{
+   "creationTimeStamp": "2024-10-31T19:35:51.499Z",
+   "createdBy": "geladm",
+   "modifiedTimeStamp": "2024-10-31T19:35:53.370Z",
+   "modifiedBy": "geladm",
+   "id": "8dd074c3-feed-46eb-adba-960d397cd977",
+   "name": "Sentiment",
+   "scoreCodeType": "ds2MultiType",
+   "algorithm": "Rule-based",
+   "function": "Text sentiment",
+   "modelType": "astore",
+   "trainTable": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+   "tool": "Visual Text Analytics",
+   "toolVersion": "2024.10",
+   "externalModelId": "0f53e547-f37f-431d-849a-f75a549ad5da",
+   "costPerCall": "0",
+   "modelVersionName": "1.0",
+   "custom properties": []
+}
