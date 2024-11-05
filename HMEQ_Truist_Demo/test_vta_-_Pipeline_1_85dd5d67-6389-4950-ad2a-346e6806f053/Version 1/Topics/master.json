@@ -1,0 +1,526 @@
+{
+	"version": 0,
+	"Id": "",
+	"Name": "Topics",
+	"Description": "",
+	"type": "",
+	"scoreCodeType": "",
+	"scoreCodeUri": {},
+	"trainCodeUri": {},
+	"datasourceUri": {
+		"name": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.cas.caslib"
+	},
+	"externalModelId": "bb3d88fa-8089-4449-9409-cecc0132b6f8",
+	"function": "Text topics",
+	"algorithm": "rotated svc",
+	"modeler": "",
+	"tool": "Visual Text Analytics",
+	"toolVersion": "2024.10",
+	"targetEvent": "",
+	"candidateChampion": false,
+	"textLanguage": "EN",
+	"nondeterministic": false,
+	"datasourceNotes": "",
+	"sasOptions": "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+	"modelTransformation": {
+		"inputVariables": [
+			{
+				"name": "__uniqueid__",
+				"role": "id",
+				"type": "numeric",
+				"level": "internal",
+				"length": 8
+			},
+			{
+				"name": "Review_Text",
+				"role": "input",
+				"type": "string",
+				"level": "nominal",
+				"length": 32767
+			}
+		],
+		"outputVariables": [
+			{
+				"name": "_TopicID_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Proportion_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col1_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col2_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col3_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col4_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col5_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col6_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col7_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col8_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col9_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col10_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col11_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col12_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col13_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col14_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col15_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_Col16_",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_1",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_2",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_3",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_4",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_5",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_6",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_7",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_8",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_9",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_10",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_11",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_12",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_13",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_14",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_15",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			},
+			{
+				"name": "_TextTopic_16",
+				"role": "predict",
+				"type": "numeric",
+				"length": 8
+			}
+		],
+		"steps": [
+			{
+				"sequence": 1,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_epScoreCode.sas",
+					"uri": "/files/files/8adc77a8-340f-491a-aefc-23bf79ee462b",
+					"uriType": "copy",
+					"contentType": "TA-topics-ep"
+				},
+				"inputVariables": null,
+				"outputVariables": [
+					{
+						"name": "_Col1_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col2_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col3_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col4_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col5_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col6_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col7_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col8_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col9_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col10_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col11_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col12_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col13_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col14_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col15_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_Col16_",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_1",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_2",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_3",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_4",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_5",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_6",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_7",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_8",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_9",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_10",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_11",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_12",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_13",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_14",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_15",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					},
+					{
+						"name": "_TextTopic_16",
+						"role": "predict",
+						"type": "numeric",
+						"length": 8
+					}
+				]
+			},
+			{
+				"sequence": 2,
+				"type": "ds2",
+				"stepUri": {
+					"name": "vta_packageScoreCode.sas",
+					"uri": "/files/files/dffcaf4c-d597-4714-912b-68483f4fcfba",
+					"contentType": "TA-topics-package"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			},
+			{
+				"sequence": 4,
+				"type": "astore",
+				"stepUri": {
+					"name": "BB3D88FA-8089-4449-9409-CECC0132B6F8_TEXT_MODEL",
+					"uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Analytics_Project_203091a7-7940-4d4f-9827-6bf2d0f991ea/tables/BB3D88FA-8089-4449-9409-CECC0132B6F8_TEXT_MODEL?state=loaded",
+					"uriType": "copy",
+					"contentType": "astore"
+				},
+				"inputVariables": null,
+				"outputVariables": null
+			}
+		]
+	},
+	"dataPlanSnapShot": {
+		"creationTimeStamp": "0001-01-01T00:00:00Z",
+		"modifiedTimeStamp": "0001-01-01T00:00:00Z",
+		"id": "",
+		"name": "",
+		"description": "",
+		"content": null,
+		"links": null
+	},
+	"transformations": null,
+	"trainInputs": [
+		{
+			"name": "__uniqueid__",
+			"role": "id",
+			"type": "numeric",
+			"level": "nominal",
+			"length": 8
+		},
+		{
+			"name": "Review_Text",
+			"role": "input",
+			"type": "string",
+			"level": "nominal",
+			"length": 32767
+		}
+	],
+	"modelNodeProperties": null,
+	"sourceUri": {
+		"name": "Topics",
+		"uri": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/pipelines/fdd43d14-5c7f-47f2-b6e0-0463a6fb5647/components/bb3d88fa-8089-4449-9409-cecc0132b6f8",
+		"uriType": "reference",
+		"mediaType": "application/vnd.sas.analytics.component+json",
+		"contentType": "application/vnd.sas.analytics.component"
+	},
+	"rocDataUri": {},
+	"liftDataUri": {},
+	"dataUris": null,
+	"trainTableSummaryUri": {},
+	"fitStatUri": {},
+	"dataPlanUri": {},
+	"partitionLevels": null,
+	"eventLevels": null,
+	"interactions": null
+}
