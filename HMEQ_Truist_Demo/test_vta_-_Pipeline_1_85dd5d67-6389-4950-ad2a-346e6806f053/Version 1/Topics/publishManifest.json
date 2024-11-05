@@ -1,0 +1,146 @@
+{
+  "creationTimeStamp": "2024-11-05T22:05:15.333323Z",
+  "createdBy": "geladm",
+  "modifiedTimeStamp": "2024-11-05T22:05:15.333324Z",
+  "modifiedBy": "geladm",
+  "id": "57ba99dd-ee0f-4097-8769-2edbdbd87cf4",
+  "destinationName": "Gitpaugre3",
+  "destination": {
+    "creationTimeStamp": "2024-11-01T16:35:49.113596Z",
+    "createdBy": "geladm",
+    "modifiedTimeStamp": "2024-11-01T16:35:49.113596Z",
+    "modifiedBy": "geladm",
+    "version": 2,
+    "id": "35c8b0a1-a1ae-49fa-966b-f716df0f24c4",
+    "name": "Gitpaugre3",
+    "destinationType": "git",
+    "properties": [
+      {
+        "name": "credDomainId",
+        "value": "DomainGitpaugre3"
+      },
+      {
+        "name": "remoteRepositoryURL",
+        "value": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+      },
+      {
+        "name": "localRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "userEmail",
+        "value": "paataugrekhelidze@gmail.com"
+      },
+      {
+        "name": "userName",
+        "value": "paataugrekhelidze"
+      },
+      {
+        "name": "gitBranch",
+        "value": "main"
+      },
+      {
+        "name": "deploymentGitFolder",
+        "value": "/deploymentTest"
+      },
+      {
+        "name": "gitRemotePath",
+        "value": "/HMEQ_Truist_Demo"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "GET",
+        "rel": "getGitFolders",
+        "href": "/modelPublish/destinations/Gitpaugre3/gitFolders",
+        "uri": "/modelPublish/destinations/Gitpaugre3/gitFolders",
+        "type": "application/vnd.sas.collection"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "Topics",
+    "principalID": "a4cb4799-979b-41b2-83c4-deee7b66416a",
+    "codeType": "ds2",
+    "code": "package Topics / overwrite=yes;\n  dcl package score sc();\n  dcl nchar(32767) \"Review_Text\";\n  dcl double \"_Col1_\" having label n' Score for \"+jean, +pant, comfortable, +look, +pair\"';\n  dcl double \"_Col2_\" having label n' Score for \"+small, +size, +run, +order, +large\"';\n  dcl double \"_Col3_\" having label n' Score for \"+dress, +wear, +compliment, +dress, comfortable\"';\n  dcl double \"_Col4_\" having label n' Score for \"+look, not, +dress, +make, +fabric\"';\n  dcl double \"_Col5_\" having label n' Score for \"very, flattering, comfortable, +fit, +soft\"';\n  dcl double \"_Col6_\" having label n' Score for \"+top, +wear, +compliment, great, +jean\"';\n  dcl double \"_Col7_\" having label n' Score for \"+color, +buy, beautiful, +soft, +fabric\"';\n  dcl double \"_Col8_\" having label n' Score for \"not, +try, +store, +buy, +go\"';\n  dcl double \"_Col9_\" having label n' Score for \"+shirt, +wear, +fit, +great, +love\"';\n  dcl double \"_Col10_\" having label n' Score for \"+sweater, +wear, +sleeve, not, +soft\"';\n  dcl double \"_Col11_\" having label n' Score for \"+great, +fit, +quality, perfect, great fit\"';\n  dcl double \"_Col12_\" having label n' Score for \"+size, true, +fit, perfectly, beautiful\"';\n  dcl double \"_Col13_\" having label n' Score for \"+fit, too, petite, +length, +order\"';\n  dcl double \"_Col14_\" having label n' Score for \"+cute, comfortable, +little, really, +run\"';\n  dcl double \"_Col15_\" having label n' Score for \"+love, +fit, +dress, too, +color\"';\n  dcl double \"_Col16_\" having label n' Score for \"+look, great, +love, +jean, +fit\"';\n  dcl double \"_TextTopic_1\" having label n'+jean, +pant, comfortable, +look, +pair';\n  dcl double \"_TextTopic_2\" having label n'+small, +size, +run, +order, +large';\n  dcl double \"_TextTopic_3\" having label n'+dress, +wear, +compliment, +dress, comfortable';\n  dcl double \"_TextTopic_4\" having label n'+look, not, +dress, +make, +fabric';\n  dcl double \"_TextTopic_5\" having label n'very, flattering, comfortable, +fit, +soft';\n  dcl double \"_TextTopic_6\" having label n'+top, +wear, +compliment, great, +jean';\n  dcl double \"_TextTopic_7\" having label n'+color, +buy, beautiful, +soft, +fabric';\n  dcl double \"_TextTopic_8\" having label n'not, +try, +store, +buy, +go';\n  dcl double \"_TextTopic_9\" having label n'+shirt, +wear, +fit, +great, +love';\n  dcl double \"_TextTopic_10\" having label n'+sweater, +wear, +sleeve, not, +soft';\n  dcl double \"_TextTopic_11\" having label n'+great, +fit, +quality, perfect, great fit';\n  dcl double \"_TextTopic_12\" having label n'+size, true, +fit, perfectly, beautiful';\n  dcl double \"_TextTopic_13\" having label n'+fit, too, petite, +length, +order';\n  dcl double \"_TextTopic_14\" having label n'+cute, comfortable, +little, really, +run';\n  dcl double \"_TextTopic_15\" having label n'+love, +fit, +dress, too, +color';\n  dcl double \"_TextTopic_16\" having label n'+look, great, +love, +jean, +fit';\n  varlist allvars[_all_];\n  method init();\n    sc.setvars(allvars);\n    sc.setKey(n'9314936A619A629E6C19A2802A0CEEC3274F9289');\n  end;\n\n  method score(\n    nvarchar(32767) \"REVIEW_TEXT\",\n    IN_OUT double \"_COL1_\",\n    IN_OUT double \"_COL2_\",\n    IN_OUT double \"_COL3_\",\n    IN_OUT double \"_COL4_\",\n    IN_OUT double \"_COL5_\",\n    IN_OUT double \"_COL6_\",\n    IN_OUT double \"_COL7_\",\n    IN_OUT double \"_COL8_\",\n    IN_OUT double \"_COL9_\",\n    IN_OUT double \"_COL10_\",\n    IN_OUT double \"_COL11_\",\n    IN_OUT double \"_COL12_\",\n    IN_OUT double \"_COL13_\",\n    IN_OUT double \"_COL14_\",\n    IN_OUT double \"_COL15_\",\n    IN_OUT double \"_COL16_\",\n    IN_OUT double \"_TEXTTOPIC_1\",\n    IN_OUT double \"_TEXTTOPIC_2\",\n    IN_OUT double \"_TEXTTOPIC_3\",\n    IN_OUT double \"_TEXTTOPIC_4\",\n    IN_OUT double \"_TEXTTOPIC_5\",\n    IN_OUT double \"_TEXTTOPIC_6\",\n    IN_OUT double \"_TEXTTOPIC_7\",\n    IN_OUT double \"_TEXTTOPIC_8\",\n    IN_OUT double \"_TEXTTOPIC_9\",\n    IN_OUT double \"_TEXTTOPIC_10\",\n    IN_OUT double \"_TEXTTOPIC_11\",\n    IN_OUT double \"_TEXTTOPIC_12\",\n    IN_OUT double \"_TEXTTOPIC_13\",\n    IN_OUT double \"_TEXTTOPIC_14\",\n    IN_OUT double \"_TEXTTOPIC_15\",\n    IN_OUT double \"_TEXTTOPIC_16\"\n  );\n  this.\"REVIEW_TEXT\" = \"REVIEW_TEXT\";\n\n  sc.scoreRecord();\n\n  \"_COL1_\"= this.\"_COL1_\";\n  \"_COL2_\"= this.\"_COL2_\";\n  \"_COL3_\"= this.\"_COL3_\";\n  \"_COL4_\"= this.\"_COL4_\";\n  \"_COL5_\"= this.\"_COL5_\";\n  \"_COL6_\"= this.\"_COL6_\";\n  \"_COL7_\"= this.\"_COL7_\";\n  \"_COL8_\"= this.\"_COL8_\";\n  \"_COL9_\"= this.\"_COL9_\";\n  \"_COL10_\"= this.\"_COL10_\";\n  \"_COL11_\"= this.\"_COL11_\";\n  \"_COL12_\"= this.\"_COL12_\";\n  \"_COL13_\"= this.\"_COL13_\";\n  \"_COL14_\"= this.\"_COL14_\";\n  \"_COL15_\"= this.\"_COL15_\";\n  \"_COL16_\"= this.\"_COL16_\";\n  \"_TEXTTOPIC_1\"= this.\"_TEXTTOPIC_1\";\n  \"_TEXTTOPIC_2\"= this.\"_TEXTTOPIC_2\";\n  \"_TEXTTOPIC_3\"= this.\"_TEXTTOPIC_3\";\n  \"_TEXTTOPIC_4\"= this.\"_TEXTTOPIC_4\";\n  \"_TEXTTOPIC_5\"= this.\"_TEXTTOPIC_5\";\n  \"_TEXTTOPIC_6\"= this.\"_TEXTTOPIC_6\";\n  \"_TEXTTOPIC_7\"= this.\"_TEXTTOPIC_7\";\n  \"_TEXTTOPIC_8\"= this.\"_TEXTTOPIC_8\";\n  \"_TEXTTOPIC_9\"= this.\"_TEXTTOPIC_9\";\n  \"_TEXTTOPIC_10\"= this.\"_TEXTTOPIC_10\";\n  \"_TEXTTOPIC_11\"= this.\"_TEXTTOPIC_11\";\n  \"_TEXTTOPIC_12\"= this.\"_TEXTTOPIC_12\";\n  \"_TEXTTOPIC_13\"= this.\"_TEXTTOPIC_13\";\n  \"_TEXTTOPIC_14\"= this.\"_TEXTTOPIC_14\";\n  \"_TEXTTOPIC_15\"= this.\"_TEXTTOPIC_15\";\n  \"_TEXTTOPIC_16\"= this.\"_TEXTTOPIC_16\";\n  end;\n\nendpackage;",
+    "analyticStoreURI": [
+      "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_3AC8DF3307CB4AFAA607D83FD1439"
+    ],
+    "analyticStores": [
+      {
+        "creationTimeStamp": "0001-01-01T00:00:00Z",
+        "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+        "name": "_3AC8DF3307CB4AFAA607D83FD1439",
+        "key": "9314936A619A629E6C19A2802A0CEEC3274F9289",
+        "location": "file:///models/astores/viya/_3AC8DF3307CB4AFAA607D83FD1439.astore",
+        "inline": false
+      }
+    ],
+    "sourceURI": "/modelRepository/models/a4cb4799-979b-41b2-83c4-deee7b66416a",
+    "projectID": "85dd5d67-6389-4950-ad2a-346e6806f053",
+    "projectVersionID": "309b01a7-f8b8-4f11-91a4-b2fb364ec80e",
+    "modelID": "a4cb4799-979b-41b2-83c4-deee7b66416a",
+    "modelVersionID": "1.0",
+    "publishLevel": "model",
+    "variableXML": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cScore\u003e\n  \u003cTargetList\u003e\u003c/TargetList\u003e\n  \u003cProducer\u003e\n    \u003cName\u003eSAS Model Manager\u003c/Name\u003e\n    \u003cVersion\u003e15.1\u003c/Version\u003e\n  \u003c/Producer\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"__uniqueid__\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cInput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"Review_Text\"\u003c/Name\u003e\n      \u003cType\u003echaracter\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Input\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TopicID_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Proportion_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col1_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col2_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col3_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col4_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col5_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col6_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col7_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col8_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col9_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col10_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col11_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col12_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col13_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col14_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col15_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_Col16_\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_2\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_3\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_4\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_5\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_6\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_7\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_8\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_9\"\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"0\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"1\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"2\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"3\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"4\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"5\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n  \u003cOutput\u003e\n    \u003cVariable\u003e\n      \u003cName\u003e\"_TextTopic_1\"6\u003c/Name\u003e\n      \u003cType\u003enumeric\u003c/Type\u003e\n    \u003c/Variable\u003e\n  \u003c/Output\u003e\n\u003c/Score\u003e"
+  },
+  "properties": {
+    "gitFolderPath": "/HMEQ_Truist_Demo/Topics",
+    "gitRemotePath": "/HMEQ_Truist_Demo",
+    "gitRepositoryURL": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+  },
+  "sourceURI": "/modelRepository/models/a4cb4799-979b-41b2-83c4-deee7b66416a",
+  "resources": [
+    {
+      "creationTimeStamp": "0001-01-01T00:00:00Z",
+      "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+      "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_3AC8DF3307CB4AFAA607D83FD1439",
+      "inline": false
+    },
+    {
+      "creationTimeStamp": "0001-01-01T00:00:00Z",
+      "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+      "name": "_3AC8DF3307CB4AFAA607D83FD1439",
+      "key": "9314936A619A629E6C19A2802A0CEEC3274F9289",
+      "location": "file:///models/astores/viya/_3AC8DF3307CB4AFAA607D83FD1439.astore",
+      "inline": false
+    }
+  ],
+  "inputVariables": null,
+  "outputVariables": null,
+  "component": {},
+  "product": {},
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {}
+}
