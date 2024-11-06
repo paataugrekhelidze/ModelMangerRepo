@@ -1,10 +1,10 @@
 [
    {
-      "name": "vta_epScoreCode.sas",
+      "name": "vta_packageScoreCode.sas",
       "role": "TextScoreExample"
    },
    {
-      "name": "vta_packageScoreCode.sas",
-      "role": "TextScoreExample"
+      "name": "vta_epScoreCode.sas",
+      "role": "score"
    }
 ]

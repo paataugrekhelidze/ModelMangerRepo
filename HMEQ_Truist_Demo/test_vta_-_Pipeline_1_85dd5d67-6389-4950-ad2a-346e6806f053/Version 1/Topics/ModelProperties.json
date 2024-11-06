@@ -1,7 +1,7 @@
 {
    "creationTimeStamp": "2024-10-31T19:06:41.339Z",
    "createdBy": "geladm",
-   "modifiedTimeStamp": "2024-10-31T19:06:43.262Z",
+   "modifiedTimeStamp": "2024-11-06T17:18:55.090Z",
    "modifiedBy": "geladm",
    "id": "a4cb4799-979b-41b2-83c4-deee7b66416a",
    "name": "Topics",
@@ -12,8 +12,9 @@
    "trainTable": "/analyticsGateway/projects/203091a7-7940-4d4f-9827-6bf2d0f991ea/dataSource",
    "tool": "Visual Text Analytics",
    "toolVersion": "2024.10",
+   "publishTimeStamp": 1730913248338,
    "externalModelId": "bb3d88fa-8089-4449-9409-cecc0132b6f8",
    "costPerCall": "0",
-   "modelVersionName": "1.0",
+   "modelVersionName": "4.0",
    "custom properties": []
 }
