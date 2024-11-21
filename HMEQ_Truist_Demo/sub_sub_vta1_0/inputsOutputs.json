@@ -1,0 +1,54 @@
+{
+    "inputs" : [
+        {
+            "creationTimeStamp" : "2024-11-18T23:47:38.366Z",
+            "modifiedTimeStamp" : "2024-11-19T00:03:30.074Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "b9299c02-ca24-4766-8dd2-b92681ba7fe9",
+            "direction" : "input",
+            "name" : "Review_Text",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        },
+        {
+            "creationTimeStamp" : "2024-11-18T23:47:38.365Z",
+            "modifiedTimeStamp" : "2024-11-19T00:03:30.074Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "17180709-2335-40e5-ab6e-edeb0f47fc4e",
+            "direction" : "input",
+            "name" : "__uniqueid__",
+            "dataType" : "decimal",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        }
+    ],
+    "outputs" : [
+        {
+            "creationTimeStamp" : "2024-11-18T23:47:38.368Z",
+            "modifiedTimeStamp" : "2024-11-19T00:03:30.074Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "a41d9ff9-8141-4636-89c6-4ac2a00e84ee",
+            "direction" : "output",
+            "name" : "_category_",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        },
+        {
+            "creationTimeStamp" : "2024-11-18T23:47:38.366Z",
+            "modifiedTimeStamp" : "2024-11-19T00:03:30.074Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "05fb83d8-0066-4ad5-9bcb-f6cd35b37c38",
+            "direction" : "output",
+            "name" : "_match_text_",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        }
+    ]
+}

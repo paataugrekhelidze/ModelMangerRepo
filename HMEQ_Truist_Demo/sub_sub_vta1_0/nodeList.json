@@ -1,0 +1,18 @@
+[
+    {
+        "id" : "3ca5077e-8c78-495c-a170-1d6ad6c0abd8",
+        "name" : "Categories",
+        "type" : "application/vnd.sas.models.model",
+        "versionName" : "",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "9127143f-319b-4183-a831-cdbe1a7715cb",
+                "name" : "sub_sub_vta",
+                "versionId" : "08f84f73-df7b-49e6-92d1-63ccd1815c48"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    }
+]
