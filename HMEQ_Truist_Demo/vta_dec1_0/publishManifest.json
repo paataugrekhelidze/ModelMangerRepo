@@ -1,0 +1,227 @@
+{
+  "creationTimeStamp": "2024-11-21T17:06:23.100005Z",
+  "createdBy": "geladm",
+  "modifiedTimeStamp": "2024-11-21T17:06:23.100006Z",
+  "modifiedBy": "geladm",
+  "version": 1,
+  "id": "babcea1a-394b-46f1-9edc-7fcdc8f661f7",
+  "destinationName": "Gitpaugre3",
+  "destination": {
+    "creationTimeStamp": "2024-11-01T16:35:49.113596Z",
+    "createdBy": "geladm",
+    "modifiedTimeStamp": "2024-11-01T16:35:49.113596Z",
+    "modifiedBy": "geladm",
+    "version": 2,
+    "id": "35c8b0a1-a1ae-49fa-966b-f716df0f24c4",
+    "name": "Gitpaugre3",
+    "destinationType": "git",
+    "properties": [
+      {
+        "name": "credDomainId",
+        "value": "DomainGitpaugre3"
+      },
+      {
+        "name": "remoteRepositoryURL",
+        "value": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+      },
+      {
+        "name": "localRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "userEmail",
+        "value": "paataugrekhelidze@gmail.com"
+      },
+      {
+        "name": "userName",
+        "value": "paataugrekhelidze"
+      },
+      {
+        "name": "gitBranch",
+        "value": "main"
+      },
+      {
+        "name": "deploymentGitFolder",
+        "value": "/deploymentTest"
+      },
+      {
+        "name": "gitRemotePath",
+        "value": "/HMEQ_Truist_Demo"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/Gitpaugre3",
+        "uri": "/modelPublish/destinations/Gitpaugre3",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "GET",
+        "rel": "getGitFolders",
+        "href": "/modelPublish/destinations/Gitpaugre3/gitFolders",
+        "uri": "/modelPublish/destinations/Gitpaugre3/gitFolders",
+        "type": "application/vnd.sas.collection"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "vta_dec1_0",
+    "codeType": "ds2",
+    "codeURI": "/decisions/flows/06640273-781f-410f-be2f-e6ecd8f9e3f8/revisions/51d6a816-37f3-49cd-bab8-7eab3e22aeac/code?rootPackageName=vta_dec1_0\u0026lookupMode=INLINE\u0026treatmentGroupMode=INLINE\u0026globalVariableMode=INLINE\u0026traversedPathFlag=false\u0026isGeneratingRuleFiredColumn=false\u0026codeTarget=gitMas",
+    "codeMediaType": "text/vnd.sas.source.ds2.async",
+    "analyticStores": [
+      {
+        "creationTimeStamp": "0001-01-01T00:00:00Z",
+        "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+        "name": "_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+        "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+        "key": "4412A153579FFF947E88A514E4567FF412DE88C2",
+        "location": "file:///models/astores/viya/_11D7AA23B2FA4CAFA1E16B6AF1DFF.astore",
+        "inline": false
+      }
+    ],
+    "sourceURI": "/decisions/flows/06640273-781f-410f-be2f-e6ecd8f9e3f8/revisions/51d6a816-37f3-49cd-bab8-7eab3e22aeac",
+    "publishLevel": "decision"
+  },
+  "properties": {
+    "gitFolderPath": "/HMEQ_Truist_Demo/vta_dec1_0",
+    "gitRemotePath": "/HMEQ_Truist_Demo",
+    "gitRepositoryURL": "https://github.com/paataugrekhelidze/ModelMangerRepo.git"
+  },
+  "sourceURI": "/decisions/flows/06640273-781f-410f-be2f-e6ecd8f9e3f8/revisions/51d6a816-37f3-49cd-bab8-7eab3e22aeac",
+  "resources": [
+    {
+      "creationTimeStamp": "2024-10-31T19:36:14.608Z",
+      "createdBy": "geladm",
+      "modifiedTimeStamp": "2024-11-18T19:32:22.673Z",
+      "modifiedBy": "geladm",
+      "name": "Categories",
+      "uri": "/modelRepository/models/3ca5077e-8c78-495c-a170-1d6ad6c0abd8",
+      "mediaType": "application/vnd.sas.models.model",
+      "contentVersion": "13.0",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "0001-01-01T00:00:00Z",
+      "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+      "name": "_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+      "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+      "mediaType": "application/vnd.sas.models.model.analyticStore",
+      "contentVersion": "null",
+      "inline": false
+    },
+    {
+      "creationTimeStamp": "2024-11-18T23:47:13.251Z",
+      "createdBy": "geladm",
+      "modifiedTimeStamp": "2024-11-19T00:04:08.195Z",
+      "modifiedBy": "geladm",
+      "name": "sub_sub_vta",
+      "uri": "/decisions/flows/9127143f-319b-4183-a831-cdbe1a7715cb/revisions/08f84f73-df7b-49e6-92d1-63ccd1815c48",
+      "mediaType": "application/vnd.sas.decision",
+      "contentVersion": "1.0",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "2024-11-18T23:46:11.12Z",
+      "createdBy": "geladm",
+      "modifiedTimeStamp": "2024-11-18T23:51:09.494Z",
+      "modifiedBy": "geladm",
+      "name": "sub_vta",
+      "uri": "/decisions/flows/751d88f8-b866-412c-85b5-c356be4f9d54/revisions/216f4558-4aa0-42a4-9dd7-f66aa56d6c70",
+      "mediaType": "application/vnd.sas.decision",
+      "contentVersion": "1.0",
+      "inline": true
+    },
+    {
+      "creationTimeStamp": "0001-01-01T00:00:00Z",
+      "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+      "name": "_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+      "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~ModelStore/tables/_11D7AA23B2FA4CAFA1E16B6AF1DFF",
+      "key": "4412A153579FFF947E88A514E4567FF412DE88C2",
+      "location": "file:///models/astores/viya/_11D7AA23B2FA4CAFA1E16B6AF1DFF.astore",
+      "inline": false
+    }
+  ],
+  "inputVariables": [
+    {
+      "name": "__uniqueid__",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Review_Text",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "outputVariables": [
+    {
+      "name": "_match_text_",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "_category_",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "component": {
+    "majorVersion": 1,
+    "name": "vta_dec"
+  },
+  "product": {
+    "majorVersion": 9,
+    "minorVersion": 14,
+    "versionName": "9.14.5",
+    "name": "Decisions Service"
+  },
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {}
+}
