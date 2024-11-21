@@ -1,0 +1,54 @@
+{
+    "inputs" : [
+        {
+            "creationTimeStamp" : "2024-11-07T23:37:26.367Z",
+            "modifiedTimeStamp" : "2024-11-18T23:45:51.181Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "86aa3994-0e35-43c3-bfd4-fb324f0253e4",
+            "direction" : "input",
+            "name" : "Review_Text",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        },
+        {
+            "creationTimeStamp" : "2024-11-07T23:37:26.364Z",
+            "modifiedTimeStamp" : "2024-11-18T23:45:51.181Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "ea055b4d-f751-4556-97c0-1ad5fd0f22a5",
+            "direction" : "input",
+            "name" : "__uniqueid__",
+            "dataType" : "decimal",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        }
+    ],
+    "outputs" : [
+        {
+            "creationTimeStamp" : "2024-11-07T23:37:26.369Z",
+            "modifiedTimeStamp" : "2024-11-18T23:45:51.181Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "3d3b1121-4942-46b9-b85c-6161a7dd9ac2",
+            "direction" : "output",
+            "name" : "_category_",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        },
+        {
+            "creationTimeStamp" : "2024-11-07T23:37:26.368Z",
+            "modifiedTimeStamp" : "2024-11-18T23:45:51.181Z",
+            "createdBy" : "geladm",
+            "modifiedBy" : "geladm",
+            "id" : "8cafff2f-e25a-4b99-b03f-091cc03a21d8",
+            "direction" : "output",
+            "name" : "_match_text_",
+            "dataType" : "string",
+            "generateDataGridColumns" : false,
+            "legacy" : false
+        }
+    ]
+}

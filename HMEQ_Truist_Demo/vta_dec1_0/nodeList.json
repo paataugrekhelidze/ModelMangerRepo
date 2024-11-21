@@ -1,0 +1,52 @@
+[
+    {
+        "id" : "751d88f8-b866-412c-85b5-c356be4f9d54",
+        "name" : "sub_vta",
+        "type" : "application/vnd.sas.decision",
+        "versionId" : "216f4558-4aa0-42a4-9dd7-f66aa56d6c70",
+        "versionName" : "1.0",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "06640273-781f-410f-be2f-e6ecd8f9e3f8",
+                "name" : "vta_dec",
+                "versionId" : "51d6a816-37f3-49cd-bab8-7eab3e22aeac"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "3ca5077e-8c78-495c-a170-1d6ad6c0abd8",
+        "name" : "Categories",
+        "type" : "application/vnd.sas.models.model",
+        "versionName" : "",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "9127143f-319b-4183-a831-cdbe1a7715cb",
+                "name" : "sub_sub_vta",
+                "versionId" : "08f84f73-df7b-49e6-92d1-63ccd1815c48"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    },
+    {
+        "id" : "9127143f-319b-4183-a831-cdbe1a7715cb",
+        "name" : "sub_sub_vta",
+        "type" : "application/vnd.sas.decision",
+        "versionId" : "08f84f73-df7b-49e6-92d1-63ccd1815c48",
+        "versionName" : "1.0",
+        "activeVersionReference" : false,
+        "referencingDecisions" : [
+            {
+                "id" : "751d88f8-b866-412c-85b5-c356be4f9d54",
+                "name" : "sub_vta",
+                "versionId" : "216f4558-4aa0-42a4-9dd7-f66aa56d6c70"
+            }
+        ],
+        "customContext" : false,
+        "customContextMicroAnalytics" : false
+    }
+]
