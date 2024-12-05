@@ -1,0 +1,72 @@
+[
+   {
+      "name": "EM_CLASSIFICATION",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 12
+   },
+   {
+      "name": "I_GE50K",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 12
+   },
+   {
+      "name": "_WARN_",
+      "description": "",
+      "role": "output",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 4
+   },
+   {
+      "name": "EM_EVENTPROBABILITY",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "EM_PROBABILITY",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "P_GE50K0",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "P_GE50K1",
+      "description": "",
+      "role": "output",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   }
+]

@@ -1,0 +1,350 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "dmcas_miscTable",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "_Cutoff_": {
+      "label": "Cutoff",
+      "length": 8,
+      "order": 1,
+      "parameter": "_Cutoff_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_Cutoff_"
+      ]
+    },
+    "_Event_": {
+      "label": "Event",
+      "length": 256,
+      "order": 5,
+      "parameter": "_Event_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_Event_"
+      ]
+    },
+    "_Response_": {
+      "label": "Response",
+      "length": 10,
+      "order": 4,
+      "parameter": "_Response_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_Response_"
+      ]
+    },
+    "_TestCount_": {
+      "label": "Test Frequency",
+      "length": 8,
+      "order": 9,
+      "parameter": "_TestCount_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_TestCount_"
+      ]
+    },
+    "_TestPct_": {
+      "label": "Test Percentage",
+      "length": 8,
+      "order": 12,
+      "parameter": "_TestPct_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_TestPct_"
+      ]
+    },
+    "_TrainCount_": {
+      "label": "Training Frequency",
+      "length": 8,
+      "order": 7,
+      "parameter": "_TrainCount_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_TrainCount_"
+      ]
+    },
+    "_TrainPct_": {
+      "label": "Training Percentage",
+      "length": 8,
+      "order": 10,
+      "parameter": "_TrainPct_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_TrainPct_"
+      ]
+    },
+    "_ValidateCount_": {
+      "label": "Validation Frequency",
+      "length": 8,
+      "order": 8,
+      "parameter": "_ValidateCount_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_ValidateCount_"
+      ]
+    },
+    "_ValidatePct_": {
+      "label": "Validation Percentage",
+      "length": 8,
+      "order": 11,
+      "parameter": "_ValidatePct_",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "_ValidatePct_"
+      ]
+    },
+    "_Value_": {
+      "label": "Value",
+      "length": 16,
+      "order": 6,
+      "parameter": "_Value_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_Value_"
+      ]
+    },
+    "_cutoffSource_": {
+      "label": "Cutoff Source",
+      "length": 8,
+      "order": 2,
+      "parameter": "_cutoffSource_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_cutoffSource_"
+      ]
+    },
+    "_targetName_": {
+      "label": "Target Name",
+      "length": 256,
+      "order": 3,
+      "parameter": "_targetName_",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "_targetName_"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "_Cutoff_": "0.27",
+        "_Event_": "           1",
+        "_Response_": "CORRECT",
+        "_TestCount_": "672",
+        "_TestPct_": "85.7142857143",
+        "_TrainCount_": "4298",
+        "_TrainPct_": "91.3496280553",
+        "_ValidateCount_": null,
+        "_ValidatePct_": null,
+        "_Value_": "True Positive",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.27",
+        "_Event_": "           1",
+        "_Response_": "INCORRECT",
+        "_TestCount_": "112",
+        "_TestPct_": "14.2857142857",
+        "_TrainCount_": "407",
+        "_TrainPct_": "8.65037194474",
+        "_ValidateCount_": null,
+        "_ValidatePct_": null,
+        "_Value_": "False Negative",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.27",
+        "_Event_": "           0",
+        "_Response_": "CORRECT",
+        "_TestCount_": "1879",
+        "_TestPct_": "76.0113268608",
+        "_TrainCount_": "11712",
+        "_TrainPct_": "78.9644012945",
+        "_ValidateCount_": null,
+        "_ValidatePct_": null,
+        "_Value_": "True Negative",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.27",
+        "_Event_": "           0",
+        "_Response_": "INCORRECT",
+        "_TestCount_": "593",
+        "_TestPct_": "23.9886731392",
+        "_TrainCount_": "3120",
+        "_TrainPct_": "21.0355987055",
+        "_ValidateCount_": null,
+        "_ValidatePct_": null,
+        "_Value_": "False Positive",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.28",
+        "_Event_": "           1",
+        "_Response_": "CORRECT",
+        "_TestCount_": null,
+        "_TestPct_": null,
+        "_TrainCount_": null,
+        "_TrainPct_": null,
+        "_ValidateCount_": "1967",
+        "_ValidatePct_": "83.630952381",
+        "_Value_": "True Positive",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.28",
+        "_Event_": "           1",
+        "_Response_": "INCORRECT",
+        "_TestCount_": null,
+        "_TestPct_": null,
+        "_TrainCount_": null,
+        "_TrainPct_": null,
+        "_ValidateCount_": "385",
+        "_ValidatePct_": "16.369047619",
+        "_Value_": "False Negative",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.28",
+        "_Event_": "           0",
+        "_Response_": "CORRECT",
+        "_TestCount_": null,
+        "_TestPct_": null,
+        "_TrainCount_": null,
+        "_TrainPct_": null,
+        "_ValidateCount_": "5811",
+        "_ValidatePct_": "78.357605178",
+        "_Value_": "True Negative",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.28",
+        "_Event_": "           0",
+        "_Response_": "INCORRECT",
+        "_TestCount_": null,
+        "_TestPct_": null,
+        "_TrainCount_": null,
+        "_TrainPct_": null,
+        "_ValidateCount_": "1605",
+        "_ValidatePct_": "21.642394822",
+        "_Value_": "False Positive",
+        "_cutoffSource_": "KS",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.5",
+        "_Event_": "           1",
+        "_Response_": "CORRECT",
+        "_TestCount_": "434",
+        "_TestPct_": "55.3571428571",
+        "_TrainCount_": "2767",
+        "_TrainPct_": "58.8097768332",
+        "_ValidateCount_": "1303",
+        "_ValidatePct_": "55.3996598639",
+        "_Value_": "True Positive",
+        "_cutoffSource_": "Default",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 9
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.5",
+        "_Event_": "           1",
+        "_Response_": "INCORRECT",
+        "_TestCount_": "350",
+        "_TestPct_": "44.6428571429",
+        "_TrainCount_": "1938",
+        "_TrainPct_": "41.1902231668",
+        "_ValidateCount_": "1049",
+        "_ValidatePct_": "44.6003401361",
+        "_Value_": "False Negative",
+        "_cutoffSource_": "Default",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 10
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.5",
+        "_Event_": "           0",
+        "_Response_": "CORRECT",
+        "_TestCount_": "2282",
+        "_TestPct_": "92.3139158576",
+        "_TrainCount_": "13992",
+        "_TrainPct_": "94.3365695793",
+        "_ValidateCount_": "6949",
+        "_ValidatePct_": "93.7028047465",
+        "_Value_": "True Negative",
+        "_cutoffSource_": "Default",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 11
+    },
+    {
+      "dataMap": {
+        "_Cutoff_": "0.5",
+        "_Event_": "           0",
+        "_Response_": "INCORRECT",
+        "_TestCount_": "190",
+        "_TestPct_": "7.68608414239",
+        "_TrainCount_": "840",
+        "_TrainPct_": "5.66343042071",
+        "_ValidateCount_": "467",
+        "_ValidatePct_": "6.29719525351",
+        "_Value_": "False Positive",
+        "_cutoffSource_": "Default",
+        "_targetName_": "GE50K"
+      },
+      "rowNumber": 12
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

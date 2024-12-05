@@ -1,0 +1,66 @@
+{
+  "product": "DMCAS",
+  "project": "09baaac8-afa5-41ea-abe1-0f72329034f7",
+  "target": {
+    "name": "GE50K",
+    "level": "BINARY",
+    "format": "",
+    "order": "",
+    "label": "",
+    "event": "           1",
+    "SASJSONExport": "1.0 PRETTY",
+    "SASTableData+DMCAS_TARGETLEVEL": [
+      {
+        "_TYPE_": "INTO",
+        "resourceId": "d0461b1c-6092-4b8c-909a-5f57984b1e7d",
+        "id": "09baaac8-afa5-41ea-abe1-0f72329034f7",
+        "_predictedvar_": "I_GE50K",
+        "_variable_": "GE50K",
+        "_index_": null,
+        "_freq_": null,
+        "freqPercent": null,
+        "nmissPercent": null,
+        "_rawnum_": null,
+        "_rawchar_": "",
+        "_cfmt_": "",
+        "_label_": "Into: GE50K",
+        "_event_flag_": "N",
+        "revision": 0
+      },
+      {
+        "_TYPE_": "PREDICTED",
+        "resourceId": "7f6f8dcb-82e0-4adf-93ca-faa357feda26",
+        "id": "09baaac8-afa5-41ea-abe1-0f72329034f7",
+        "_predictedvar_": "P_GE50K0",
+        "_variable_": "GE50K",
+        "_index_": 2,
+        "_freq_": 24720,
+        "freqPercent": 75.9190442554,
+        "nmissPercent": 75.9190442554,
+        "_rawnum_": 0,
+        "_rawchar_": "",
+        "_cfmt_": "           0",
+        "_label_": "Predicted: GE50K=0",
+        "_event_flag_": "N",
+        "revision": 0
+      },
+      {
+        "_TYPE_": "PREDICTED",
+        "resourceId": "2d688cb8-b56d-461f-9dd8-088c8fe5e961",
+        "id": "09baaac8-afa5-41ea-abe1-0f72329034f7",
+        "_predictedvar_": "P_GE50K1",
+        "_variable_": "GE50K",
+        "_index_": 1,
+        "_freq_": 7841,
+        "freqPercent": 24.0809557446,
+        "nmissPercent": 24.0809557446,
+        "_rawnum_": 1,
+        "_rawchar_": "",
+        "_cfmt_": "           1",
+        "_label_": "Predicted: GE50K=1",
+        "_event_flag_": "Y",
+        "revision": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "varimportance",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "Importance": {
+      "label": "Training Importance",
+      "length": 8,
+      "order": 4,
+      "parameter": "Importance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "Importance"
+      ]
+    },
+    "LABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 1,
+      "parameter": "LABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LABEL"
+      ]
+    },
+    "ROLE": {
+      "label": "Role",
+      "length": 32,
+      "order": 2,
+      "parameter": "ROLE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "ROLE"
+      ]
+    },
+    "RelativeImportance": {
+      "label": "Relative Importance",
+      "length": 8,
+      "order": 6,
+      "parameter": "RelativeImportance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "RelativeImportance"
+      ]
+    },
+    "Std": {
+      "label": "Importance Standard Deviation",
+      "length": 8,
+      "order": 5,
+      "parameter": "Std",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "Std"
+      ]
+    },
+    "Variable": {
+      "label": "Variable Name",
+      "length": 13,
+      "order": 3,
+      "parameter": "Variable",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "Variable"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "Importance": "540.180106878",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "1",
+        "Std": "392.504096978",
+        "Variable": "Relationship"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "Importance": "398.75481342",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.738188630685",
+        "Std": "108.249577739",
+        "Variable": "Education"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "Importance": "322.938496219",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.597834855646",
+        "Std": "379.000754147",
+        "Variable": "MartialStatus"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "Importance": "311.357513289",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.576395741577",
+        "Std": "119.879765981",
+        "Variable": "Occupation"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "Importance": "265.251802887",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.491043264106",
+        "Std": "85.9122866698",
+        "Variable": "Age"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "Importance": "136.991078886",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.25360259873",
+        "Std": "30.4097516622",
+        "Variable": "HoursPerWeek"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "Importance": "106.001206939",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.196233081502",
+        "Std": "22.4246486517",
+        "Variable": "WorkClass"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "Importance": "30.1990729135",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0559055628465",
+        "Std": "7.15897168303",
+        "Variable": "Race"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "Importance": "27.7480421763",
+        "LABEL": "",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.0513681304124",
+        "Std": "22.3650030596",
+        "Variable": "Sex"
+      },
+      "rowNumber": 9
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

@@ -1,0 +1,149 @@
+{
+  "SASJSONExport": "1.0 FMTCHARACTER",
+  "SASTableData+ARGUMENTS": [
+    {
+      "name": "Age",
+      "order": 1,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "Education",
+      "order": 2,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 12
+    },
+    {
+      "name": "HoursPerWeek",
+      "order": 3,
+      "argtype": "INPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "MartialStatus",
+      "order": 4,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 21
+    },
+    {
+      "name": "Occupation",
+      "order": 5,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 17
+    },
+    {
+      "name": "Race",
+      "order": 6,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 18
+    },
+    {
+      "name": "Relationship",
+      "order": 7,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 14
+    },
+    {
+      "name": "Sex",
+      "order": 8,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 6
+    },
+    {
+      "name": "WorkClass",
+      "order": 9,
+      "argtype": "INPUT",
+      "type": "C",
+      "vartype": "varchar",
+      "format": "",
+      "length": 16
+    },
+    {
+      "name": "EM_CLASSIFICATION",
+      "order": 10,
+      "argtype": "INPUT_OUTPUT",
+      "type": "C",
+      "vartype": "char",
+      "format": "",
+      "length": 12
+    },
+    {
+      "name": "EM_EVENTPROBABILITY",
+      "order": 11,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "EM_PROBABILITY",
+      "order": 12,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "I_GE50K",
+      "order": 13,
+      "argtype": "INPUT_OUTPUT",
+      "type": "C",
+      "vartype": "char",
+      "format": "",
+      "length": 12
+    },
+    {
+      "name": "P_GE50K0",
+      "order": 14,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "P_GE50K1",
+      "order": 15,
+      "argtype": "INPUT_OUTPUT",
+      "type": "N",
+      "vartype": "double",
+      "format": "",
+      "length": 8
+    },
+    {
+      "name": "_WARN_",
+      "order": 16,
+      "argtype": "INPUT_OUTPUT",
+      "type": "C",
+      "vartype": "char",
+      "format": "",
+      "length": 4
+    }
+  ]
+}
