@@ -1,0 +1,15 @@
+Application:
+  Name: decision_tree__pipeline_1_0
+MasterImage:
+  URL: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-components:1.70.22-20241015.1729006901901
+BaseImage:
+  URL: cr.sas.com/viya-4-x64_oci_linux_2-docker/sas-decisions-runtime-base:1.90.21-20241015.1729006884452
+Destination:
+  URL: cr.sas.com
+  ImageName: Decision_Tree__Pipeline_1_
+  Tags:
+  - latest
+ResourceCategories: []
+Languages: []
+Databases: []
+PythonResources: []
