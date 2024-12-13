@@ -1,0 +1,159 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "dmcas_relativeimportance",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "LABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 1,
+      "parameter": "LABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LABEL"
+      ]
+    },
+    "LEVEL": {
+      "label": "Variable Level",
+      "length": 10,
+      "order": 5,
+      "parameter": "LEVEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LEVEL"
+      ]
+    },
+    "ROLE": {
+      "label": "Role",
+      "length": 32,
+      "order": 4,
+      "parameter": "ROLE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "ROLE"
+      ]
+    },
+    "RelativeImportance": {
+      "label": "Relative Importance",
+      "length": 8,
+      "order": 3,
+      "parameter": "RelativeImportance",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "RelativeImportance"
+      ]
+    },
+    "Variable": {
+      "label": "Variable Name",
+      "length": 255,
+      "order": 2,
+      "parameter": "Variable",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "Variable"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "1",
+        "Variable": "Education"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.486041030418",
+        "Variable": "Relationship"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.468783855579",
+        "Variable": "MartialStatus"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.416649330627",
+        "Variable": "Occupation"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.332716764841",
+        "Variable": "WorkClass"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.170802557146",
+        "Variable": "Age"
+      },
+      "rowNumber": 6
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "INTERVAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.142314016618",
+        "Variable": "HoursPerWeek"
+      },
+      "rowNumber": 7
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "BINARY",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0.106964175115",
+        "Variable": "Sex"
+      },
+      "rowNumber": 8
+    },
+    {
+      "dataMap": {
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "ROLE": "INPUT",
+        "RelativeImportance": "0",
+        "Variable": "Race"
+      },
+      "rowNumber": 9
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

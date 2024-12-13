@@ -1,0 +1,87 @@
+[
+   {
+      "name": "Age",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "Education",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 12,
+      "biasFlag": true
+   },
+   {
+      "name": "HoursPerWeek",
+      "description": "",
+      "role": "input",
+      "type": "decimal",
+      "level": "interval",
+      "format": "",
+      "aggregation": "",
+      "length": 8
+   },
+   {
+      "name": "MartialStatus",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 21
+   },
+   {
+      "name": "Occupation",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 17,
+      "biasFlag": true
+   },
+   {
+      "name": "Relationship",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 14,
+      "biasFlag": true
+   },
+   {
+      "name": "Sex",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "binary",
+      "format": "",
+      "aggregation": "",
+      "length": 6,
+      "biasFlag": true
+   },
+   {
+      "name": "WorkClass",
+      "description": "",
+      "role": "input",
+      "type": "string",
+      "level": "nominal",
+      "format": "",
+      "aggregation": "",
+      "length": 16,
+      "biasFlag": true
+   }
+]

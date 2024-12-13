@@ -1,0 +1,339 @@
+{
+    "version": 0,
+    "Id": "",
+    "Name": "Decision Tree (Pipeline 1)",
+    "Description": "",
+    "type": "",
+    "scoreCodeType": "",
+    "scoreCodeUri": {},
+    "trainCodeUri": {},
+    "datasourceUri": {
+        "name": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/ADULT",
+        "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/ADULT",
+        "uriType": "reference"
+    },
+    "externalModelId": "20911d2e-425d-4a11-a06a-cf00d6a970ea",
+    "function": "classification",
+    "algorithm": "tree",
+    "modeler": "geladm",
+    "tool": "Model Studio",
+    "toolVersion": "V2024.09",
+    "targetEvent": "1",
+    "candidateChampion": false,
+    "selectionStatistic": "_KS_",
+    "selectionStatisticValue": "0.555024436959",
+    "textLanguage": "",
+    "nondeterministic": false,
+    "datasourceNotes": "",
+    "sasOptions": "options VALIDMEMNAME=EXTEND VALIDVARNAME=ANY;\n",
+    "modelTransformation": {
+        "inputVariables": [
+            {
+                "name": "Age",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "Education",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 12
+            },
+            {
+                "name": "HoursPerWeek",
+                "role": "input",
+                "type": "numeric",
+                "level": "interval",
+                "length": 8
+            },
+            {
+                "name": "MartialStatus",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 21
+            },
+            {
+                "name": "Occupation",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 17
+            },
+            {
+                "name": "Relationship",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 14
+            },
+            {
+                "name": "Sex",
+                "role": "input",
+                "type": "string",
+                "level": "binary",
+                "length": 6
+            },
+            {
+                "name": "WorkClass",
+                "role": "input",
+                "type": "string",
+                "level": "nominal",
+                "length": 16
+            }
+        ],
+        "outputVariables": [
+            {
+                "name": "EM_CLASSIFICATION",
+                "role": "classification",
+                "type": "string",
+                "label": "Predicted for GE50K",
+                "length": 12
+            },
+            {
+                "name": "EM_EVENTPROBABILITY",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Probability for GE50K=1",
+                "length": 8
+            },
+            {
+                "name": "EM_PROBABILITY",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Probability of Classification",
+                "length": 8
+            },
+            {
+                "name": "I_GE50K",
+                "role": "classification",
+                "type": "string",
+                "label": "Into: GE50K",
+                "length": 32
+            },
+            {
+                "name": "P_GE50K0",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Predicted: GE50K=0",
+                "length": 8
+            },
+            {
+                "name": "P_GE50K1",
+                "role": "prediction",
+                "type": "numeric",
+                "label": "Predicted: GE50K=1",
+                "length": 8
+            },
+            {
+                "name": "_WARN_",
+                "role": "input",
+                "type": "string",
+                "label": "Warnings",
+                "length": 4
+            },
+            {
+                "name": "_leaf_id_",
+                "role": "segment",
+                "type": "numeric",
+                "label": "_leaf_id_",
+                "length": 8,
+                "transformationVariable": true
+            }
+        ],
+        "steps": [
+            {
+                "sequence": 1,
+                "type": "astore",
+                "stepUri": {
+                    "name": "_1XEQGU0ZCOL7T3JAFZT9UEE3U_ast",
+                    "uri": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Analytics_Project_09baaac8-afa5-41ea-abe1-0f72329034f7/tables/_1XEQGU0ZCOL7T3JAFZT9UEE3U_AST?state=loaded",
+                    "uriType": "copy",
+                    "contentType": "astore",
+                    "key": "03CDE896A94533D24802B04483DEC4A85F8A5EDC"
+                },
+                "inputVariables": null,
+                "outputVariables": null
+            }
+        ]
+    },
+    "dataPlanSnapShot": {
+        "creationTimeStamp": "0001-01-01T00:00:00Z",
+        "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+        "id": "",
+        "name": "",
+        "description": "",
+        "content": null,
+        "links": null
+    },
+    "transformations": [],
+    "trainInputs": [
+        {
+            "name": "Age",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "HoursPerWeek",
+            "role": "input",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8
+        },
+        {
+            "name": "Sex",
+            "role": "input",
+            "type": "string",
+            "level": "binary",
+            "length": 6
+        },
+        {
+            "name": "Education",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 12
+        },
+        {
+            "name": "MartialStatus",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 21
+        },
+        {
+            "name": "Occupation",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 17
+        },
+        {
+            "name": "Race",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 18
+        },
+        {
+            "name": "Relationship",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 14
+        },
+        {
+            "name": "WorkClass",
+            "role": "input",
+            "type": "string",
+            "level": "nominal",
+            "length": 16
+        },
+        {
+            "name": "_PartInd_",
+            "role": "partition",
+            "type": "numeric",
+            "level": "nominal",
+            "label": "_PartInd_",
+            "length": 8
+        },
+        {
+            "name": "GE50K",
+            "role": "target",
+            "type": "numeric",
+            "level": "binary",
+            "length": 8
+        },
+        {
+            "name": "_dmIndex_",
+            "role": "key",
+            "type": "numeric",
+            "level": "interval",
+            "length": 8,
+            "transformationVariable": true
+        }
+    ],
+    "modelNodeProperties": [
+        {
+            "sequence": 1,
+            "actionName": "decisionTree.dtreeTrain",
+            "content": "{\"binOrder\":true,\"casOut\":{\"caslib\":\"CASUSER(geladm)\",\"name\":\"_model1_fe3fdbfa-b0f9-6248-8a00-1c173bf31f\",\"replace\":true},\"crit\":\"GAINRATIO\",\"encodeName\":true,\"inputs\":[{\"name\":\"Age\"},{\"name\":\"HoursPerWeek\"},{\"name\":\"Sex\"},{\"name\":\"Education\"},{\"name\":\"MartialStatus\"},{\"name\":\"Occupation\"},{\"name\":\"Race\"},{\"name\":\"Relationship\"},{\"name\":\"WorkClass\"}],\"leafSize\":5,\"maxBranch\":2,\"maxLevel\":11,\"mergeBin\":true,\"minUseInSearch\":1,\"missing\":\"USEINSEARCH\",\"nBins\":50,\"nominalSearch\":{\"maxCategories\":128},\"nominals\":[{\"name\":\"Sex\"},{\"name\":\"Education\"},{\"name\":\"MartialStatus\"},{\"name\":\"Occupation\"},{\"name\":\"Race\"},{\"name\":\"Relationship\"},{\"name\":\"WorkClass\"},{\"name\":\"GE50K\"}],\"quantileBin\":true,\"saveState\":{\"name\":\"_1XEQGU0ZCOL7T3JAFZT9UEE3U_AST\",\"replace\":true},\"table\":{\"caslib\":\"Analytics_Project_09baaac8-afa5-41ea-abe1-0f72329034f7\",\"name\":\"DM_KQHEK0WLW131BMA6ZFFINAWN\",\"where\":\"STRIP(PUT(_PartInd_, BEST.) ) =\\\"1\\\" and GE50K NE .\"},\"target\":\"GE50K\"}",
+            "contentUri": {},
+            "modelTableUri": {}
+        },
+        {
+            "sequence": 2,
+            "actionName": "decisionTree.dtreePrune",
+            "content": "{\"casOut\":{\"caslib\":\"CASUSER(geladm)\",\"name\":\"_model1_fe3fdbfa-b0f9-6248-8a00-1c173bf31f\",\"replace\":true},\"costComplexity\":true,\"encodeName\":true,\"modelTable\":{\"caslib\":\"CASUSER(geladm)\",\"name\":\"_model1_fe3fdbfa-b0f9-6248-8a00-1c173bf31f\"},\"saveState\":{\"name\":\"_1XEQGU0ZCOL7T3JAFZT9UEE3U_AST\",\"replace\":true},\"table\":{\"caslib\":\"Analytics_Project_09baaac8-afa5-41ea-abe1-0f72329034f7\",\"name\":\"DM_KQHEK0WLW131BMA6ZFFINAWN\",\"where\":\"STRIP(PUT(_PartInd_, BEST.) ) =\\\"0\\\" and GE50K NE .\"}}",
+            "contentUri": {},
+            "modelTableUri": {}
+        }
+    ],
+    "sourceUri": {
+        "name": "Decision Tree",
+        "uri": "/analyticsComponents/components/20911d2e-425d-4a11-a06a-cf00d6a970ea",
+        "uriType": "reference",
+        "mediaType": "application/vnd.sas.analytics.component"
+    },
+    "rocDataUri": {
+        "name": "dmcas_roc",
+        "uri": "/files/files/225e873a-195c-49b2-8d9e-ac0242b13a48",
+        "uriType": "child",
+        "mediaType": "application/vnd.sas.analytics.report+json"
+    },
+    "liftDataUri": {
+        "name": "dmcas_lift",
+        "uri": "/files/files/ef1eb578-7358-4e40-ab55-64641c4d4005",
+        "uriType": "child",
+        "mediaType": "application/vnd.sas.analytics.report+json"
+    },
+    "dataUris": null,
+    "trainTableSummaryUri": {},
+    "fitStatUri": {
+        "name": "dmcas_fitstat",
+        "uri": "/files/files/9a8b5328-e50e-446c-ac9e-7bbd415f49ba",
+        "uriType": "child",
+        "mediaType": "application/vnd.sas.analytics.report+json"
+    },
+    "dataPlanUri": {},
+    "partitionLevels": [
+        {
+            "variableName": "_PartInd_",
+            "dataRole": "train",
+            "type": "partition",
+            "value": "           1"
+        },
+        {
+            "variableName": "_PartInd_",
+            "dataRole": "validate",
+            "type": "partition",
+            "value": "           0"
+        },
+        {
+            "variableName": "_PartInd_",
+            "dataRole": "test",
+            "type": "partition",
+            "value": "           2"
+        }
+    ],
+    "eventLevels": [
+        {
+            "variableName": "I_GE50K",
+            "eventValue": ""
+        },
+        {
+            "variableName": "P_GE50K0",
+            "eventValue": "           0"
+        },
+        {
+            "variableName": "P_GE50K1",
+            "eventValue": "           1"
+        }
+    ],
+    "interactions": null
+}

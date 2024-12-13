@@ -1,0 +1,180 @@
+{
+  "creationTimeStamp": "0001-01-01T00:00:00Z",
+  "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+  "revision": 0,
+  "name": "assessforbiasmetadata",
+  "version": 0,
+  "order": 0,
+  "parameterMap": {
+    "FORMAT": {
+      "label": "Variable Format",
+      "length": 36,
+      "order": 7,
+      "parameter": "FORMAT",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "FORMAT"
+      ]
+    },
+    "LABEL": {
+      "label": "Variable Label",
+      "length": 256,
+      "order": 6,
+      "parameter": "LABEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LABEL"
+      ]
+    },
+    "LEVEL": {
+      "label": "Variable Level",
+      "length": 10,
+      "order": 3,
+      "parameter": "LEVEL",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "LEVEL"
+      ]
+    },
+    "NAME": {
+      "label": "Name",
+      "length": 255,
+      "order": 1,
+      "parameter": "NAME",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "NAME"
+      ]
+    },
+    "ROLE": {
+      "label": "Role",
+      "length": 32,
+      "order": 2,
+      "parameter": "ROLE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "ROLE"
+      ]
+    },
+    "TYPE": {
+      "label": "Type",
+      "length": 1,
+      "order": 4,
+      "parameter": "TYPE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "TYPE"
+      ]
+    },
+    "VARTYPE": {
+      "label": "Variable Type",
+      "length": 32,
+      "order": 5,
+      "parameter": "VARTYPE",
+      "preformatted": false,
+      "type": "char",
+      "values": [
+        "VARTYPE"
+      ]
+    },
+    "nlevel": {
+      "label": "Number of Levels",
+      "length": 8,
+      "order": 8,
+      "parameter": "nlevel",
+      "preformatted": false,
+      "type": "num",
+      "values": [
+        "nlevel"
+      ]
+    }
+  },
+  "data": [
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "NAME": "Education",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "16"
+      },
+      "rowNumber": 1
+    },
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "NAME": "Occupation",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "14"
+      },
+      "rowNumber": 2
+    },
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "NAME": "Race",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "5"
+      },
+      "rowNumber": 3
+    },
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "NAME": "Relationship",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "6"
+      },
+      "rowNumber": 4
+    },
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "BINARY",
+        "NAME": "Sex",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "2"
+      },
+      "rowNumber": 5
+    },
+    {
+      "dataMap": {
+        "FORMAT": "",
+        "LABEL": "",
+        "LEVEL": "NOMINAL",
+        "NAME": "WorkClass",
+        "ROLE": "INPUT",
+        "TYPE": "C",
+        "VARTYPE": "varchar",
+        "nlevel": "8"
+      },
+      "rowNumber": 6
+    }
+  ],
+  "xInteger": false,
+  "yInteger": false
+}

@@ -1,0 +1,41 @@
+{
+   "creationTimeStamp": "2024-12-10T22:49:26.842Z",
+   "createdBy": "geladm",
+   "modifiedTimeStamp": "2024-12-11T14:43:51.994Z",
+   "modifiedBy": "geladm",
+   "id": "fe8eb768-e69b-4792-933e-67a2f6e59ca5",
+   "name": "Decision Tree (Pipeline 1)",
+   "scoreCodeType": "ds2MultiType",
+   "algorithm": "tree",
+   "function": "classification",
+   "modeler": "geladm",
+   "modelType": "astore",
+   "trainTable": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/ADULT",
+   "eventProbVar": "P_GE50K1",
+   "targetVariable": "GE50K",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Model Studio",
+   "toolVersion": "V2024.09",
+   "publishTimeStamp": 1733928226827,
+   "externalModelId": "20911d2e-425d-4a11-a06a-cf00d6a970ea",
+   "selectionStatistic": "_KS_",
+   "selectionStatisticValue": "0.555024436959",
+   "partitionLevel": "test",
+   "modelPurpose": "Predict whether an individual earns more than $50,000 annually based on demographic and occupational attributes.",
+   "intendedUse": "Assist in statistical analysis or targeted marketing efforts while ensuring compliance with data privacy regulations.",
+   "expectedBenefit": "Provide insights into income distribution patterns for better-informed decision-making in resource allocation or business strategies.",
+   "outOfScopeUseCases": "Should not be used for employment decisions, credit risk assessments, or any scenario where bias in predictions could lead to ethical or legal consequences.",
+   "limitations": "Limited data may reduce accuracy, and the use of PII such as age, race, and sex may introduce bias, requiring careful oversight to avoid discrimination or misuse.",
+   "eventPercentage": "24.0810",
+   "provider": "Azure",
+   "costPerCall": "0",
+   "modelVersionName": "2.0",
+   "custom properties": [
+      {
+         "name": "ModelCASTableName",
+         "value": "_1XEQGU0ZCOL7T3JAFZT9UEE3U_ast",
+         "type": "string"
+      }
+   ]
+}
